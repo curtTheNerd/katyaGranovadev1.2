@@ -1,0 +1,13 @@
+import Gallery from "../Gallery/Gallery";
+import { work2023 as images } from "../Data";
+
+const Work2023 = () => {
+  return (
+    <div>
+      <h2 className="">{images[0].title}</h2>
+      <Gallery images={images} />
+    </div>
+  );
+};
+
+export default Work2023;

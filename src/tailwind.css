@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --textColor: rgb(24, 20, 14);
+    --textColorNegative: antiquewhite;
+    --bgColor: white;
+
+    font-family: Helvetica, Avenir, system-ui, Arial, sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  html {
+    @apply w-screen h-screen scroll-smooth;
+  }
+  body {
+    @apply w-screen min-h-screen flex flex-col items-center mx-auto overflow-x-hidden;
+  }
+  a,
+  li,
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    @apply relative no-underline tracking-[0px];
+  }
+
+  p,
+  a,
+  li {
+    @apply text-[1.1rem] text-[var(--textColor)] leading-[1.5];
+  }
+  li {
+    @apply list-none cursor-pointer px-4 py-2;
+  }
+  h2 {
+    @apply text-[1.75rem] sm:text-[1.9rem] md:text-[2.2rem] text-[var(--pColor)] text-center m-[0_auto] pt-8 pb-8;
+  }
+}
+
+@layer components {
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+
+  .nav-link {
+    @apply text-[var(--textColor)];
+  }
+
+  .icon {
+    @apply cursor-pointer text-[2.2rem] text-[var(--textColor)] hover:text-[gray] transition-all duration-200;
+  }
+  .icon-navbar {
+    @apply cursor-pointer text-[2.2rem] text-[var(--textColor)] hover:text-[gray] transition-all duration-200;
+  }
+}
