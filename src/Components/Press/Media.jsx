@@ -2,15 +2,11 @@ import React from "react";
 
 const Media = () => {
   return (
-    <div className="container media">
-      <h2 className="title">{//Media
-      }</h2>
-
-      <div className="mediaGrid">
+    <div className="flex flex-col w-[95%] md:w-[90%] max-w-[1440px] m-auto pb-20">
+      <h2>Press</h2>
+      <div className="w-full grid grid-cols-1 md:grid-cols-2 text-start gap-56">
         <div className="gridItem">
-          <p>
-            <strong>Articles</strong>
-          </p>
+          <p>ARTICLES</p>
           <br />
           <p>
             <a
@@ -165,9 +161,7 @@ const Media = () => {
         </div>
 
         <div className="gridItem">
-          <p>
-            <strong>Interviews</strong>
-          </p>
+          <p>INTERVIEWS</p>
           <br />
           <p>
             <a
@@ -222,9 +216,7 @@ const Media = () => {
         </div>
 
         <div className="gridItem">
-          <p>
-            <strong>Article Mentions</strong>
-          </p>
+          <p>ARTICLE MENTIONS</p>
           <br />
           <p>
             <a
@@ -329,9 +321,7 @@ const Media = () => {
         </div>
 
         <div className="gridItem">
-          <p>
-            <strong>Announcements</strong>
-          </p>
+          <p>ANNOUNCEMENTS</p>
           <br />
           <p>
             <a

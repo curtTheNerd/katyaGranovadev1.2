@@ -1,113 +1,3 @@
-/* previous homepage bento grid
-
-.home {
-    display: grid;
-    grid-template-columns: repeat(10, minmax(0, 10vw));
-    grid-gap: 0.5rem;
-    padding-top: 5rem;
-
-    .item {
-        max-width: 100%;
-        max-height: 100%;
-
-        img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-    }
-
-    .item1 {
-        grid-area: 1/1/6/4;
-    }
-    .item2 {
-        grid-area: 1/4/3/6;
-    }
-    .item3 {
-        grid-area: 1/6/4/11;
-    }
-    .item4 {
-        grid-area: 3/4/6/6;
-    }
-    .item5 {
-        grid-area: 4/6/6/8;
-    }
-    .item6 {
-        grid-area: 4/8/8/11;
-    }
-    .item7 {
-        grid-area: 6/1/8/5;
-    }
-    .item8 {
-        grid-area: 6/5/11/8;
-    }
-    .item9 {
-        grid-area: 8/1/11/5;
-    }
-    .item10 {
-        grid-area: 8/8/11/11;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .home {
-        display: grid;
-        grid-template-columns: repeat(6, minmax(0, 10vw));
-        grid-gap: 0.5rem;
-        margin: 2rem auto;
-        padding-top: 5rem;
-
-        .item {
-            max-width: 100%;
-            max-height: 100%;
-
-            img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-            }
-        }
-        // linke reihe
-        .item6 {
-            grid-area: 1/1/7/6;
-        }
-        .item1 {
-            grid-area: 7/1/11/6;
-        }
-        .item3 {
-            grid-area: 11/1/18/6;
-        }
-        // rechte reihe
-        .item9 {
-            grid-area: 1/6/4/10;
-        }
-        .item8 {
-            grid-area: 4/6/9/10;
-        }
-        .item4 {
-            grid-area: 9/6/15/10;
-        }
-        .item7 {
-            grid-area: 15/6/18/10;
-        }
-
-
-        .item2 {
-            display: none;
-        }
-
-        .item5 {
-            grid-area: 4/6/6/8;
-            display: none;
-        }      
-
-        .item10 {
-            grid-area: 8/8/11/11;
-            display: none;
-        }
-    }
-}
-*/
 .preview_work {
   display: flex;
   flex-wrap: wrap;
@@ -157,224 +47,30 @@
   color: rgb(91, 18, 100);
 }
 
-@media screen and (max-width: 1140px) {
-  .preview_work {
-    gap: 3rem;
-  }
-}
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1024px) {
   .preview_work .imageContainer_work {
     width: 40vw;
+    gap: 3rem;
   }
   .preview_work .imageContainer_work .overlay_work p {
     font-size: 1.1rem;
   }
 }
-@media screen and (max-width: 800px) {
-  .preview_work {
-    padding: 0 0 5rem 0;
-  }
+@media screen and (max-width: 768px) {
   .preview_work .imageContainer_work {
     width: 80vw;
   }
 }
-.about .aboutContentGrid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
-}
-.about .aboutContentGrid .item {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.about .aboutContentGrid .item p {
-  font-size: 1.1rem;
-  line-height: 1.5;
-  padding: 3rem;
-}
-.about .aboutContentGrid .item img {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-radius: 3rem;
-  padding: 2rem;
-}
-.about .aboutContentFlex {
-  display: flex;
-  flex-direction: column;
-}
-.about .aboutContentFlex .item {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.about .aboutContentFlex .item p {
-  font-size: 1.125rem;
-  line-height: 1.5;
-  text-align: center;
-  padding: 2rem;
-}
-.about .aboutContentFlex .item img {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-radius: 1rem;
-}
-
-@media screen and (max-width: 1000px) {
-  .about .aboutContentGrid {
-    gap: 2rem;
-  }
-  .about .aboutContentGrid .item p {
-    font-size: 1.1rem;
-    padding: 1rem;
-  }
-  .about .aboutContentGrid .item img {
-    border-radius: 2rem;
-    padding: 1rem;
-  }
-  .about .aboutContentFlex .item p {
-    font-size: 1.1rem;
-    padding: 1rem;
-  }
-}
-@media screen and (max-width: 800px) {
-  .about .aboutContentGrid {
-    display: flex;
-    flex-direction: column;
-  }
-  .about .aboutContentGrid .item p {
-    font-size: 1.1rem;
-    text-align: center;
-    padding: 1rem;
-  }
-  .about .aboutContentGrid .item img {
-    border-radius: 2rem;
-    padding: 1rem;
-  }
-  .about .aboutContentFlex .item p {
-    font-size: 1.1rem;
-    padding: 1rem;
-  }
-  .about .aboutContentFlex .item img {
-    width: 100%;
-  }
-}
-.cv {
-  width: 80%;
-  margin: 0 auto;
-  line-height: 1.5;
-}
-
-@media screen and (max-width: 600px) {
-  .cv {
-    width: 90%;
-  }
-}
-.media {
-  width: 80%;
-  margin: 0 auto;
-  line-height: 1.5;
-}
-.media .mediaGrid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  width: 100%;
-  gap: 4rem;
-}
-.media .mediaGrid .gridItem {
-  padding-left: 20%;
-}
-.media .mediaGrid .gridItem p {
-  font-size: 1.1rem;
-  line-height: 1.5;
-}
-
-@media screen and (max-width: 756px) {
-  .media .mediaGrid {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-  .media .mediaGrid .gridItem {
-    padding-left: 4rem;
-  }
-  .media .mediaGrid .gridItem p {
-    font-size: 1.1rem;
-    line-height: 1.5;
-  }
-}
-@media screen and (max-width: 600px) {
-  .media {
-    width: 90%;
-  }
-  .media .mediaGrid .gridItem {
-    padding-left: 1rem;
-  }
-}
-.artistTalks {
-  width: 90%;
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-}
-.artistTalks .videoGrid {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-}
-.artistTalks .videoGrid .videoWrapper {
-  width: 40vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.artistTalks .videoGrid .videoWrapper .ytVideo {
+.ytVideo {
   position: relative;
   width: 100%;
   padding-bottom: 56.25%;
 }
-.artistTalks .videoGrid .videoWrapper .ytVideo iframe {
+
+.ytVideo iframe {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-}
-.artistTalks .videoGrid .videoWrapper .videoDescription {
-  font-size: 1.1rem;
-  padding-top: 2rem;
-  padding-bottom: 4.5rem;
-}
-
-@media screen and (max-width: 1000px) {
-  .artistTalks .videoGrid .videoWrapper {
-    width: 80vw;
-  }
-  .artistTalks .videoGrid .videoWrapper .videoDescription {
-    font-size: 1.1rem;
-  }
-}
-@media screen and (max-width: 564px) {
-  .artistTalks .videoGrid .videoWrapper {
-    width: 95vw;
-  }
-  .artistTalks .videoGrid .videoWrapper .videoDescription {
-    font-size: 1rem;
-    padding-top: 2rem;
-    padding-bottom: 3.5rem;
-  }
 }/*# sourceMappingURL=index.css.map */

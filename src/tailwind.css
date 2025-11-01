@@ -41,7 +41,7 @@
     @apply list-none cursor-pointer px-4 py-2;
   }
   h2 {
-    @apply text-[1.75rem] sm:text-[1.9rem] md:text-[2.2rem] text-[var(--pColor)] text-center m-[0_auto] pt-8 pb-8;
+    @apply w-full text-[1.5rem] md:text-[1.75rem] text-[var(--textColor)] m-[0_auto] pt-12 pb-16;
   }
 }
 
@@ -50,14 +50,18 @@
     @apply flex justify-center items-center;
   }
 
-  .nav-link {
-    @apply text-[var(--textColor)];
+  .nav-item {
+    @apply cursor-pointer text-[var(--textColor)];
   }
 
   .icon {
-    @apply cursor-pointer text-[2.2rem] text-[var(--textColor)] hover:text-[gray] transition-all duration-200;
+    @apply cursor-pointer text-[2.2rem] text-[var(--textColor)] hover:text-[#4f4f4f] transition-all duration-200;
   }
   .icon-navbar {
-    @apply cursor-pointer text-[2.2rem] text-[var(--textColor)] hover:text-[gray] transition-all duration-200;
+    @apply cursor-pointer text-[var(--textColor)] hover:text-[gray] transition-all duration-200;
+  }
+
+  .gridItem {
+    @apply min-w-[350px] lg:min-w-[450px];
   }
 }

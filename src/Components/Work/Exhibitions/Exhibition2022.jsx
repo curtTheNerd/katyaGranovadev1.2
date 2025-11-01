@@ -4,7 +4,10 @@ import { exhibition2022 as images } from "../Data";
 const Exhibition2022 = () => {
   return (
     <div>
-      <h2 className="">{images[0].title}</h2>
+      <h2 className="w-[90%] lg:w-[95%] text-center">
+        When my Babushka joined the Reich, Barbican Arts Group Trust, London,
+        UK, 2022
+      </h2>
       <Gallery images={images} />
     </div>
   );

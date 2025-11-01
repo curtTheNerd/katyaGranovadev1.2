@@ -37,9 +37,9 @@
 .modal .description_modal {
   position: absolute;
   bottom: 2.25rem;
-  right: 2.5rem;
+  left: 2.5rem;
   width: 90%;
-  text-align: end;
+  text-align: start;
   pointer-events: none;
   z-index: 101;
 }

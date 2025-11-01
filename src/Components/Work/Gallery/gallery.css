@@ -51,9 +51,9 @@
   font-size: 1.25rem;
   padding: 1rem;
   color: rgb(72, 72, 72);
-}
-.preview_gallery .imageContainer_gallery .overlay_gallery p:hover {
-  color: rgb(115, 23, 127);
+  /*&:hover {
+              color: rgb(115, 23, 127);
+          }*/
 }
 .preview_gallery .imageContainer_gallery .show {
   opacity: 1;
@@ -64,7 +64,9 @@
     width: 75vw;
     height: 60vh;
   }
-  .modal .modalContent .close, .modal .modalContent .prev, .modal .modalContent .next {
+  .modal .modalContent .close,
+  .modal .modalContent .prev,
+  .modal .modalContent .next {
     color: rgba(172, 172, 172, 0.8);
   }
 }

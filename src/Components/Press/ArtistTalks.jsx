@@ -1,6 +1,5 @@
-import React from "react";
 import YouTube from "react-youtube";
-// import { videos } from "../Work/Data";
+import { videos } from "../Work/Data";
 
 const ArtistTalks = () => {
   const opts = {
@@ -8,16 +7,15 @@ const ArtistTalks = () => {
   };
 
   return (
-    <div className="artistTalks">
-      <h2 className="title">
-        {
-          //Artist Talks
-        }
-      </h2>
+    <div className="w-[90%] flex flex-col m-auto">
+      <h2 className="w-[90%]">Artist Talks</h2>
 
-      <div className="videoGrid">
+      <div className="w-full flex flex-wrap items-center justify-around">
         {videos.map((video) => (
-          <div className="videoWrapper" key={video.title}>
+          <div
+            className="w-[95%] sm:w-[80%] lg:w-[40vw] flex flex-col items-center"
+            key={video.title}
+          >
             <YouTube
               videoId={video.id}
               opts={opts}
@@ -25,7 +23,7 @@ const ArtistTalks = () => {
               loading="lazy"
               allow="autoplay"
             />
-            <h3 className="videoDescription">{video.title}</h3>
+            <p className="pt-8 pb-14 lg:pb-18">{video.title}</p>
           </div>
         ))}
       </div>
