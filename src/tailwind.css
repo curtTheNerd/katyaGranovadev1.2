@@ -3,7 +3,7 @@
 @layer base {
   :root {
     --textColor: rgb(24, 20, 14);
-    --textColorNegative: antiquewhite;
+    --textColorNegative: rgb(250, 235, 215);
     --bgColor: white;
 
     font-family: Helvetica, Avenir, system-ui, Arial, sans-serif;

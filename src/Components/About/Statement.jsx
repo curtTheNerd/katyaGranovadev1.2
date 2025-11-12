@@ -19,7 +19,7 @@ const Statement = () => {
             lens.
             <br />
             Through their flaws, the photographs present glimpsed moments of the
-            past—preserved to be viewed, yet never truly entered.
+            past - preserved to be viewed, yet never truly entered.
             <br />
             <br />
             Being born in the USSR just before its collapse, my childhood

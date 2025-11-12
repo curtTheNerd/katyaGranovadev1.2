@@ -10,13 +10,15 @@ export default function Contact() {
   });
   const [status, setStatus] = useState(null);
 
+  const CONTACTFORM_KEY = import.meta.env.VITE_CONTACTFORM_KEY;
+
   const onChange = (e) =>
     setData((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   const onSubmit = async (e) => {
     e.preventDefault();
     setStatus("...Sending");
     const payload = {
-      access_key: "2e0f173a-90ce-42cb-817e-c593dac9d297",
+      access_key: CONTACTFORM_KEY,
       ...data,
     };
     try {
@@ -69,6 +71,8 @@ export default function Contact() {
                 className="w-full px-3 py-2 border border-gray-300 rounded"
               />
             </div>
+
+            {console.log(CONTACTFORM_KEY)}
 
             <div className="">
               <label className="block mb-1 text-sm font-semibold text-[var(--textColor)]">

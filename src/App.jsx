@@ -27,6 +27,7 @@ import BIO from "./Components/About/BIO";
 import Statement from "./Components/About/Statement";
 import Media from "./Components/Press/Media";
 import ArtistTalks from "./Components/Press/ArtistTalks";
+
 import Contact from "./Components/Contact/Contact";
 
 const App = () => {
