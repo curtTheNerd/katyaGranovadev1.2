@@ -72,8 +72,6 @@ export default function Contact() {
               />
             </div>
 
-            {console.log(CONTACTFORM_KEY)}
-
             <div className="">
               <label className="block mb-1 text-sm font-semibold text-[var(--textColor)]">
                 Last Name <span className="font-normal">(required)</span>

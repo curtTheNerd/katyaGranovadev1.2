@@ -17,7 +17,7 @@ export default Homepage;
 /*
 //  Homepage Version 1.0
 
-// excluded for now during to clients preferenca to have <Work /> as Homepage
+// excluded for now during to clients preferences to have <Work /> as Homepage
 
 import img1 from "page;../../Assets/old pics/d/07 Katya_Granova_Zinoviys_kids130x195cm_2020.jpg";
 import img2 from "../../Assets/old pics/d/08 Maria_and_her_sisters_195x130cm.jpg";
