@@ -68,6 +68,10 @@ const CV = () => {
         SELECTED GROUP EXHIBITIONS
         <br />
         <br />
+        2025 - Small is Beautiful, Flowers Gallery, London, UK
+        <br />
+        2025 - The Last Train, The Old Waiting Room - Peckam Rye, London, UK
+        <br />
         2025 - From under the Bed, Archiv Massiv, Leipzig, DE
         <br />
         2025 - End of Residency Show, Turps Banana, London, UK
@@ -149,6 +153,8 @@ const CV = () => {
       <p className="pt-12">
         GRANTS AND AWARDS
         <br />
+        <br />
+        2024 - Jackson Art Prize, longlisted, London, UK
         <br />
         2023 - Bath Open Art Prize, Winner, 1st place, Bath, UK
         <br />

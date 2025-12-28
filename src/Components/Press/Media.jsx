@@ -10,6 +10,16 @@ const Media = () => {
           <br />
           <p>
             <a
+              href="https://whitehotmagazine.com/articles/katya-granova-reimagining-past-narratives/7446"
+              className="link"
+              target="_blank"
+              rel="noreferrer nofollow"
+            >
+              2025 Whitehot Magazine
+            </a>
+          </p>
+          <p>
+            <a
               href="http://westside.pilotenkueche.net/katya-granova-temporal-echoes/"
               className="link"
               target="_blank"
@@ -165,6 +175,16 @@ const Media = () => {
           <br />
           <p>
             <a
+              href="https://fault-magazine.com/2025/11/katya-granova-turns-found-photographs-into-living-paintings/"
+              className="link"
+              target="_blank"
+              rel="noreferrer nofollow"
+            >
+              2025 Fault Magazine
+            </a>
+          </p>
+          <p>
+            <a
               href="https://zimamagazine.com/2024/11/sozdat-situaciju-v-kotoroj-proizojdet-zhivopis-bolshoe-intervju-kati-granovoj/"
               className="link"
               target="_blank"
@@ -218,6 +238,16 @@ const Media = () => {
         <div className="gridItem">
           <p>ARTICLE MENTIONS</p>
           <br />
+          <p>
+            <a
+              href="https://lostartmedia.substack.com/p/lowdown-booze-for-superstars?utm_source=post-email-title&publication_id=1511347&post_id=181046242&utm_campaign=email-post-title&isFreemail=true&r=6i3sl2&triedRedirect=true&utm_medium=email"
+              className="link"
+              target="_blank"
+              rel="noreferrer nofollow"
+            >
+              2025 Lost Art
+            </a>
+          </p>
           <p>
             <a
               href="https://www.sobaka.ru/entertainment/art/86297"

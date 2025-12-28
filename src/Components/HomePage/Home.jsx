@@ -1,10 +1,17 @@
 const Homepage = () => {
   return (
     <main className="w-full bg-white pt-2">
-      <div className="flex flex-col items-center justify-start md:justify-center w-full h-[calc(100vh-4rem)]">
+      <div className="hidden lg:flex lg:flex-col items-center justify-start w-full h-[calc(100vh-4rem)]">
         <img
           className="w-full max-w-[1000px] h-auto object-contain"
           src="/assets/A song of unrequited love for Britain, exhibition interior 2.jpg"
+          alt="exhibition interior 2024, love for Britain"
+        />
+      </div>
+      <div className="flex flex-col lg:hidden items-center justify-start">
+        <img
+          className="w-full max-w-[600px] h-full object-contain"
+          src="/assets/IMG_2624.webp"
           alt="exhibition interior 2024, love for Britain"
         />
       </div>
