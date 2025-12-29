@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://katya-granova.com/sitemap.xml

@@ -1,15 +1,20 @@
 import Gallery from "../Gallery/Gallery";
+import HelmetComponentAlbums from "../../HelmetComponentAlbums";
 import { exhibition2021 as images } from "../Data";
 
 const Exhibition2021 = () => {
   return (
-    <div>
-      <h2 className="w-[90%] lg:w-[95%] text-center">
-        Act 1. Scene 5 (with Anna Tagantzeva-Kobzeva), Sphera Fund, Moscow, RU,
-        2021
-      </h2>
-      <Gallery images={images} />
-    </div>
+    <>
+      <HelmetComponentAlbums
+        year={images[0].date}
+        type="exhibition"
+        exhibition_title={images[0].title_detailled}
+      />
+      <div>
+        <h2 className="text-center">{images[0].title_detailled}</h2>
+        <Gallery images={images} />
+      </div>
+    </>
   );
 };
 

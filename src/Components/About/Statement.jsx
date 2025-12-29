@@ -6,9 +6,9 @@ const Statement = () => {
   return (
     <>
       <HelmetComponent
-        title="Artist Statement – Concept & Practice"
+        title="Artist Statement – Concept and Practice"
         meta_description="Artist statement outlining conceptual approach, materials, processes and artistic research."
-        url_fragment="artist-statement/"
+        url_fragment="artist-statement"
       />
       <div className="flex-center flex-col w-[95%] md:w-[90%] m-auto px-3">
         <h2 className="w-full lg:ml-8">Artist's Statement</h2>

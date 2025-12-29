@@ -1,13 +1,20 @@
-import HelmetComponent from "../HelmetComponent";
+import { Helmet } from "react-helmet-async";
 
 const Homepage = () => {
   return (
     <>
-      <HelmetComponent
-        title="Katya Granova – Contemporary Painter"
-        meta_description="Katya Granova is a contemporary artist based in London, known for her paintings and exhibitions worldwide. Explore her portfolio, media & videos, and more."
-        url_fragment=""
-      />
+      {
+        //  set helmet manually, not as <HelmetComponent /> !
+        //  reason: only site that needs 'Katya Granova' as first string in title; component sets name last in title by default
+      }
+      <Helmet key="home">
+        <title>Katya Granova - Contemporary Painter</title>
+        <meta
+          name="description"
+          content="Katya Granova is a contemporary artist based in London, known for her paintings and exhibitions worldwide. Explore her portfolio, media, videos, and more."
+        />
+        <link rel="canonical" href="https://katya-granova.com/" />
+      </Helmet>
 
       <div className="w-full bg-white pt-2">
         <div className="hidden lg:flex lg:flex-col items-center justify-start w-full h-[calc(100vh-4rem)]">

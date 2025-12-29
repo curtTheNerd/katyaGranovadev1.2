@@ -11,9 +11,9 @@ const Work = () => {
   return (
     <>
       <HelmetComponent
-        title="Selected exhibitions by year - 2021 to 2025"
+        title="Selected exhibitions by year"
         meta_description="Discover selected exhibitions and projects. Oil on canvas, acrylic transfer, van Dyke, and paperworks."
-        url_fragment="exhibitions/"
+        url_fragment="exhibition"
       />
       <div>
         <h2 className="text-center">Selected Exhibitions and Projects</h2>

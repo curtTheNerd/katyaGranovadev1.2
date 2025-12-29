@@ -55,7 +55,7 @@ export default function Contact() {
       <HelmetComponent
         title="Contact – Studio & Professional Inquiries"
         meta_description="Contact information for studio visits, exhibitions, collaborations and professional inquiries."
-        url_fragment="contact/"
+        url_fragment="contact"
       />
       <div className="w-[80vw] max-w-[640px] mx-auto mt-12 p-8 mb-20 bg-gray-50 rounded-md ring-1 ring-gray-200">
         <form onSubmit={onSubmit}>

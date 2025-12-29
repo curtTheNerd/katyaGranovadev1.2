@@ -48,12 +48,12 @@ const App = () => {
           <Route path="works-on-paper" element={<WorksOnPaper />} />
         </Route>
 
-        <Route path="exhibitions">
+        <Route path="exhibition">
           <Route index element={<Exhibition />} />
-          <Route path="exhibition-2025" element={<Exhibition2025 />} />
-          <Route path="exhibition-2024" element={<Exhibition2024 />} />
-          <Route path="exhibition-2022" element={<Exhibition2022 />} />
-          <Route path="exhibition-2021" element={<Exhibition2021 />} />
+          <Route path="2025" element={<Exhibition2025 />} />
+          <Route path="2024" element={<Exhibition2024 />} />
+          <Route path="2022" element={<Exhibition2022 />} />
+          <Route path="2021" element={<Exhibition2021 />} />
         </Route>
 
         <Route path="biography" element={<BIO />} />

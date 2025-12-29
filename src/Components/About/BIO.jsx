@@ -5,9 +5,9 @@ const BIO = () => {
   return (
     <>
       <HelmetComponent
-        title="Biography – Katya Granova"
+        title="Biography and CV"
         meta_description="Biography of the artist. Education, exhibitions, artistic background and professional development."
-        url_fragment="biography/"
+        url_fragment="biography"
       />
       <div className="flex-center flex-col w-[90%] md:w-[80%] max-w-[1440px] m-auto pb-20">
         <h2>Biography</h2>
