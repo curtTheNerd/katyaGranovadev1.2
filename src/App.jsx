@@ -45,21 +45,21 @@ const App = () => {
           <Route path="2021" element={<Work2021 />} />
           <Route path="2020" element={<Work2020 />} />
           <Route path="2019" element={<Work2019 />} />
-          <Route path="worksonpaper" element={<WorksOnPaper />} />
+          <Route path="works-on-paper" element={<WorksOnPaper />} />
         </Route>
 
         <Route path="exhibitions">
           <Route index element={<Exhibition />} />
-          <Route path="exhibition2025" element={<Exhibition2025 />} />
-          <Route path="exhibition2024" element={<Exhibition2024 />} />
-          <Route path="exhibition2022" element={<Exhibition2022 />} />
-          <Route path="exhibition2021" element={<Exhibition2021 />} />
+          <Route path="exhibition-2025" element={<Exhibition2025 />} />
+          <Route path="exhibition-2024" element={<Exhibition2024 />} />
+          <Route path="exhibition-2022" element={<Exhibition2022 />} />
+          <Route path="exhibition-2021" element={<Exhibition2021 />} />
         </Route>
 
-        <Route path="bio" element={<BIO />} />
-        <Route path="statement" element={<Statement />} />
-        <Route path="media" element={<Media />} />
-        <Route path="artisttalks" element={<ArtistTalks />} />
+        <Route path="biography" element={<BIO />} />
+        <Route path="artist-statement" element={<Statement />} />
+        <Route path="press-coverage" element={<Media />} />
+        <Route path="artist-talks" element={<ArtistTalks />} />
         <Route path="contact" element={<Contact />} />
       </Route>
     )

@@ -19,15 +19,15 @@ const Navbar = () => {
     {
       title: "ABOUT",
       children: [
-        { title: "BIOGRAPHY", path: "/bio" },
-        { title: "STATEMENT", path: "/statement" },
+        { title: "BIOGRAPHY", path: "/biography" },
+        { title: "STATEMENT", path: "/artist-statement" },
       ],
     },
     {
       title: "MORE",
       children: [
-        { title: "PRESS", path: "/media" },
-        { title: "VIDEO", path: "/artisttalks" },
+        { title: "PRESS", path: "/press-coverage" },
+        { title: "VIDEO", path: "/artist-talks" },
       ],
     },
     { title: "CONTACT", path: "/contact" },

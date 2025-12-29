@@ -564,7 +564,7 @@ export const work2025 = [
 export const worksOnPaper = [
   {
     title: "Works on Paper",
-    link: "worksonpaper",
+    link: "works-on-paper",
     id: "50s french Wedding",
     src: "/assets/Work/Paper/50-s french wedding, 2021  A2 42x59cm 16.5x23.2 inches.webp",
     method: "",
@@ -761,7 +761,7 @@ export const worksOnPaper = [
 export const exhibition2025 = [
   {
     title: "Intruded Picnics, Turps End of Residency Show",
-    link: "exhibition2025",
+    link: "exhibition-2025",
     id: "Intruded Picnic",
     src: "/assets/Exhibition/2025/Intruded picnic, 2025 Oil on canvas  185x200cm 72.8x78.7 inches-3000x2670.webp",
     method: "Oil on canvas",
@@ -822,7 +822,7 @@ export const exhibition2025 = [
 export const exhibition2024 = [
   {
     title: "A Song of unrequited Love for Britain",
-    link: "exhibition2024",
+    link: "exhibition-2024",
     id: "Boys in a Blanket tent",
     src: "/assets/Exhibition/2024/Boys in a blanket tent, 2024 Oil on canvas 115x150cm 45.3x59 inches-.webp",
     method: "Oil on canvas",
@@ -892,7 +892,7 @@ export const exhibition2024 = [
 export const exhibition2022 = [
   {
     title: "When my Babushka joined the Reich",
-    link: "exhibition2022",
+    link: "exhibition-2022",
     id: "Girls from the 1940s",
     src: "/assets/Exhibition/2022/Girls from the 1940s, 2022 Oil on canvas 220x180cm 86.6x70.9 inches.webp",
     method: "Oil on canvas",
@@ -985,7 +985,7 @@ export const exhibition2022 = [
 export const exhibition2021 = [
   {
     title: "Act 1. Scene 5",
-    link: "exhibition2021",
+    link: "exhibition-2021",
     id: "Feast Scene",
     src: "/assets/Exhibition/2021/Feast Scene, 2021 Oil on canvas 230x180cm 90.6x70.9 inches.webp",
     method: "Oil on canvas",

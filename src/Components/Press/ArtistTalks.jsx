@@ -1,5 +1,6 @@
 import YouTube from "react-youtube";
 import { videos } from "../Work/Data";
+import HelmetComponent from "../HelmetComponent";
 
 const ArtistTalks = () => {
   const opts = {
@@ -8,6 +9,12 @@ const ArtistTalks = () => {
 
   return (
     <div className="w-[90%] flex flex-col m-auto">
+      <HelmetComponent
+        title="Video – Artist Talks & Studio Insights"
+        meta_description="Video content including artist talks, interviews and studio insights. Embedded videos and recordings."
+        url_fragment="artist-talks/"
+      />
+
       <h2 className="w-[90%]">Artist Talks</h2>
 
       <div className="w-full flex flex-wrap items-center justify-around">
