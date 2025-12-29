@@ -38,9 +38,10 @@ const Navbar = () => {
       <div className="w-full flex items-center justify-center pt-4 pb-2">
         <NavLink
           to="/"
-          className="text-[2.2rem] font-semibold nav-item pt-2 pb-2 tracking-wide          "
+          className="text-[2.2rem] font-semibold nav-item pt-2 pb-2"
         >
-          KATYA GRANOVA
+          <h1 className="tracking-wide">KATYA GRANOVA</h1>
+          <h2 className="hidden">Contemporary artist, painter, and curator.</h2>
         </NavLink>
       </div>
 
@@ -105,7 +106,7 @@ const Navbar = () => {
       {mobileOpen && (
         <div className="fixed inset-0 z-50 bg-white flex flex-col items-center justify-start p-8 overflow-y-auto">
           <div className="flex justify-between items-center w-full mb-8">
-            <p className="text-2xl font-semibold">KATYA GRANOVA</p>
+            <h2 className="text-2xl font-semibold p-0">KATYA GRANOVA</h2>
             <button
               onClick={() => {
                 setMobileOpen(false);

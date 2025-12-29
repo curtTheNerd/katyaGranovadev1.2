@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import HelmetComponent from "../HelmetComponent";
 
 import { thumbsWork as images } from "./Data";
 
@@ -9,6 +10,12 @@ const Work = () => {
 
   return (
     <div>
+      <HelmetComponent
+        title="Selected works by year - 2019 to 2025"
+        meta_description="Discover selected paintings and artworks. Oil on canvas, acrylic transfer, van Dyke, and paperworks."
+        url_fragment="work/"
+      />
+
       <h2 className="text-center">Selected Work by Year</h2>
 
       <div className="container flex preview_work pb-20">
