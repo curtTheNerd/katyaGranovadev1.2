@@ -41,7 +41,10 @@
     @apply list-none cursor-pointer px-4 py-2;
   }
   h2 {
-    @apply w-full text-[1.5rem] md:text-[1.75rem] text-[var(--textColor)] m-[0_auto] pt-12 pb-16;
+    @apply w-full text-[1.5rem] md:text-[1.75rem] text-[var(--textColor)] pt-12 pb-16;
+  }
+  h3 {
+    @apply w-full text-left;
   }
 }
 
