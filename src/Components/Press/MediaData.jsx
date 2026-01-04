@@ -3,7 +3,7 @@ export const articles = [
     year: "2025",
     data: [
       {
-        img: "",
+        img: "/public/assets/PressThumbnails",
         source: "Fault Magazine",
         type: "Interview",
         title: "Katya Granova Turns Found Photographs into Living Paintings",
@@ -12,7 +12,7 @@ export const articles = [
         link: "https://fault-magazine.com/2025/11/katya-granova-turns-found-photographs-into-living-paintings/",
       },
       {
-        img: "",
+        img: "/public/assets/PressThumbnails/whitenot.jpg",
         source: "Whitehot Magazine",
         type: "Article",
         title: "Katya Granova: Reimagining Past Narratives",
@@ -21,7 +21,7 @@ export const articles = [
         link: "https://whitehotmagazine.com/articles/katya-granova-reimagining-past-narratives/7446",
       },
       {
-        img: "",
+        img: "/public/assets/PressThumbnails/lost art.jpg",
         source: "Lost Art Media",
         type: "Article",
         title:
@@ -31,7 +31,7 @@ export const articles = [
         link: "https://lostartmedia.substack.com/i/181046242/windows-into-different-worlds-flowers-gallerys-small-is-beautiful",
       },
       {
-        img: "",
+        img: "/public/assets/PressThumbnails/kult talk.jpg",
         source: "The Kult Talk",
         type: "Interview",
         title:
@@ -46,13 +46,32 @@ export const articles = [
     year: "2024",
     data: [
       {
-        img: "",
-        source: "",
-        type: "",
-        title: "",
+        img: "/public/assets/PressThumbnails/pilot.jpg",
+        source: "Pilotenkueche",
+        type: "Article",
+        title: "Katya Granova: temporal echoes",
+        author: "By Zeynep Ayta",
+        language: "English",
+        link: "http://westside.pilotenkueche.net/katya-granova-temporal-echoes/",
+      },
+      {
+        img: "/public/assets/PressThumbnails/zima.jpg",
+        source: "Zima Magazine",
+        type: "Interview",
+        title:
+          "'Create a situation in which painting will happen.' A long interview with Katya Granova",
+        author: "By Il Gurn",
+        language: "Russian",
+        link: "https://zimamagazine.com/2024/11/sozdat-situaciju-v-kotoroj-proizojdet-zhivopis-bolshoe-intervju-kati-granovoj",
+      },
+      {
+        img: "/public/assets/PressThumbnails/lart.jpg",
+        source: "L'Art Cultures",
+        type: "Interview",
+        title: "Artist Katya Granova: United Kingdom",
         author: "",
         language: "English",
-        link: "",
+        link: "https://lartcultures.com/blog/f/katya-granova",
       },
     ],
   },
@@ -60,13 +79,157 @@ export const articles = [
     year: "2023",
     data: [
       {
-        img: "",
-        source: "",
-        type: "",
-        title: "",
+        img: "/public/assets/PressThumbnails/odra.jpg",
+        source: "Odra",
+        type: "Article",
+        title: "https://lartcultures.com/blog/f/katya-granova",
+        author: "By Kate Reeve-Edwards",
+        language: "English",
+        link: "https://odraplatform.com/voices_from_a_suitcase",
+      },
+      {
+        img: "/public/assets/PressThumbnails/art focus.jpg",
+        source: "Art Focus Now",
+        type: "Article",
+        title: "Granova wrestles with the Soviet past",
+        author: "By Elena Kony",
+        language: "English",
+        link: "https://artfocusnow.com/people/granova-wrestles-with-the-soviet-past",
+      },
+      {
+        img: "/public/assets/PressThumbnails/zima2.jpg",
+        source: "Zima Magazine",
+        type: "Interview",
+        title:
+          "Voices from a Suitcase. Katya Granova on emigration, war, and understanding history through painting",
+        author: "By Vera Otdelnova",
+        language: "Russian",
+        link: "https://zimamagazine.com/2023/09/golosa-iz-chemodana-katya-granova-ob-emigracii-vojne-i-postizhenii-istorii-cherez-zhivopis",
+      },
+      {
+        img: "/public/assets/PressThumbnails/izba.jpg",
+        source: "Izba Arts",
+        type: "Article",
+        title:
+          "Hunted past: London based artist Katya Granova reimagines old photographs",
+        author: "By Elena Kony",
+        language: "English",
+        link: "https://www.izbaarts.com/hunted-past-london-based-artist-katya-granova-reimagines-old-photographs",
+      },
+      {
+        img: "/public/assets/PressThumbnails/lokall.jpg",
+        source: "Lokall Online",
+        type: "Article",
+        title:
+          "A Copy? How Katya Granova Rephrases Anonymous Archıves’ Photographs",
+        author: "By Alexandra Orlova",
+        language: "English, Turkish",
+        link: "https://lokall.online/2023/07/06/katya-granova",
+      },
+      {
+        img: "/public/assets/PressThumbnails/art focus 2.jpg",
+        source: "Art Focus Now",
+        type: "Article",
+        title: "Russian Artists in Transit in Flux in Exile",
+        author: "By Olivia Birch",
+        language: "English",
+        link: "https://artfocusnow.com/discoveries/russian-artists-in-transit-in-flux-in-exile",
+      },
+    ],
+  },
+  {
+    year: "2022",
+    data: [
+      {
+        img: "/public/assets/PressThumbnails/fad.jpg",
+        source: "Fad Magazine",
+        type: "Article",
+        title:
+          "Tart Gallery London presents a new group show Power to Emotions",
+        author: "By Mark Westall",
+        language: "English",
+        link: "https://fadmagazine.com/2022/10/21/power-to-emotions-the-new-group-exhibition-from-tart-gallery-london",
+      },
+    ],
+  },
+  {
+    year: "2021",
+    data: [
+      {
+        img: "/public/assets/PressThumbnails/cake.jpg",
+        source: "Contemporary Art Keen Enthusiast",
+        type: "Article",
+        title: "Katya Granova",
+        author: "By Antoinette Haselhorst",
+        language: "English",
+        link: "https://contemporaryartkeenenthusiast.com/katya-granova",
+      },
+    ],
+  },
+  {
+    year: "2020",
+    data: [
+      {
+        img: "/public/assets/PressThumbnails/womens.jpg",
+        source: "A women's thing",
+        type: "Interview",
+        title:
+          "Painter Katya Granova Inserts Own Presence Through Images From the Past",
         author: "",
         language: "English",
-        link: "",
+        link: "https://awomensthing.org/stretching-arms-artists/katya-granova",
+      },
+      {
+        img: "/public/assets/PressThumbnails/artyou.jpg",
+        source: "Art and You",
+        type: "Article",
+        title:
+          "Katya Granova: Stud'ying at the Royal College of Art: Cultural Diversity and Leaky Ceilings'",
+        author: "By Katya Kartseva",
+        language: "English, Russian",
+        link: "https://artandyou.ru/interview/artists/katya-granova",
+      },
+      {
+        img: "/public/assets/PressThumbnails/izba2.jpg",
+        source: "Izba Arts",
+        type: "Article",
+        title: "Shtager Gallery at Start Art Fair: 21-25 October 2020",
+        author: "By Russian Art & Culture",
+        language: "English",
+        link: "https://www.izbaarts.com/shtager-gallery-at-start-art-fair-23-25-october-2020",
+      },
+      {
+        img: "/public/assets/PressThumbnails/zima3.jpg",
+        source: "Zima Magazine",
+        type: "Article",
+        title: "Marat Gelman's Virtual Gallery with Katya Granova",
+        author: "By Marat Gelman",
+        language: "English",
+        link: "https://zimamagazine.com/2020/05/katya-granova",
+      },
+      {
+        img: "/public/assets/PressThumbnails/zima4.jpg",
+        source: "Zima Magazine",
+        type: "Article",
+        title:
+          "Artist Katya Granova discusses the contemporary art fair at the Saatchi Gallery and her new works",
+        author: "",
+        language: "Russian",
+        link: "https://zimamagazine.com/2020/10/hudozhnica-katya-granova-o-yarmarke-sovremennogo-iskusstva-v-galeree-saatchi-i-novyh-rabotah",
+      },
+    ],
+  },
+  {
+    year: "2016",
+    data: [
+      {
+        img: "/public/assets/PressThumbnails/super.jpg",
+        source: "Supervisuelna Magazine",
+        type: "Interview",
+        title: "Katya Granova / Communal Paradise Lost",
+        author: "By Žolt Kovač",
+        language: "Serbian",
+        link: "https://www.supervizuelna.com/katya-granova-communal-paradise-lost",
       },
     ],
   },

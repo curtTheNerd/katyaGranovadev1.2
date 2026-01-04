@@ -4,7 +4,7 @@ const MediaSectionComponent = ({ object }) => {
   return (
     <div
       id={`MediaSection-${object.year}`}
-      className="w-full flex-center flex-col gap-2"
+      className="w-full flex-center flex-col gap-4"
     >
       <h3>{object.year}</h3>
       {object.data.map((element) => (
