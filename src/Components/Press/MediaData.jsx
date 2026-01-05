@@ -3,7 +3,7 @@ export const articles = [
     year: "2025",
     data: [
       {
-        img: "/public/assets/PressThumbnails",
+        img: "/assets/PressThumbnails",
         source: "Fault Magazine",
         type: "Interview",
         title: "Katya Granova Turns Found Photographs into Living Paintings",
@@ -12,7 +12,7 @@ export const articles = [
         link: "https://fault-magazine.com/2025/11/katya-granova-turns-found-photographs-into-living-paintings/",
       },
       {
-        img: "/public/assets/PressThumbnails/whitenot.jpg",
+        img: "/assets/PressThumbnails/whitenot.jpg",
         source: "Whitehot Magazine",
         type: "Article",
         title: "Katya Granova: Reimagining Past Narratives",
@@ -21,7 +21,7 @@ export const articles = [
         link: "https://whitehotmagazine.com/articles/katya-granova-reimagining-past-narratives/7446",
       },
       {
-        img: "/public/assets/PressThumbnails/lost art.jpg",
+        img: "/assets/PressThumbnails/lost art.jpg",
         source: "Lost Art Media",
         type: "Article",
         title:
@@ -31,7 +31,7 @@ export const articles = [
         link: "https://lostartmedia.substack.com/i/181046242/windows-into-different-worlds-flowers-gallerys-small-is-beautiful",
       },
       {
-        img: "/public/assets/PressThumbnails/kult talk.jpg",
+        img: "/assets/PressThumbnails/kult talk.jpg",
         source: "The Kult Talk",
         type: "Interview",
         title:
@@ -46,7 +46,7 @@ export const articles = [
     year: "2024",
     data: [
       {
-        img: "/public/assets/PressThumbnails/pilot.jpg",
+        img: "/assets/PressThumbnails/pilot.jpg",
         source: "Pilotenkueche",
         type: "Article",
         title: "Katya Granova: temporal echoes",
@@ -55,7 +55,7 @@ export const articles = [
         link: "http://westside.pilotenkueche.net/katya-granova-temporal-echoes/",
       },
       {
-        img: "/public/assets/PressThumbnails/zima.jpg",
+        img: "/assets/PressThumbnails/zima.jpg",
         source: "Zima Magazine",
         type: "Interview",
         title:
@@ -65,7 +65,7 @@ export const articles = [
         link: "https://zimamagazine.com/2024/11/sozdat-situaciju-v-kotoroj-proizojdet-zhivopis-bolshoe-intervju-kati-granovoj",
       },
       {
-        img: "/public/assets/PressThumbnails/lart.jpg",
+        img: "/assets/PressThumbnails/lart.jpg",
         source: "L'Art Cultures",
         type: "Interview",
         title: "Artist Katya Granova: United Kingdom",
@@ -79,7 +79,7 @@ export const articles = [
     year: "2023",
     data: [
       {
-        img: "/public/assets/PressThumbnails/odra.jpg",
+        img: "/assets/PressThumbnails/odra.jpg",
         source: "Odra",
         type: "Article",
         title: "https://lartcultures.com/blog/f/katya-granova",
@@ -88,7 +88,7 @@ export const articles = [
         link: "https://odraplatform.com/voices_from_a_suitcase",
       },
       {
-        img: "/public/assets/PressThumbnails/art focus.jpg",
+        img: "/assets/PressThumbnails/art focus.jpg",
         source: "Art Focus Now",
         type: "Article",
         title: "Granova wrestles with the Soviet past",
@@ -97,7 +97,7 @@ export const articles = [
         link: "https://artfocusnow.com/people/granova-wrestles-with-the-soviet-past",
       },
       {
-        img: "/public/assets/PressThumbnails/zima2.jpg",
+        img: "/assets/PressThumbnails/zima2.jpg",
         source: "Zima Magazine",
         type: "Interview",
         title:
@@ -107,7 +107,7 @@ export const articles = [
         link: "https://zimamagazine.com/2023/09/golosa-iz-chemodana-katya-granova-ob-emigracii-vojne-i-postizhenii-istorii-cherez-zhivopis",
       },
       {
-        img: "/public/assets/PressThumbnails/izba.jpg",
+        img: "/assets/PressThumbnails/izba.jpg",
         source: "Izba Arts",
         type: "Article",
         title:
@@ -117,7 +117,7 @@ export const articles = [
         link: "https://www.izbaarts.com/hunted-past-london-based-artist-katya-granova-reimagines-old-photographs",
       },
       {
-        img: "/public/assets/PressThumbnails/lokall.jpg",
+        img: "/assets/PressThumbnails/lokall.jpg",
         source: "Lokall Online",
         type: "Article",
         title:
@@ -127,7 +127,7 @@ export const articles = [
         link: "https://lokall.online/2023/07/06/katya-granova",
       },
       {
-        img: "/public/assets/PressThumbnails/art focus 2.jpg",
+        img: "/assets/PressThumbnails/art focus 2.jpg",
         source: "Art Focus Now",
         type: "Article",
         title: "Russian Artists in Transit in Flux in Exile",
@@ -141,7 +141,7 @@ export const articles = [
     year: "2022",
     data: [
       {
-        img: "/public/assets/PressThumbnails/fad.jpg",
+        img: "/assets/PressThumbnails/fad.jpg",
         source: "Fad Magazine",
         type: "Article",
         title:
@@ -156,7 +156,7 @@ export const articles = [
     year: "2021",
     data: [
       {
-        img: "/public/assets/PressThumbnails/cake.jpg",
+        img: "/assets/PressThumbnails/cake.jpg",
         source: "Contemporary Art Keen Enthusiast",
         type: "Article",
         title: "Katya Granova",
@@ -170,7 +170,7 @@ export const articles = [
     year: "2020",
     data: [
       {
-        img: "/public/assets/PressThumbnails/womens.jpg",
+        img: "/assets/PressThumbnails/womens.jpg",
         source: "A women's thing",
         type: "Interview",
         title:
@@ -180,7 +180,7 @@ export const articles = [
         link: "https://awomensthing.org/stretching-arms-artists/katya-granova",
       },
       {
-        img: "/public/assets/PressThumbnails/artyou.jpg",
+        img: "/assets/PressThumbnails/artyou.jpg",
         source: "Art and You",
         type: "Article",
         title:
@@ -190,7 +190,7 @@ export const articles = [
         link: "https://artandyou.ru/interview/artists/katya-granova",
       },
       {
-        img: "/public/assets/PressThumbnails/izba2.jpg",
+        img: "/assets/PressThumbnails/izba2.jpg",
         source: "Izba Arts",
         type: "Article",
         title: "Shtager Gallery at Start Art Fair: 21-25 October 2020",
@@ -199,7 +199,7 @@ export const articles = [
         link: "https://www.izbaarts.com/shtager-gallery-at-start-art-fair-23-25-october-2020",
       },
       {
-        img: "/public/assets/PressThumbnails/zima3.jpg",
+        img: "/assets/PressThumbnails/zima3.jpg",
         source: "Zima Magazine",
         type: "Article",
         title: "Marat Gelman's Virtual Gallery with Katya Granova",
@@ -208,7 +208,7 @@ export const articles = [
         link: "https://zimamagazine.com/2020/05/katya-granova",
       },
       {
-        img: "/public/assets/PressThumbnails/zima4.jpg",
+        img: "/assets/PressThumbnails/zima4.jpg",
         source: "Zima Magazine",
         type: "Article",
         title:
@@ -223,7 +223,7 @@ export const articles = [
     year: "2016",
     data: [
       {
-        img: "/public/assets/PressThumbnails/super.jpg",
+        img: "/assets/PressThumbnails/super.jpg",
         source: "Supervisuelna Magazine",
         type: "Interview",
         title: "Katya Granova / Communal Paradise Lost",

@@ -758,12 +758,108 @@ export const worksOnPaper = [
   },
 ];
 
-export const exhibition2025 = [
+export const exhibition2025_Spinnerei = [
+  {
+    title: "From under the Bed Show - Spinnerei",
+    title_detailled:
+      "From under the Bed Show Group Show, Archiv Massiv, Leipzig, GER, 2025",
+    link: "2025-Spinnerei",
+    id: "From under the Bed, Group Show - interior 1",
+    src: "/public/assets/Exhibition/2025Spinnerei/1 Spinnerei series, part of _From under the Bed_ group show, Archiv Massiv, Leipzig, 2025.webp",
+    method: "",
+    sizeCm: "",
+    sizeInch: "",
+    date: "2025",
+  },
+  {
+    id: "Spinnerei Celebration from 70s",
+    src: "/public/assets/Exhibition/2025Spinnerei/2 Spinnerei Celebration from 70s, 310x200cm_122x78.7_, oil on canvas, 2025, in situ.webp",
+    method: "Oil on canvas",
+    sizeCm: "310 x 200 cm",
+    sizeInch: "122 x 78.7 inches",
+    date: "2025",
+  },
+  {
+    id: "Spinnerei Celebration from 70s, detail",
+    src: "/public/assets/Exhibition/2025Spinnerei/3 Spinnerei Celebration, 310x200 cm_122x78.7_, oil on canvas, detail.webp",
+    method: "Oil on canvas",
+    sizeCm: "310 x 200 cm",
+    sizeInch: "122 x 78.7 inches",
+    date: "2025",
+  },
+  {
+    id: "From under the Bed, Group Show - interior 2",
+    src: "/public/assets/Exhibition/2025Spinnerei/3.5 Spinnerei series, part of _From under the Bed_ group exhibition, Archiv Massiv, Leipzig, 2025.webp",
+    method: "",
+    sizeCm: "",
+    sizeInch: "",
+    date: "2025",
+  },
+  {
+    id: "Spinnerei summer Camp",
+    src: "/public/assets/Exhibition/2025Spinnerei/4 Spinnerei summer camp, 170x210cm_66.9x82.6_, oil on canvas, 2025, in situ.webp",
+    method: "Oil on canvas",
+    sizeCm: "170 x 210 cm",
+    sizeInch: "66.9 x 82.6 inches",
+    date: "2025",
+  },
+  {
+    id: "Spinnerei summer Camp, detail",
+    src: "/public/assets/Exhibition/2025Spinnerei/5 Spinnerei Summer Camp, 170x210cm_66.9x82.6_, oil on canvas, 2025, detail .webp",
+    method: "Oil on canvas",
+    sizeCm: "170 x 210 cm",
+    sizeInch: "66.9 x 82.6 inches",
+    date: "2025",
+  },
+
+  {
+    id: "Drinking party Spinnerei",
+    src: "/public/assets/Exhibition/2025Spinnerei/6 Drinking party Spinnerei, 180x220cm_70.8x86.6_, oil on canvas, 2025, in situ.webp",
+    method: "Oil on canvas",
+    sizeCm: "180 x 220 cm",
+    sizeInch: "70.8 x 86.6 inches",
+    date: "2025",
+  },
+  {
+    id: "From under the Bed, Group Show - interior 3",
+    src: "/public/assets/Exhibition/2025Spinnerei/7 Drinking party Spinnerei, 180x220cm_70.8x86.6_, oil on canvas, 2025, in situ.webp",
+    method: "",
+    sizeCm: "",
+    sizeInch: "",
+    date: "2025",
+  },
+  {
+    id: "Drinking party Spinnerei, detail",
+    src: "/public/assets/Exhibition/2025Spinnerei/8 Drinking party Spinnerei, 180x220cm_70.8x86.6_, oil on canvas, 2025, detail.webp",
+    method: "Oil on canvas",
+    sizeCm: "180 x 220 cm",
+    sizeInch: "70.8 x 86.6 inches",
+    date: "2025",
+  },
+  {
+    id: "Spinnerei female workers from the 30s",
+    src: "/public/assets/Exhibition/2025Spinnerei/9 Spinnerei female workers from the 30s, 80x80 cm_31.4x31.4_, oil on canvas, 2025, in situ.webp",
+    method: "Oil on canvas",
+    sizeCm: "80 x 80 cm",
+    sizeInch: "31.4 x 31.4 inches",
+    date: "2025",
+  },
+  {
+    id: "Drinking party Spinnerei sketches",
+    src: "/public/assets/Exhibition/2025Spinnerei/10 Drinking party Spinnerei sketches, 40x28cm_15.7x11_ each, oil on paper, 2025.webp",
+    method: "Oil on canvas",
+    sizeCm: "40 x 28 cm",
+    sizeInch: "15.7 x 11 inches",
+    date: "2025",
+  },
+];
+
+export const exhibition2025_IntrudedPicnics = [
   {
     title: "Intruded Picnics, Turps End of Residency Show",
     title_detailled:
       "Intruded Picnics, End of Residency Show, Turps Banana, London, UK, 2025",
-    link: "2025",
+    link: "2025-IntrudedPicnics",
     id: "Intruded Picnic",
     src: "/assets/Exhibition/2025/Intruded picnic, 2025 Oil on canvas  185x200cm 72.8x78.7 inches-3000x2670.webp",
     method: "Oil on canvas",
@@ -890,6 +986,178 @@ export const exhibition2024 = [
     sizeCm: "",
     sizeInch: "",
     date: "2024",
+  },
+];
+
+export const exhibition2023_Shtager = [
+  {
+    title: "Voices from a Suitcase",
+    title_detailled:
+      "Voices from a Suitcase, Shtager gallery, London, UK, 2023",
+    link: "2023-Shtager",
+    id: "Voices from a Suitcase - interior 1",
+    src: "/public/assets/Exhibition/2023Shtager/1 Voices from a suitcase, Shtager gallery, in situ.webp",
+    method: "",
+    sizeCm: "",
+    sizeInch: "",
+    date: "2023",
+  },
+  {
+    id: "Voices from a Suitcase - interior 2",
+    src: "/public/assets/Exhibition/2023Shtager/2 Voices from a suitcase, Shtager Gallery, London, 2023 - 2.webp",
+    method: "",
+    sizeCm: "",
+    sizeInch: "",
+    date: "2023",
+  },
+
+  {
+    id: "Voices from a Suitcase - interior 3",
+    src: "/public/assets/Exhibition/2023Shtager/3 Voices from a suitcase, Shtager Gallery, London, 2023 - 3.webp",
+    method: "",
+    sizeCm: "",
+    sizeInch: "",
+    date: "2023",
+  },
+  {
+    id: "Grandma on the beach - interior",
+    src: "/public/assets/Exhibition/2023Shtager/4 Grandma on the beach, 150 x 240 cm_59x94.4_, Oil on canvas, 2022,  in situ.webp",
+    method: "Oil on canvas",
+    sizeCm: "150 x 240 cm",
+    sizeInch: "59 x 94.4 inches",
+    date: "2022",
+  },
+  {
+    id: "Voices from a Suitcase - interior 4",
+    src: "/public/assets/Exhibition/2023Shtager/5 Voices from a suitcase Shtager Gallery, 2023 London - 4.webp",
+    method: "",
+    sizeCm: "",
+    sizeInch: "",
+    date: "2023",
+  },
+  {
+    id: "Beach Party",
+    src: "/public/assets/Exhibition/2023Shtager/6 Beach party, 200x210cm_78.7x82.6_, oil on canvas, 2023, in situ.webp",
+    method: "Oil on canvas",
+    sizeCm: "200 x 210 cm",
+    sizeInch: "78.7 x 82.6 inches",
+    date: "2023",
+  },
+
+  {
+    id: "Voices from a Suitcase - interior 5",
+    src: "/public/assets/Exhibition/2023Shtager/7 Voices from a suitcase, Shtager Gallery, London, 2023 - 5.webp",
+    method: "",
+    sizeCm: "",
+    sizeInch: "",
+    date: "2023",
+  },
+  {
+    id: "Voices from a Suitcase - interior 6",
+    src: "/public/assets/Exhibition/2023Shtager/8 Voices from a suitcase, Shtager Gallery, London, 2023 - 6.webp",
+    method: "",
+    sizeCm: "",
+    sizeInch: "",
+    date: "2023",
+  },
+  {
+    id: "New year's party from the 70s",
+    src: "/public/assets/Exhibition/2023Shtager/9 New year s party from the 70s, 140x150cm_55.1x59_, oil on Van Dyke printed canvas, 2023, in situ.webp",
+    method: "Oil on Van Dyke printed on canvas",
+    sizeCm: "140 x 150 cm",
+    sizeInch: "55.1 x 59 inches",
+    date: "2023",
+  },
+  {
+    id: "Mum at the Beach",
+    src: "/public/assets/Exhibition/2023Shtager/10 Mum at the beach, 130x180cm_51.1x70.8_, oil on canvas, 2022, in situ.webp",
+    method: "Oil on canvas",
+    sizeCm: "130 x 180 cm",
+    sizeInch: "51.1 x 70.8 inches",
+    date: "2022",
+  },
+
+  {
+    id: "Voices from a Suitcase - interior 7",
+    src: "/public/assets/Exhibition/2023Shtager/11 Voices from a suitcase, Shtager Gallery, London, 2023 - 7.webp",
+    method: "",
+    sizeCm: "",
+    sizeInch: "",
+    date: "2023",
+  },
+  {
+    id: "Cloth",
+    src: "/public/assets/Exhibition/2023Shtager/12 Cloth, 275x360cm_108.2x141.7_, Van Dyck emulsion print of a found photograph on canvas, 2023, in situ.webp",
+    method: "Van Dyke emulsion print of a found photograph on canvas",
+    sizeCm: "275 x 360 cm",
+    sizeInch: "108.2 x 141.7 inches",
+    date: "2023",
+  },
+  {
+    id: "Beach party - interior",
+    src: "/public/assets/Exhibition/2023Shtager/13 Beach party, 200x210cm_78.7x82.6_, oil on canvas, 2023, in situ.webp",
+    method: "",
+    sizeCm: "",
+    sizeInch: "",
+    date: "2023",
+  },
+  {
+    id: "Voices from a Suitcase - interior 8",
+    src: "/public/assets/Exhibition/2023Shtager/14 Voices from a suitcase, Shtager Gallery, London, 2023 - 8.webp",
+    method: "Oil on canvas",
+    sizeCm: " cm",
+    sizeInch: " inches",
+    date: "2023",
+  },
+
+  {
+    id: "Mum's picnic",
+    src: "/public/assets/Exhibition/2023Shtager/15 Mum s picnic, 70x55cm_27.5x21.6_, oil on printed photograph on canvas, 2023, in situ.webp",
+    method: "Oil on printed photograph on canvas",
+    sizeCm: "70 x 55 cm",
+    sizeInch: "27.5 x 21.6 inches",
+    date: "2023",
+  },
+  {
+    id: "Grandma on the beach",
+    src: "/public/assets/Exhibition/2023Shtager/16 Grandma on the beach, 150 x 240 cm_59x94.4_, oil on canvas, 2022, in situ.webp",
+    method: "Oil on canvas",
+    sizeCm: "150 x 240 cm",
+    sizeInch: "59 x 94.4 inches",
+    date: "2022",
+  },
+  {
+    id: "Navy sailors sunbathing - interior",
+    src: "/public/assets/Exhibition/2023Shtager/17 Navy sailors sunbathing, 240x200cm_94.4x78.7_, oil on canvas, 2021, in situ.webp",
+    method: "Oil on canvas",
+    sizeCm: "240 x 200 cm",
+    sizeInch: "94.4 x 78.7 inches",
+    date: "2021",
+  },
+  {
+    id: "Navy sailors sunbathing",
+    src: "/public/assets/Exhibition/2023Shtager/18 Navy sailors sunbathing, 240x200cm_94.4x78.7_, oil on canvas, 2021, in situ.webp",
+    method: "Oil on canvas",
+    sizeCm: "240 x 200 cm cm",
+    sizeInch: "94.4 x 78.7 inches",
+    date: "2021",
+  },
+
+  {
+    id: "Pediatric surgery 1",
+    src: "/public/assets/Exhibition/2023Shtager/19 Pediatric surgery 1, 165x180cm_64.9x70.8_, oil on canvas, 2019, in situ.webp",
+    method: "Oil on canvas",
+    sizeCm: "165 x 180 cm",
+    sizeInch: "64.9 x 70.8 inches",
+    date: "2019",
+  },
+  {
+    id: "Two boys on the beach",
+    src: "/public/assets/Exhibition/2023Shtager/20 Two boys on the beach, 50x70cm_19.6x27.5_, oil on canvas, 2023, in situ.webp",
+    method: "Oil on canvas",
+    sizeCm: "50 x 70 cm",
+    sizeInch: "19.6 x 27.5 inches",
+    date: "2023",
   },
 ];
 
@@ -1043,42 +1311,6 @@ export const exhibition2021 = [
   },
 ];
 
-// Videos
-
-export const videos = [
-  {
-    id: "2y8ptuYujrU",
-    title: "The Third Room, Leipzig - 2025, 44:48",
-  },
-  {
-    id: "p38m6S0I32c",
-    title: "RUPTURE Xbit - 2024, 1:06:16",
-  },
-  {
-    id: "5iOaatkYpA4",
-    title: "Short talk, Pilotenkueche residency - 2024, 2:32",
-  },
-  {
-    id: "DZkxYvPN9do",
-    title: "Studio visit - 2021, 3:21",
-  },
-  {
-    id: "AY8Ebt3YYlU",
-    title: "Artist Talk (online) - 2021, 20:03",
-  },
-  /* 
-  excluded
-  
-  {
-    id: "G2Sz40xB3-8",
-    title: "Sphere Foundation (Фонд Сфера), inches Russian - 2021, 24:48",
-  },*/
-  {
-    id: "F0r-t7uIBTE",
-    title: "Artist talk - 2019, 20:28",
-  },
-];
-
 // get first element of each album for title/link; order of albums in Work-component
 
 export const thumbsWork = [
@@ -1093,8 +1325,10 @@ export const thumbsWork = [
 ];
 
 export const thumbsExhibition = [
-  exhibition2025[0],
+  exhibition2025_Spinnerei[0],
+  exhibition2025_IntrudedPicnics[0],
   exhibition2024[0],
+  exhibition2023_Shtager[0],
   exhibition2022[0],
   exhibition2021[0],
 ];

@@ -1,8 +1,8 @@
 import YouTube from "react-youtube";
-import { videos } from "../Work/Data";
+import videos from "./VideoData";
 import HelmetComponent from "../HelmetComponent";
 
-const ArtistTalks = () => {
+const Videos = () => {
   const opts = {
     autoplay: 0,
   };
@@ -11,11 +11,11 @@ const ArtistTalks = () => {
     <div className="w-[90%] flex flex-col m-auto">
       <HelmetComponent
         title="Video – Artist Talks & Studio Insights"
-        meta_description="Video content including artist talks, interviews and studio insights. Embedded videos and recordings."
+        meta_description="Video content including artist talks, interviews and studio insights of artist Katya Granova. Embedded videos and recordings."
         url_fragment="artist-talks/"
       />
 
-      <h2 className="w-[90%]">Artist Talks</h2>
+      <h2 className="w-[90%]">Videos</h2>
 
       <div className="w-full flex flex-wrap items-center justify-around">
         {videos.map((video) => (
@@ -38,4 +38,4 @@ const ArtistTalks = () => {
   );
 };
 
-export default ArtistTalks;
+export default Videos;

@@ -27,7 +27,7 @@ const Navbar = () => {
       title: "MORE",
       children: [
         { title: "PRESS", path: "/press-coverage" },
-        { title: "VIDEO", path: "/artist-talks" },
+        { title: "VIDEO", path: "/videos" },
       ],
     },
     { title: "CONTACT", path: "/contact" },

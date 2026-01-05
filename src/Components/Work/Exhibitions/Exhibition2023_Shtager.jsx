@@ -1,8 +1,8 @@
 import Gallery from "../Gallery/Gallery";
 import HelmetComponentAlbums from "../../HelmetComponentAlbums";
-import { exhibition2025 as images } from "../Data";
+import { exhibition2023_Shtager as images } from "../Data";
 
-const Exhibition2025 = () => {
+const Exhibition2025_Shtager = () => {
   return (
     <>
       <HelmetComponentAlbums
@@ -18,4 +18,4 @@ const Exhibition2025 = () => {
   );
 };
 
-export default Exhibition2025;
+export default Exhibition2025_Shtager;
