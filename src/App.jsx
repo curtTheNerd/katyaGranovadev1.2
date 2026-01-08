@@ -22,7 +22,7 @@ import Exhibition2025_IntrudedPicnics from "./Components/Work/Exhibitions/Exhibi
 import Exhibition2025_Spinnerei from "./Components/Work/Exhibitions/Exhibition2025_Spinnerei";
 import Exhibition2024 from "./Components/Work/Exhibitions/Exhibition2024";
 import Exhibition2023_Shtager from "./Components/Work/Exhibitions/Exhibition2023_Shtager";
-import Exhibition2022 from "./Components/Work/Exhibitions/Exhibition2022";
+import Exhibition2022_BarbicanArt from "./Components/Work/Exhibitions/Exhibition2022_BarbicanArt";
 import Exhibition2021 from "./Components/Work/Exhibitions/Exhibition2021";
 
 import BIO from "./Components/About/BIO";
@@ -59,7 +59,10 @@ const App = () => {
           <Route path="2025-Spinnerei" element={<Exhibition2025_Spinnerei />} />
           <Route path="2024" element={<Exhibition2024 />} />
           <Route path="2023-Shtager" element={<Exhibition2023_Shtager />} />
-          <Route path="2022" element={<Exhibition2022 />} />
+          <Route
+            path="2022-BarbicanArtGroupTrust"
+            element={<Exhibition2022_BarbicanArt />}
+          />
           <Route path="2021" element={<Exhibition2021 />} />
         </Route>
 

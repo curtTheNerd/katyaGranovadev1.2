@@ -17,7 +17,7 @@ const Work = () => {
       />
 
       <div>
-        <h2 className="text-center">Selected Work by Year</h2>
+        <h2 className="h2-standard">Selected Work by Year</h2>
 
         <div className="container flex preview_work pb-20">
           {images.map((image) => (

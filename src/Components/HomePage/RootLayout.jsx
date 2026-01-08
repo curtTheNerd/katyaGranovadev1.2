@@ -5,7 +5,7 @@ import { Outlet } from "react-router";
 
 const RootLayout = () => {
   return (
-    <div>
+    <div className="w-screen flex flex-col xl:flex-row">
       <Navbar />
       <main>
         <Outlet />

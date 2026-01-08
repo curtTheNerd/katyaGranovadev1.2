@@ -6,7 +6,7 @@ const MediaSectionComponent = ({ object }) => {
       id={`MediaSection-${object.year}`}
       className="w-full flex-center flex-col gap-4"
     >
-      <h3>{object.year}</h3>
+      <h3 className="text-[1.3rem] italic">{object.year}</h3>
       {object.data.map((element) => (
         <MediaCellComponent key={element.title} data={element} />
       ))}

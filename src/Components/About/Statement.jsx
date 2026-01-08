@@ -11,7 +11,9 @@ const Statement = () => {
         url_fragment="artist-statement"
       />
       <div className="flex-center flex-col w-[95%] md:w-[90%] m-auto px-3">
-        <h2 className="w-full lg:ml-8">Artist's Statement</h2>
+        <h2 className="w-full px-6 md:px-12 lg:px-[5%] pt-6 pb-12">
+          Artist's Statement
+        </h2>
 
         {/* Layout Desktop */}
 

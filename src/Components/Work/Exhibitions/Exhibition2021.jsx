@@ -1,6 +1,8 @@
 import Gallery from "../Gallery/Gallery";
 import HelmetComponentAlbums from "../../HelmetComponentAlbums";
 import { exhibition2021 as images } from "../Data";
+import TitleCard from "./TitleCard";
+import DescriptionCard from "./DescriptionCard";
 
 const Exhibition2021 = () => {
   return (
@@ -10,10 +12,11 @@ const Exhibition2021 = () => {
         type="exhibition"
         exhibition_title={images[0].title_detailled}
       />
-      <div>
-        <h2 className="text-center">{images[0].title_detailled}</h2>
-        <Gallery images={images} />
-      </div>
+      <TitleCard array={images} />
+
+      <Gallery images={images} />
+
+      <DescriptionCard array={images} />
     </>
   );
 };

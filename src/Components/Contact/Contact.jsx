@@ -57,7 +57,8 @@ export default function Contact() {
         meta_description="Contact information for studio visits, exhibitions, collaborations and professional inquiries."
         url_fragment="contact"
       />
-      <div className="w-[80vw] max-w-[640px] mx-auto mt-12 p-8 mb-20 bg-gray-50 rounded-md ring-1 ring-gray-200">
+      <h2 className="h2-standard">Contact</h2>
+      <div className="w-[80vw] max-w-[640px] mx-auto mt-8 p-8 mb-20 bg-gray-50 rounded-md ring-1 ring-gray-200">
         <form onSubmit={onSubmit}>
           <div className="flex flex-col mb-4">
             <p className="text-md font-semibold pb-6">

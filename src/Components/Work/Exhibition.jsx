@@ -16,7 +16,7 @@ const Work = () => {
         url_fragment="exhibition"
       />
       <div>
-        <h2 className="text-center">Selected Exhibitions and Projects</h2>
+        <h2 className="h2-standard">Selected Exhibitions and Projects</h2>
 
         <div className="container flex preview_work pb-20">
           {images.map((image) => (

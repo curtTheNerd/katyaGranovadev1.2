@@ -15,7 +15,7 @@ const Videos = () => {
         url_fragment="artist-talks/"
       />
 
-      <h2 className="w-[90%]">Videos</h2>
+      <h2 className="h2-standard">Videos</h2>
 
       <div className="w-full flex flex-wrap items-center justify-around">
         {videos.map((video) => (

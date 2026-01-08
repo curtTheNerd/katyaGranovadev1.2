@@ -760,12 +760,18 @@ export const worksOnPaper = [
 
 export const exhibition2025_Spinnerei = [
   {
-    title: "From under the Bed Show - Spinnerei",
-    title_detailled:
-      "From under the Bed Show Group Show, Archiv Massiv, Leipzig, GER, 2025",
+    title: "From under the Bed - Spinnerei",
+    title_detailled: "Group Show, Archiv Massiv, Leipzig, GER, 2025.",
+    descriptionCard: {
+      exhibitionTitle: "Spinnerei series",
+      exhibitionLocation:
+        "From under the Bed, group exhibition of LIA residents, Archiv Massiv, 2025, Leipzig, Germany",
+      description:
+        "This body of work came from my residency LIA at the Baumwolle Spinnerei, an old GDR yarn factory, now Leipzig's main cultural hub. I got access to the factory's photo archives through Archive Massive museum.\nSpinnerei factory was massive, almost like a town, with its own kindergartens, concert halls, canteens, sports centres, and libraries. The archive pictures feature various aspects of life there, but with a noticable propaganda aroma of constantly happy workers, excited children building plane models, and gatherings with amateur performances. It's extremely similar to USSR archives - those who didn't t were removed or forced to pretend. But almost every propaganda picture, at least before Photoshop, has bits of messier, more random reality tucked in. Someone is drinking from a bottle at an o cial jubilee, someone hugs a little too inappropriately, someone enjoys their fancy out t, and a bored kid falls asleep during the endless speeches. In a line of workers' faces, someone has a half-smile, someone looks sadder. The deeper you look, the more reality hollows out. After transferring several Spinnerei photographs onto large canvases, I began using painting to explore them. I look for true-life details, sometimes exaggerating them - for example, Drinking Party features a tiny background fragment of a photograph, where people are drinking wildly, nothing like propaganda. That fragment is enlarged monumentally, giving importance to a small moment that slipped through.\n The past is constantly getting instrumentalised. This performance of happy community life could now be weaponised by GDR forces to glorify GDR's industrial development and balanced lives, or, contrary, anti-socialist or West German forces, framing GDR people as inferior, even though some things, like women's careers or workers' security, were probably superior there. But what this photograph still contain is actually the lives of real people, even if caught in the moment, ful lling some propaganda narratives.I want to let people from the past return the gaze, claim their agency, ook back from their time to ours.\n My experience as someone with family from the USSR has shown me very early how nstrumentalization of the past can become a bridgehead for wars, imprisonments, and violence of all kinds. My experience enforces my visual language with despair and rage when dealing with past magery, and passion against the instrumentalization of history, and, contrastingly, tenderness for forgotten people whose stories never became books. These contrasts make my painting experience more complex and multilayered. The complexity of ideological narrativization, political utilization, and existential void of gone time all come through my brushwork.",
+    },
     link: "2025-Spinnerei",
-    id: "From under the Bed, Group Show - interior 1",
-    src: "/public/assets/Exhibition/2025Spinnerei/1 Spinnerei series, part of _From under the Bed_ group show, Archiv Massiv, Leipzig, 2025.webp",
+    id: "From under the Bed - interior 1",
+    src: "/assets/Exhibition/2025Spinnerei/1 Spinnerei series, part of _From under the Bed_ group show, Archiv Massiv, Leipzig, 2025.webp",
     method: "",
     sizeCm: "",
     sizeInch: "",
@@ -773,7 +779,7 @@ export const exhibition2025_Spinnerei = [
   },
   {
     id: "Spinnerei Celebration from 70s",
-    src: "/public/assets/Exhibition/2025Spinnerei/2 Spinnerei Celebration from 70s, 310x200cm_122x78.7_, oil on canvas, 2025, in situ.webp",
+    src: "/assets/Exhibition/2025Spinnerei/2 Spinnerei Celebration from 70s, 310x200cm_122x78.7_, oil on canvas, 2025, in situ.webp",
     method: "Oil on canvas",
     sizeCm: "310 x 200 cm",
     sizeInch: "122 x 78.7 inches",
@@ -781,15 +787,15 @@ export const exhibition2025_Spinnerei = [
   },
   {
     id: "Spinnerei Celebration from 70s, detail",
-    src: "/public/assets/Exhibition/2025Spinnerei/3 Spinnerei Celebration, 310x200 cm_122x78.7_, oil on canvas, detail.webp",
+    src: "/assets/Exhibition/2025Spinnerei/3 Spinnerei Celebration, 310x200 cm_122x78.7_, oil on canvas, detail.webp",
     method: "Oil on canvas",
     sizeCm: "310 x 200 cm",
     sizeInch: "122 x 78.7 inches",
     date: "2025",
   },
   {
-    id: "From under the Bed, Group Show - interior 2",
-    src: "/public/assets/Exhibition/2025Spinnerei/3.5 Spinnerei series, part of _From under the Bed_ group exhibition, Archiv Massiv, Leipzig, 2025.webp",
+    id: "From under the Bed - interior 2",
+    src: "/assets/Exhibition/2025Spinnerei/3.5 Spinnerei series, part of _From under the Bed_ group exhibition, Archiv Massiv, Leipzig, 2025.webp",
     method: "",
     sizeCm: "",
     sizeInch: "",
@@ -797,7 +803,7 @@ export const exhibition2025_Spinnerei = [
   },
   {
     id: "Spinnerei summer Camp",
-    src: "/public/assets/Exhibition/2025Spinnerei/4 Spinnerei summer camp, 170x210cm_66.9x82.6_, oil on canvas, 2025, in situ.webp",
+    src: "/assets/Exhibition/2025Spinnerei/4 Spinnerei summer camp, 170x210cm_66.9x82.6_, oil on canvas, 2025, in situ.webp",
     method: "Oil on canvas",
     sizeCm: "170 x 210 cm",
     sizeInch: "66.9 x 82.6 inches",
@@ -805,7 +811,7 @@ export const exhibition2025_Spinnerei = [
   },
   {
     id: "Spinnerei summer Camp, detail",
-    src: "/public/assets/Exhibition/2025Spinnerei/5 Spinnerei Summer Camp, 170x210cm_66.9x82.6_, oil on canvas, 2025, detail .webp",
+    src: "/assets/Exhibition/2025Spinnerei/5 Spinnerei Summer Camp, 170x210cm_66.9x82.6_, oil on canvas, 2025, detail .webp",
     method: "Oil on canvas",
     sizeCm: "170 x 210 cm",
     sizeInch: "66.9 x 82.6 inches",
@@ -814,15 +820,15 @@ export const exhibition2025_Spinnerei = [
 
   {
     id: "Drinking party Spinnerei",
-    src: "/public/assets/Exhibition/2025Spinnerei/6 Drinking party Spinnerei, 180x220cm_70.8x86.6_, oil on canvas, 2025, in situ.webp",
+    src: "/assets/Exhibition/2025Spinnerei/6 Drinking party Spinnerei, 180x220cm_70.8x86.6_, oil on canvas, 2025, in situ.webp",
     method: "Oil on canvas",
     sizeCm: "180 x 220 cm",
     sizeInch: "70.8 x 86.6 inches",
     date: "2025",
   },
   {
-    id: "From under the Bed, Group Show - interior 3",
-    src: "/public/assets/Exhibition/2025Spinnerei/7 Drinking party Spinnerei, 180x220cm_70.8x86.6_, oil on canvas, 2025, in situ.webp",
+    id: "From under the Bed - interior 3",
+    src: "/assets/Exhibition/2025Spinnerei/7 Drinking party Spinnerei, 180x220cm_70.8x86.6_, oil on canvas, 2025, in situ.webp",
     method: "",
     sizeCm: "",
     sizeInch: "",
@@ -830,7 +836,7 @@ export const exhibition2025_Spinnerei = [
   },
   {
     id: "Drinking party Spinnerei, detail",
-    src: "/public/assets/Exhibition/2025Spinnerei/8 Drinking party Spinnerei, 180x220cm_70.8x86.6_, oil on canvas, 2025, detail.webp",
+    src: "/assets/Exhibition/2025Spinnerei/8 Drinking party Spinnerei, 180x220cm_70.8x86.6_, oil on canvas, 2025, detail.webp",
     method: "Oil on canvas",
     sizeCm: "180 x 220 cm",
     sizeInch: "70.8 x 86.6 inches",
@@ -838,7 +844,7 @@ export const exhibition2025_Spinnerei = [
   },
   {
     id: "Spinnerei female workers from the 30s",
-    src: "/public/assets/Exhibition/2025Spinnerei/9 Spinnerei female workers from the 30s, 80x80 cm_31.4x31.4_, oil on canvas, 2025, in situ.webp",
+    src: "/assets/Exhibition/2025Spinnerei/9 Spinnerei female workers from the 30s, 80x80 cm_31.4x31.4_, oil on canvas, 2025, in situ.webp",
     method: "Oil on canvas",
     sizeCm: "80 x 80 cm",
     sizeInch: "31.4 x 31.4 inches",
@@ -846,7 +852,7 @@ export const exhibition2025_Spinnerei = [
   },
   {
     id: "Drinking party Spinnerei sketches",
-    src: "/public/assets/Exhibition/2025Spinnerei/10 Drinking party Spinnerei sketches, 40x28cm_15.7x11_ each, oil on paper, 2025.webp",
+    src: "/assets/Exhibition/2025Spinnerei/10 Drinking party Spinnerei sketches, 40x28cm_15.7x11_ each, oil on paper, 2025.webp",
     method: "Oil on canvas",
     sizeCm: "40 x 28 cm",
     sizeInch: "15.7 x 11 inches",
@@ -856,9 +862,13 @@ export const exhibition2025_Spinnerei = [
 
 export const exhibition2025_IntrudedPicnics = [
   {
-    title: "Intruded Picnics, Turps End of Residency Show",
-    title_detailled:
-      "Intruded Picnics, End of Residency Show, Turps Banana, London, UK, 2025",
+    title: "Intruded Picnics",
+    title_detailled: "End of Residency Show, Turps Banana, London, UK, 2025",
+    descriptionCard: {
+      exhibitionTitle: "",
+      exhibitionLocation: "",
+      description: "",
+    },
     link: "2025-IntrudedPicnics",
     id: "Intruded Picnic",
     src: "/assets/Exhibition/2025/Intruded picnic, 2025 Oil on canvas  185x200cm 72.8x78.7 inches-3000x2670.webp",
@@ -920,8 +930,12 @@ export const exhibition2025_IntrudedPicnics = [
 export const exhibition2024 = [
   {
     title: "A Song of unrequited Love for Britain",
-    title_detailled:
-      "A Song of Unrequited Love for Britain, Rupturexibit, Kingston-upon-Thames, UK, 2024",
+    title_detailled: "Rupturexibit, Kingston-upon-Thames, UK, 2024",
+    descriptionCard: {
+      exhibitionTitle: "",
+      exhibitionLocation: "",
+      description: "",
+    },
     link: "2024",
     id: "Boys in a Blanket tent",
     src: "/assets/Exhibition/2024/Boys in a blanket tent, 2024 Oil on canvas 115x150cm 45.3x59 inches-.webp",
@@ -992,11 +1006,16 @@ export const exhibition2024 = [
 export const exhibition2023_Shtager = [
   {
     title: "Voices from a Suitcase",
-    title_detailled:
-      "Voices from a Suitcase, Shtager gallery, London, UK, 2023",
+    title_detailled: "Solo Show, Shtager gallery, London, UK, 2023.",
+    descriptionCard: {
+      exhibitionTitle: "Voices from a Suitcase",
+      exhibitionLocation: "Shtager Gallery, London, 2023",
+      description:
+        "Every immigrant carries an additional suitcase of their national culture, history, and collective memory to their new place. This baggage can haunt or support, empower or isolate. migrant myself, I am exploring the sense of detachment from thnational experience and construction of ambiguous identities through my painting practice. I use mundane photographs from the distant past of my country or family and immerse my presence in them through the brushwork to find peace with the problematic history that I brought with me. In this series, voices from my suitcase merge with the vibrant voices of my painterly marks, conversing and interacting with each other, creating a dialogue to elaborate on the immigrant experience”.",
+    },
     link: "2023-Shtager",
     id: "Voices from a Suitcase - interior 1",
-    src: "/public/assets/Exhibition/2023Shtager/1 Voices from a suitcase, Shtager gallery, in situ.webp",
+    src: "/assets/Exhibition/2023Shtager/1 Voices from a suitcase, Shtager gallery, in situ.webp",
     method: "",
     sizeCm: "",
     sizeInch: "",
@@ -1004,16 +1023,15 @@ export const exhibition2023_Shtager = [
   },
   {
     id: "Voices from a Suitcase - interior 2",
-    src: "/public/assets/Exhibition/2023Shtager/2 Voices from a suitcase, Shtager Gallery, London, 2023 - 2.webp",
+    src: "/assets/Exhibition/2023Shtager/2 Voices from a suitcase, Shtager Gallery, London, 2023 - 2.webp",
     method: "",
     sizeCm: "",
     sizeInch: "",
     date: "2023",
   },
-
   {
     id: "Voices from a Suitcase - interior 3",
-    src: "/public/assets/Exhibition/2023Shtager/3 Voices from a suitcase, Shtager Gallery, London, 2023 - 3.webp",
+    src: "/assets/Exhibition/2023Shtager/3 Voices from a suitcase, Shtager Gallery, London, 2023 - 3.webp",
     method: "",
     sizeCm: "",
     sizeInch: "",
@@ -1021,7 +1039,7 @@ export const exhibition2023_Shtager = [
   },
   {
     id: "Grandma on the beach - interior",
-    src: "/public/assets/Exhibition/2023Shtager/4 Grandma on the beach, 150 x 240 cm_59x94.4_, Oil on canvas, 2022,  in situ.webp",
+    src: "/assets/Exhibition/2023Shtager/4 Grandma on the beach, 150 x 240 cm_59x94.4_, Oil on canvas, 2022,  in situ.webp",
     method: "Oil on canvas",
     sizeCm: "150 x 240 cm",
     sizeInch: "59 x 94.4 inches",
@@ -1029,7 +1047,7 @@ export const exhibition2023_Shtager = [
   },
   {
     id: "Voices from a Suitcase - interior 4",
-    src: "/public/assets/Exhibition/2023Shtager/5 Voices from a suitcase Shtager Gallery, 2023 London - 4.webp",
+    src: "/assets/Exhibition/2023Shtager/5 Voices from a suitcase Shtager Gallery, 2023 London - 4.webp",
     method: "",
     sizeCm: "",
     sizeInch: "",
@@ -1037,7 +1055,7 @@ export const exhibition2023_Shtager = [
   },
   {
     id: "Beach Party",
-    src: "/public/assets/Exhibition/2023Shtager/6 Beach party, 200x210cm_78.7x82.6_, oil on canvas, 2023, in situ.webp",
+    src: "/assets/Exhibition/2023Shtager/6 Beach party, 200x210cm_78.7x82.6_, oil on canvas, 2023, in situ.webp",
     method: "Oil on canvas",
     sizeCm: "200 x 210 cm",
     sizeInch: "78.7 x 82.6 inches",
@@ -1046,7 +1064,7 @@ export const exhibition2023_Shtager = [
 
   {
     id: "Voices from a Suitcase - interior 5",
-    src: "/public/assets/Exhibition/2023Shtager/7 Voices from a suitcase, Shtager Gallery, London, 2023 - 5.webp",
+    src: "/assets/Exhibition/2023Shtager/7 Voices from a suitcase, Shtager Gallery, London, 2023 - 5.webp",
     method: "",
     sizeCm: "",
     sizeInch: "",
@@ -1054,7 +1072,7 @@ export const exhibition2023_Shtager = [
   },
   {
     id: "Voices from a Suitcase - interior 6",
-    src: "/public/assets/Exhibition/2023Shtager/8 Voices from a suitcase, Shtager Gallery, London, 2023 - 6.webp",
+    src: "/assets/Exhibition/2023Shtager/8 Voices from a suitcase, Shtager Gallery, London, 2023 - 6.webp",
     method: "",
     sizeCm: "",
     sizeInch: "",
@@ -1062,7 +1080,7 @@ export const exhibition2023_Shtager = [
   },
   {
     id: "New year's party from the 70s",
-    src: "/public/assets/Exhibition/2023Shtager/9 New year s party from the 70s, 140x150cm_55.1x59_, oil on Van Dyke printed canvas, 2023, in situ.webp",
+    src: "/assets/Exhibition/2023Shtager/9 New year s party from the 70s, 140x150cm_55.1x59_, oil on Van Dyke printed canvas, 2023, in situ.webp",
     method: "Oil on Van Dyke printed on canvas",
     sizeCm: "140 x 150 cm",
     sizeInch: "55.1 x 59 inches",
@@ -1070,7 +1088,7 @@ export const exhibition2023_Shtager = [
   },
   {
     id: "Mum at the Beach",
-    src: "/public/assets/Exhibition/2023Shtager/10 Mum at the beach, 130x180cm_51.1x70.8_, oil on canvas, 2022, in situ.webp",
+    src: "/assets/Exhibition/2023Shtager/10 Mum at the beach, 130x180cm_51.1x70.8_, oil on canvas, 2022, in situ.webp",
     method: "Oil on canvas",
     sizeCm: "130 x 180 cm",
     sizeInch: "51.1 x 70.8 inches",
@@ -1079,7 +1097,7 @@ export const exhibition2023_Shtager = [
 
   {
     id: "Voices from a Suitcase - interior 7",
-    src: "/public/assets/Exhibition/2023Shtager/11 Voices from a suitcase, Shtager Gallery, London, 2023 - 7.webp",
+    src: "/assets/Exhibition/2023Shtager/11 Voices from a suitcase, Shtager Gallery, London, 2023 - 7.webp",
     method: "",
     sizeCm: "",
     sizeInch: "",
@@ -1087,7 +1105,7 @@ export const exhibition2023_Shtager = [
   },
   {
     id: "Cloth",
-    src: "/public/assets/Exhibition/2023Shtager/12 Cloth, 275x360cm_108.2x141.7_, Van Dyck emulsion print of a found photograph on canvas, 2023, in situ.webp",
+    src: "/assets/Exhibition/2023Shtager/12 Cloth, 275x360cm_108.2x141.7_, Van Dyck emulsion print of a found photograph on canvas, 2023, in situ.webp",
     method: "Van Dyke emulsion print of a found photograph on canvas",
     sizeCm: "275 x 360 cm",
     sizeInch: "108.2 x 141.7 inches",
@@ -1095,7 +1113,7 @@ export const exhibition2023_Shtager = [
   },
   {
     id: "Beach party - interior",
-    src: "/public/assets/Exhibition/2023Shtager/13 Beach party, 200x210cm_78.7x82.6_, oil on canvas, 2023, in situ.webp",
+    src: "/assets/Exhibition/2023Shtager/13 Beach party, 200x210cm_78.7x82.6_, oil on canvas, 2023, in situ.webp",
     method: "",
     sizeCm: "",
     sizeInch: "",
@@ -1103,7 +1121,7 @@ export const exhibition2023_Shtager = [
   },
   {
     id: "Voices from a Suitcase - interior 8",
-    src: "/public/assets/Exhibition/2023Shtager/14 Voices from a suitcase, Shtager Gallery, London, 2023 - 8.webp",
+    src: "/assets/Exhibition/2023Shtager/14 Voices from a suitcase, Shtager Gallery, London, 2023 - 8.webp",
     method: "Oil on canvas",
     sizeCm: " cm",
     sizeInch: " inches",
@@ -1112,7 +1130,7 @@ export const exhibition2023_Shtager = [
 
   {
     id: "Mum's picnic",
-    src: "/public/assets/Exhibition/2023Shtager/15 Mum s picnic, 70x55cm_27.5x21.6_, oil on printed photograph on canvas, 2023, in situ.webp",
+    src: "/assets/Exhibition/2023Shtager/15 Mum s picnic, 70x55cm_27.5x21.6_, oil on printed photograph on canvas, 2023, in situ.webp",
     method: "Oil on printed photograph on canvas",
     sizeCm: "70 x 55 cm",
     sizeInch: "27.5 x 21.6 inches",
@@ -1120,7 +1138,7 @@ export const exhibition2023_Shtager = [
   },
   {
     id: "Grandma on the beach",
-    src: "/public/assets/Exhibition/2023Shtager/16 Grandma on the beach, 150 x 240 cm_59x94.4_, oil on canvas, 2022, in situ.webp",
+    src: "/assets/Exhibition/2023Shtager/16 Grandma on the beach, 150 x 240 cm_59x94.4_, oil on canvas, 2022, in situ.webp",
     method: "Oil on canvas",
     sizeCm: "150 x 240 cm",
     sizeInch: "59 x 94.4 inches",
@@ -1128,7 +1146,7 @@ export const exhibition2023_Shtager = [
   },
   {
     id: "Navy sailors sunbathing - interior",
-    src: "/public/assets/Exhibition/2023Shtager/17 Navy sailors sunbathing, 240x200cm_94.4x78.7_, oil on canvas, 2021, in situ.webp",
+    src: "/assets/Exhibition/2023Shtager/17 Navy sailors sunbathing, 240x200cm_94.4x78.7_, oil on canvas, 2021, in situ.webp",
     method: "Oil on canvas",
     sizeCm: "240 x 200 cm",
     sizeInch: "94.4 x 78.7 inches",
@@ -1136,7 +1154,7 @@ export const exhibition2023_Shtager = [
   },
   {
     id: "Navy sailors sunbathing",
-    src: "/public/assets/Exhibition/2023Shtager/18 Navy sailors sunbathing, 240x200cm_94.4x78.7_, oil on canvas, 2021, in situ.webp",
+    src: "/assets/Exhibition/2023Shtager/18 Navy sailors sunbathing, 240x200cm_94.4x78.7_, oil on canvas, 2021, in situ.webp",
     method: "Oil on canvas",
     sizeCm: "240 x 200 cm cm",
     sizeInch: "94.4 x 78.7 inches",
@@ -1145,7 +1163,7 @@ export const exhibition2023_Shtager = [
 
   {
     id: "Pediatric surgery 1",
-    src: "/public/assets/Exhibition/2023Shtager/19 Pediatric surgery 1, 165x180cm_64.9x70.8_, oil on canvas, 2019, in situ.webp",
+    src: "/assets/Exhibition/2023Shtager/19 Pediatric surgery 1, 165x180cm_64.9x70.8_, oil on canvas, 2019, in situ.webp",
     method: "Oil on canvas",
     sizeCm: "165 x 180 cm",
     sizeInch: "64.9 x 70.8 inches",
@@ -1153,7 +1171,7 @@ export const exhibition2023_Shtager = [
   },
   {
     id: "Two boys on the beach",
-    src: "/public/assets/Exhibition/2023Shtager/20 Two boys on the beach, 50x70cm_19.6x27.5_, oil on canvas, 2023, in situ.webp",
+    src: "/assets/Exhibition/2023Shtager/20 Two boys on the beach, 50x70cm_19.6x27.5_, oil on canvas, 2023, in situ.webp",
     method: "Oil on canvas",
     sizeCm: "50 x 70 cm",
     sizeInch: "19.6 x 27.5 inches",
@@ -1161,106 +1179,116 @@ export const exhibition2023_Shtager = [
   },
 ];
 
-export const exhibition2022 = [
+export const exhibition2022_BarbicanArt = [
   {
     title: "When my Babushka joined the Reich",
-    title_detailled:
-      "When my Babushka joined the Reich, Barbican Arts Group Trust, London, UK, 2022",
-    link: "2022",
-    id: "Girls from the 1940s",
-    src: "/assets/Exhibition/2022/Girls from the 1940s, 2022 Oil on canvas 220x180cm 86.6x70.9 inches.webp",
+    title_detailled: "Barbican Art Group Trust, London, UK, 2022.",
+    descriptionCard: {
+      exhibitionTitle: "When my Babushka joined the Reich",
+      exhibitionLocation:
+        "Solo exhibition at Barbican Art Group Trust, London, UK. Result of a residency awarded upon winning the Art Works Open Art Prize (2021).",
+      description:
+        "'When my Babushka joined the Reich' is a project and a show I accomplished in the residency of Barbican Arts Group Trust upon winning Art Works Open prize 2021. In this project, I was looking for a way to talk about the tough political context through the personal lens and through the physicality of the medium of painting. All the works are based on my family archive photographs, featuring the episodes of the lives of my two grandmothers. The polarising political opinions we have with them, which for far more polarised in the time of the show, were causing mistrust, tensions, quarrelling and continuous alienation - but at the same time happy and funny childhood memories when we were very close, did not go anywhere. Via painting over my grandmothers’ photographed life, I try to examine their world and how they came to their perspectives, approaching an ambiguous feeling of a misunderstandings between generations. I combined the paintings - as a way to intrude in their youth - with the contemporary cites from our chats with them - both mundane and grandmotherly like 'dear, you must eat 3 kiwis a day, I read in the newspaper it is very important' and propagandistic like 'Ukraine is ruled by fascists, don't you know?'.\n'When my babushka joined the Reich series continues the artist's research on the propaganda machine's impacts on individuals' lives. Katyas paintings might evoke ambiguous feelings from sympathy and regret to rage and despair. Speaking on complicated issues and relevant topics might be hard, but surprisingly this is exactly what attracts us to art. The catharsis as a release of emotions and empowering practice is a unique experience that might be gained in it. In her practice, Katya consistently challenges and explores sophisticated questions of political and ideological repressions, power and fear, authorities, and violence. Media theorist Vilém Flusser in his 'Towards a Philosophy of Photography' essays studies the reception of photographs in mass media. Flusser emphasises the current domination of images and their mysterious power to program us to act in a ritual fashion. According to Flusser, the image becomes the model for its receivers' actions. Katya Granova uncovers the images' manipulative mechanisms through her personal stories. Her artistic method is based on personal and found archives, painting, text, cyanotype, and various image transfer techniques.' \nOxana Chvyakina, guest curator'",
+    },
+    link: "2022-BarbicanArtGroupTrust",
+    id: "When my Babushka joined the Reich - interior 1",
+    src: "/assets/Exhibition/2022BarbicanArt/1 When my grandma joined the Reich, interior 1  2022.webp",
+    method: "",
+    sizeCm: "",
+    sizeInch: "",
+    date: "2022",
+  },
+  {
+    id: "When my Babushka joined the Reich - interior 2",
+    src: "/assets/Exhibition/2022BarbicanArt/2 When my grandma joined the Reich, interior 2  2022.webp",
+    method: "",
+    sizeCm: "",
+    sizeInch: "",
+    date: "2022",
+  },
+  {
+    id: "When my Babushka joined the Reich - interior 3",
+    src: "/assets/Exhibition/2022BarbicanArt/3 When my grandma joined the Reich, interior 6  2022.webp",
+    method: "",
+    sizeCm: "",
+    sizeInch: "",
+    date: "2022",
+  },
+  {
+    id: "When my Babushka joined the Reich - interior 4",
+    src: "/assets/Exhibition/2022BarbicanArt/4 When my grandma joined the Reich, interior 8  2022.webp",
+    method: "",
+    sizeCm: "",
+    sizeInch: "",
+    date: "2022",
+  },
+  {
+    id: "When my Babushka joined the Reich - interior 5",
+    src: "/assets/Exhibition/2022BarbicanArt/5 When my grandma joined the Reich, interior 10  2022.webp",
+    method: "",
+    sizeCm: "",
+    sizeInch: "",
+    date: "2022",
+  },
+  {
+    id: "When my Babushka joined the Reich - interior 6",
+    src: "/assets/Exhibition/2022BarbicanArt/9 When my grandma joined the Reich, interior 4  2022.webp",
+    method: "",
+    sizeCm: "",
+    sizeInch: "",
+    date: "2022",
+  },
+  {
+    id: "When my Babushka joined the Reich - interior 7",
+    src: "/assets/Exhibition/2022BarbicanArt/9.5 When my grandma joined the Reich, interior 12  2022.webp",
+    method: "",
+    sizeCm: "",
+    sizeInch: "",
+    date: "2022",
+  },
+  {
+    id: "When my Babushka joined the Reich - interior 8",
+    src: "/assets/Exhibition/2022BarbicanArt/10 Grandma Sverlana reading her speech-2, 25x35cm, 2022 and Grandparents on the party, 35x45cm, oil on acrylic transfer on canvas, 2022, in situ.webp",
+    method: "left: Grandma Svetlana reading her speech 2 / 25 x 35 cm",
+    sizeCm: "right:  Grandparents on the Party / 35 x 40 cm",
+    sizeInch: "Oil on acrylic transfer on canvas",
+    date: "2022",
+  },
+  {
+    id: "Girls from the 40s",
+    src: "/assets/Exhibition/2022BarbicanArt/11 Girls from the 40s, oil  on canvas, 220x180cm, 2022, in sutu.webp",
     method: "Oil on canvas",
     sizeCm: "220 x 180 cm",
-    sizeInch: "86.6 x 70.9 inches",
-    date: "2022",
-  },
-  {
-    id: "Grandma Svetlana and others on the Beach Picnic",
-    src: "/assets/Exhibition/2022/Grandma Svetlana and others on the beach picnic, 2022 Oil on canvas 200x180cm 78.7x70.9 inches.webp",
-    method: "Oil on canvas",
-    sizeCm: "200 x 180 cm",
-    sizeInch: "78.7 x 70.9 inches",
-    date: "2022",
-  },
-  {
-    id: "Grandma Svetlana reading her speech",
-    src: "/assets/Exhibition/2022/Grandma Svetlana reading her speech, 2022 Oil on canvas 220x180cm 86.6x70.9 inches.webp",
-    method: "Oil on canvas",
-    sizeCm: "220 x 180 cm",
-    sizeInch: "86.6 x 70.9 inches",
-    date: "2022",
-  },
-  {
-    id: "Grandma Svetlana reading her speech 2",
-    src: "/assets/Exhibition/2022/Grandma Svetlana reading her speech 2, 2022 oil on acrylic transfer on canvas, 25x35cm 9.8x13.8 inches.webp",
-    method: "Oil on acrylic transfer on canvas",
-    sizeCm: "25 x 35 cm",
-    sizeInch: "9.8 x 13.8 inches",
-    date: "2022",
-  },
-  {
-    id: "Grandma Svetlana reading her speech 3",
-    src: "/assets/Exhibition/2022/Grandma Svetlana reading her speech 3, 2022 oil on acrylic transfer on canvas, 25x35cm 9.8x13.8 inches.webp",
-    method: "Oil on acrylic transfer on canvas",
-    sizeCm: "25 x 35 cm",
-    sizeInch: "9.8 x 13.8 inches",
-    date: "2022",
-  },
-  {
-    id: "Grandma Valentina and my Mother on the Beach",
-    src: "/assets/Exhibition/2022/Grandma Valentina and my mother on the beach, 2022 Oil on canvas 150x200cm 59x78.7 inches.webp",
-    method: "Oil on canvas",
-    sizeCm: "150 x 200 cm",
-    sizeInch: "59 x 78.7 inches",
-    date: "2022",
-  },
-  {
-    id: "Grandparents at the Party",
-    src: "/assets/Exhibition/2022/Grandparents at the party, 2022 oil on acrylic transfer on canvas 30x40cm 11.8x15.7 inches.webp",
-    method: "Oil on acrylic transfer on canvas",
-    sizeCm: "30 x 40 cm",
-    sizeInch: "11.8 x 15.7 inches",
-    date: "2022",
-  },
-  {
-    id: "interior",
-    src: "/assets/Exhibition/2022/IMG_2624.webp",
-    method: "",
-    sizeCm: "",
     sizeInch: "",
     date: "2022",
   },
   {
-    id: "interior",
-    src: "/assets/Exhibition/2022/interior 1.webp",
+    id: "When my grandma joined the Reich - interior 9",
+    src: "/assets/Exhibition/2022BarbicanArt/12 When my grandma joined the Reich, interior 15  2022.webp",
     method: "",
     sizeCm: "",
     sizeInch: "",
-    date: "2022",
+    date: "",
   },
   {
-    id: "interior",
-    src: "/assets/Exhibition/2022/interior 2.webp",
+    id: "When my grandma joined the Reich - interior 10",
+    src: "/assets/Exhibition/2022BarbicanArt/13 When my grandma joined the Reich, interior 3 2022.webp",
     method: "",
     sizeCm: "",
     sizeInch: "",
-    date: "2022",
-  },
-  {
-    id: "interior",
-    src: "/assets/Exhibition/2022/interior.webp",
-    method: "",
-    sizeCm: "",
-    sizeInch: "",
-    date: "2022",
+    date: "",
   },
 ];
 
 export const exhibition2021 = [
   {
     title: "Act 1. Scene 5",
-    title_detailled:
-      "Act 1. Scene 5 (with Anna Tagantzeva-Kobzeva), Sphera Fund, Moscow, RU, 2021",
+    title_detailled: "Sphera Fund, Moscow, RU, 2021",
+    descriptionCard: {
+      exhibitionTitle: "",
+      exhibitionLocation: "",
+      description: "",
+    },
     link: "2021",
     id: "Feast Scene",
     src: "/assets/Exhibition/2021/Feast Scene, 2021 Oil on canvas 230x180cm 90.6x70.9 inches.webp",
@@ -1329,6 +1357,6 @@ export const thumbsExhibition = [
   exhibition2025_IntrudedPicnics[0],
   exhibition2024[0],
   exhibition2023_Shtager[0],
-  exhibition2022[0],
+  exhibition2022_BarbicanArt[0],
   exhibition2021[0],
 ];
