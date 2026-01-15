@@ -1,6 +1,6 @@
 import Gallery from "../Gallery/Gallery";
 import HelmetComponentAlbums from "../../HelmetComponentAlbums";
-import { exhibition2024 as images } from "../Data";
+import { exhibition2024_SongForBritain as images } from "../Data";
 import TitleCard from "./TitleCard";
 import DescriptionCard from "./DescriptionCard";
 

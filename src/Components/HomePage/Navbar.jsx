@@ -40,10 +40,7 @@ const Navbar = () => {
           to="/"
           className="text-[2.2rem] font-semibold nav-item pt-2 pb-2"
         >
-          <h1 className="tracking-wide flex space-x-3 xl:flex-col">
-            <span>KATYA</span>
-            <span>GRANOVA</span>
-          </h1>
+          <h1 className="tracking-wide">KATYA GRANOVA</h1>
           <h2 className="hidden">Contemporary artist, painter, and curator.</h2>
         </NavLink>
       </div>

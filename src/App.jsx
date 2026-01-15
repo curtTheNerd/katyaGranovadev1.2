@@ -20,7 +20,7 @@ import WorksOnPaper from "./Components/Work/Albums/WorksOnPaper";
 import Exhibition from "./Components/Work/Exhibition";
 import Exhibition2025_IntrudedPicnics from "./Components/Work/Exhibitions/Exhibition2025_IntrudedPicnics";
 import Exhibition2025_Spinnerei from "./Components/Work/Exhibitions/Exhibition2025_Spinnerei";
-import Exhibition2024 from "./Components/Work/Exhibitions/Exhibition2024";
+import Exhibition2024_SongForBritain from "./Components/Work/Exhibitions/Exhibition2024_SongForBritain";
 import Exhibition2023_Shtager from "./Components/Work/Exhibitions/Exhibition2023_Shtager";
 import Exhibition2022_BarbicanArt from "./Components/Work/Exhibitions/Exhibition2022_BarbicanArt";
 import Exhibition2021 from "./Components/Work/Exhibitions/Exhibition2021";
@@ -57,8 +57,14 @@ const App = () => {
             element={<Exhibition2025_IntrudedPicnics />}
           />
           <Route path="2025-Spinnerei" element={<Exhibition2025_Spinnerei />} />
-          <Route path="2024" element={<Exhibition2024 />} />
-          <Route path="2023-Shtager" element={<Exhibition2023_Shtager />} />
+          <Route
+            path="2024-TurpsBanana"
+            element={<Exhibition2024_SongForBritain />}
+          />
+          <Route
+            path="2023-ShtagerGallery"
+            element={<Exhibition2023_Shtager />}
+          />
           <Route
             path="2022-BarbicanArtGroupTrust"
             element={<Exhibition2022_BarbicanArt />}
