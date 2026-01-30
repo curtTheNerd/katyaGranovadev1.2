@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet-async";
 
 const HelmetComponent = ({ title, meta_description, url_fragment }) => {
+  // provides meta-data from separate default content components
   return (
     <Helmet key={title}>
       <title>{title} - Katya Granova</title>

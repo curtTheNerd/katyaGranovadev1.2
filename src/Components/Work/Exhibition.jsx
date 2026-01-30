@@ -3,7 +3,7 @@ import HelmetComponent from "../HelmetComponent";
 
 import { thumbsExhibition as images } from "./Data";
 
-const Work = () => {
+const Exhibition = () => {
   const handleScroll = () => {
     window.scrollTo(0, 0);
   };
@@ -35,4 +35,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default Exhibition;

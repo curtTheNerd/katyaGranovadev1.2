@@ -12,12 +12,13 @@ const Exhibition2025_Spinnerei = () => {
         type="exhibition"
         exhibition_title={images[0].title}
       />
+      <div className="w-[90%] sm:w-[95%] mx-auto">
+        <TitleCard array={images} />
 
-      <TitleCard array={images} />
+        <Gallery images={images} />
 
-      <Gallery images={images} />
-
-      <DescriptionCard array={images} />
+        <DescriptionCard array={images} />
+      </div>
     </>
   );
 };

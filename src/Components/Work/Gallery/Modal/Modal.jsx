@@ -65,7 +65,7 @@ const Modal = ({ selectedImage, closeModal, prevImage, nextImage }) => {
           onClick={scaleHandler}
           style={{ cursor: scaleState ? "zoom-out" : "zoom-in" }}
         >
-          {/*Zoom ount for now*/}
+          {/*Zoom edited out for now*/}
         </button>
       </div>
     </div>

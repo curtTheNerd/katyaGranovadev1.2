@@ -1,8 +1,9 @@
 const DescriptionCard = ({ array }) => {
+  // renders description with title and subtitle for exhibition gallery
   return (
     <div
       id={`description-${array[0].title}`}
-      className="flex flex-col space-y-4 w-full px-8 md:px-16 lg:px-[10%] pt-4 pb-24"
+      className="flex flex-col space-y-4 w-full pt-12 pb-24"
     >
       <p
         id={`exhibitionTitle-${array[0].title}`}

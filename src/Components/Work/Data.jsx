@@ -865,9 +865,10 @@ export const exhibition2025_IntrudedPicnics = [
     title: "Intruded Picnics",
     title_detailled: "End of Residency Show, Turps Banana, London, UK, 2025",
     descriptionCard: {
-      exhibitionTitle: "",
-      exhibitionLocation: "",
-      description: "",
+      exhibitionTitle: "Intruded Picnics",
+      exhibitionLocation: "End of Residency Show, Turps Banana, London, UK, 2025",
+      description:
+        "For some time, I have worked with old photographs, transferring them onto canvas and intruding upon them with my bodily presence as a painter. For this project, I sourced archival photographs of British picnics from different periods of the twentieth century. These scenes are inaccessible to me not only because they belong to the past, but also because they represent a culture in which I will always remain a foreigner. I lived in Britain for a total of seven years, yet never fully felt at home. My native culture and British culture are profoundly different, and although I am knowledgeable about British literature, theatre, art, politics, and history, I lack a familial connection to it. I did not grow up with a grandmother’s stories or with a sense of history passed down through generations. No matter how long I might live there, I will remain a foreigner. Recently, the figure of the foreigner has increasingly come to be perceived as an intruder. By working with photographs of British picnics, I insert myself into someone else’s past in an attempt to establish a connection that I lack as an immigrant. I intrude not only through gesture and brushwork, but also through representational presence, introducing a clumsy female figure into the scenes. I thought of the picnic as a situation to which one is usually invited, while the immigrant is often the one who is not invited and is instead positioned within a discourse of intrusion. There is a certain irony in placing myself uninvited into the country’s past, arriving at picnics from the 1920s or 1950s. At the same time, this can be understood as a speculative effort to relate to and understand the culture of the past in order to better grasp the country’s present. What if there were no borders, neither between countries nor between times? What if we were able to move freely between places and eras? Do I need a visa to travel into the past?",
     },
     link: "2025-IntrudedPicnics",
     id: "Intruded Picnics - interior 1",

@@ -1,4 +1,5 @@
 const TitleCard = ({ array }) => {
+  // renders main-title and -subtitle on above exhibition gallery
   return (
     <div className="h2-standard">
       <h2 className="">{array[0].title}</h2>

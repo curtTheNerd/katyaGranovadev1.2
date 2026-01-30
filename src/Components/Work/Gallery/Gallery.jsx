@@ -1,5 +1,4 @@
 import { useState, useEffect, useRef } from "react";
-import "./gallery.css";
 import Modal from "./Modal/Modal";
 
 const Gallery = ({ images = [] }) => {
@@ -20,6 +19,7 @@ const Gallery = ({ images = [] }) => {
     currentIndexRef.current = images.findIndex((img) => img.id === image.id);
     setShowModal(true);
     document.body.style.overflow = "hidden";
+    // document.body.style.overflow = "hidden" prevents rendering of second scroll bar
   };
 
   // functions for the navigation buttons in modal view
@@ -69,36 +69,39 @@ const Gallery = ({ images = [] }) => {
   }, [showModal]);
 
   return (
-    <div>
-      <div className="container preview_gallery">
+    <div className="gallery_grid_wrapper w-full flex-center flex-col">
+      <div className="gallery_body w-full grid gap-4 sm:gap-3 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mx-auto">
         {images.map(
           (
-            image // mapping all the images to a tile-based gallery
+            image, // mapping image-array to a preview gallery as grid-element inside flex-container
           ) => (
             <div
               key={image.id}
-              className="imageContainer_gallery"
-              onMouseOver={() => handleMouseOver(image.id)}
-              onMouseOut={handleMouseOut}
+              id={image.id}
+              className="group flex-center relative"
             >
-              <img
-                src={image.src}
-                alt={image.id}
-                loading="lazy"
-                onClick={() => openModal(image)}
-              />
-              <div
-                className={`overlay_gallery ${showOverlay === image.id ? "show" : ""}`}
-                onClick={() => openModal(image)}
-              >
-                <p>{image.id}</p>
+              <div className="grid_element block relative w-full aspect-square sm:h-[40vh] rounded-xs overflow-hidden cursor-pointer">
+                <img
+                  src={image.src}
+                  alt={image.id}
+                  className="w-full h-full object-cover"
+                  loading="lazy"
+                  onClick={() => openModal(image)}
+                />
+
+                <div
+                  className="absolute flex items-center justify-center w-full h-1/4 bottom-0 left-0 bg-[rgba(255,255,255,0.6)] opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease"
+                  onClick={() => openModal(image)}
+                >
+                  <p>{image.id}</p>
+                </div>
               </div>
             </div>
-          )
+          ),
         )}
       </div>
 
-      {showModal && ( // producing invisible modal overlay
+      {showModal && ( // opens gallery modal overlay with fullsize picture & description
         <Modal
           selectedImage={selectedImageRef.current}
           closeModal={closeModal}

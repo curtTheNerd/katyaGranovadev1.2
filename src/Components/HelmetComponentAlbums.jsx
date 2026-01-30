@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet-async";
 
 const HelmetComponentAlbums = ({ year, type, exhibition_title }) => {
+  // provides meta-data from album arrays in Data.jsx for work and exhibition galleries
   return (
     <Helmet key={year}>
       <title>
