@@ -4,7 +4,7 @@ const MediaCellComponent = ({ data }) => {
       href={data.link}
       target="_blank"
       rel="noreferrer"
-      className="w-full max-w-[1200px] flex flex-col md:flex-row md:space-x-8 p-4"
+      className="w-full max-w-[1200px] flex flex-col md:flex-row md:space-x-8 p-4 border border-transparent rounded-[3px] hover:border-gray-200 hover:shadow-md hover:scale-101 transition-all duration-300"
       id={data.title}
     >
       <div

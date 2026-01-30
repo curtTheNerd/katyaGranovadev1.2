@@ -9,7 +9,6 @@ const Gallery = ({ images = [] }) => {
   // useRefs to control navigation
   const [showModal, setShowModal] = useState(false);
   const [dummy, setDummy] = useState(false);
-  const [showOverlay, setShowOverlay] = useState(null);
   const selectedImageRef = useRef(null);
   const currentIndexRef = useRef(0);
 
@@ -49,15 +48,6 @@ const Gallery = ({ images = [] }) => {
     if (event.key === "ArrowLeft") prevImage();
     if (event.key === "ArrowRight") nextImage();
     if (event.key === "Escape") closeModal();
-  };
-
-  // functions to control hover-overlay on preview conatiner
-  const handleMouseOver = (id) => {
-    setShowOverlay(id);
-  };
-
-  const handleMouseOut = () => {
-    setShowOverlay(null);
   };
 
   // control key-eventlisteners

@@ -12,7 +12,7 @@ const Media = () => {
       />
 
       <div className="w-screen pb-20">
-        <h2 className="h2-standard">Press</h2>
+        <h2 className="h2-standard-2">Press</h2>
         <div className="w-[90%] mx-auto flex flex-col items-center justify-center">
           <div className="grid grid-cols-1 gap-16">
             {articles.map((mediaYear) => {

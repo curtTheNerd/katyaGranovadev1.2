@@ -5,9 +5,9 @@ import { Outlet } from "react-router";
 
 const RootLayout = () => {
   return (
-    <div className="">
+    <div className="grid grid-cols-1">
       <Navbar />
-      <main>
+      <main className="">
         <Outlet />
       </main>
     </div>
