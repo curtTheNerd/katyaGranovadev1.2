@@ -82,7 +82,7 @@ export const articles = [
         img: "/assets/PressThumbnails/odra.jpg",
         source: "Odra",
         type: "Article",
-        title: "https://lartcultures.com/blog/f/katya-granova",
+        title: "Voices From a Suitcase",
         author: "by Kate Reeve-Edwards",
         language: "English",
         link: "https://odraplatform.com/voices_from_a_suitcase",

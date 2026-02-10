@@ -30,11 +30,11 @@ const videos = [
   {
     id: "G2Sz40xB3-8",
     title: "Sphere Foundation (Фонд Сфера), inches Russian - 2021, 24:48",
-  },*/
+  },
   {
     id: "F0r-t7uIBTE",
     title: "Artist talk - 2019, 20:28",
-  },
+  }, */
 ];
 
 export default videos;

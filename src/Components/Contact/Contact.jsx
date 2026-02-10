@@ -58,7 +58,7 @@ export default function Contact() {
         url_fragment="contact"
       />
       <h2 className="h2-standard-2">Send me a message</h2>
-      <div className="w-[80vw] max-w-[640px] mx-auto mt-8 p-8 mb-20 bg-gray-50 rounded-md ring-1 ring-gray-200">
+      <div className="w-[80vw] max-w-[640px] px-8 mx-auto xl:ml-40 mb-20 xl:mb-0 bg-gray-50 rounded-md ring-1 ring-gray-200">
         <form onSubmit={onSubmit}>
           <div className="flex flex-col mb-4">
             <p className="text-md font-semibold pb-6">

@@ -10,16 +10,14 @@ const Statement = () => {
         meta_description="Artist statement outlining conceptual approach, materials, processes and artistic research."
         url_fragment="artist-statement"
       />
-      <div className="flex-center flex-col w-[95%] md:w-[90%] m-auto px-3">
-        <h2 className="w-full px-6 md:px-12 lg:px-[5%] pt-6 pb-12">
-          Artist's Statement
-        </h2>
+      <div className="flex items-center justify-center flex-col w-[90%] md:w-[80%] xl:w-[90%] max-w-[1440px] xl:pl-4 m-auto xl:m-0 pb-20">
+        <h2 className="h2-standard">Artist's Statement</h2>
 
         {/* Layout Desktop */}
 
-        <div className="hidden w-full lg:grid lg:grid-cols-2 gap-8 pb-8">
+        <div className="hidden w-full lg:grid lg:grid-cols-2 gap-12 pb-8">
           <div className="flex-center">
-            <p className="p-8">
+            <p className="p-0">
               My practice is fueled by a desire to penetrate the past and rebel
               against the irreversibility of time. I use vintage photographs as
               a conduit for initiating my painting. These photographs offer me a
@@ -47,14 +45,14 @@ const Statement = () => {
             </p>
           </div>
 
-          <div className="flex-center p-4">
+          <div className="flex-center p-0">
             <img
               classname="object-cover top-0 left-0 md:max-w-[80%]"
               src={img1}
               alt="katyaGranova"
             />
           </div>
-          <div className="flex-center p-4">
+          <div className="flex-center p-0">
             <img
               classname="object-cover top-0 left-0"
               src={img2}
@@ -62,7 +60,7 @@ const Statement = () => {
             />
           </div>
           <div className="flex-center">
-            <p className="p-8">
+            <p className="p-0">
               I alter, abstract, and fictionalize transferred photographic
               images - either of my family or found in flea markets - leaving
               behind an imprint of my own bodily movement through my gestured

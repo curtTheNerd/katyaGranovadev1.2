@@ -23,7 +23,10 @@ import Exhibition2025_Spinnerei from "./Components/Work/Exhibitions/Exhibition20
 import Exhibition2024_SongForBritain from "./Components/Work/Exhibitions/Exhibition2024_SongForBritain";
 import Exhibition2023_Shtager from "./Components/Work/Exhibitions/Exhibition2023_Shtager";
 import Exhibition2022_BarbicanArt from "./Components/Work/Exhibitions/Exhibition2022_BarbicanArt";
-import Exhibition2021 from "./Components/Work/Exhibitions/Exhibition2021";
+import Exhibition2021_Hamlet from "./Components/Work/Exhibitions/Exhibition2021_Hamlet";
+
+import News from "./Components/Press/News/News";
+import AllOurYesterdays from "./Components/Press/News/AllOurYesterdays";
 
 import BIO from "./Components/About/BIO";
 import Statement from "./Components/About/Statement";
@@ -69,16 +72,25 @@ const App = () => {
             path="2022-BarbicanArtGroupTrust"
             element={<Exhibition2022_BarbicanArt />}
           />
-          <Route path="2021" element={<Exhibition2021 />} />
+          <Route path="2021-SpheraFund" element={<Exhibition2021_Hamlet />} />
+        </Route>
+
+        <Route path="news">
+          <Route index element={<News />} />
+          <Route
+            path="2026-All-Our-Yesterdays"
+            element={<AllOurYesterdays />}
+          />
         </Route>
 
         <Route path="biography" element={<BIO />} />
         <Route path="artist-statement" element={<Statement />} />
+
         <Route path="press-coverage" element={<Media />} />
         <Route path="videos" element={<Videos />} />
         <Route path="contact" element={<Contact />} />
-      </Route>
-    )
+      </Route>,
+    ),
   );
   return <RouterProvider router={router} />;
 };

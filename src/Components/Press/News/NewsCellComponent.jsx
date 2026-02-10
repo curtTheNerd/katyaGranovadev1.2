@@ -1,6 +1,8 @@
-const MediaCellComponent = ({ data }) => {
+import { Link } from "react-router";
+
+const NewsCellComponent = ({ data }) => {
   return (
-    <a
+    <Link
       href={data.link}
       target="_blank"
       rel="noreferrer"
@@ -8,27 +10,25 @@ const MediaCellComponent = ({ data }) => {
       id={data.title}
     >
       <div
-        id={`image-${data.source}`}
+        id={`image-${data.title}`}
         className="flex items-center justify-center"
       >
         <img
-          src={data.img}
-          alt={`image-${data.source}`}
-          className="w-[200px] h-[200px] object-cover aspect-square m-4"
+          src={data.poster}
+          alt={`image-${data.title}`}
+          className="w-[250px] object-cover m-4"
         />
       </div>
       <div className="flex md:items-end">
         <div className="flex flex-col p-4 sm:p-8">
-          <p className="text-[1.2rem]">{data.source}</p>
-          <p className="italic">{data.title}</p>
-          <p>
-            {data.type} {data.author}
-          </p>
-          <p>{data.language}</p>
+          <p className="text-[1.1rem] font-semibold">{data.title}</p>
+          <p className="italic">{data.date}</p>
+          <p className="italic">{data.location}</p>
+          <p className="text-[1.1rem]">{data.adress}</p>
         </div>
       </div>
-    </a>
+    </Link>
   );
 };
 
-export default MediaCellComponent;
+export default NewsCellComponent;

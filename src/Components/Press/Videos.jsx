@@ -8,7 +8,7 @@ const Videos = () => {
   };
 
   return (
-    <div className="w-[90%] flex flex-col m-auto">
+    <div className="w-[90%] xl:w-full xl:pr-20 flex flex-col m-auto">
       <HelmetComponent
         title="Video – Artist Talks & Studio Insights"
         meta_description="Video content including artist talks, interviews and studio insights of artist Katya Granova. Embedded videos and recordings."
@@ -20,7 +20,7 @@ const Videos = () => {
       <div className="w-full flex flex-wrap items-center justify-around">
         {videos.map((video) => (
           <div
-            className="w-[95%] sm:w-[80%] lg:w-[40vw] flex flex-col items-center"
+            className="w-[95%] sm:w-[80%] lg:w-[60vw] xl:w-[80%] flex flex-col items-center"
             key={video.title}
           >
             <YouTube

@@ -26,6 +26,7 @@ const Navbar = () => {
     {
       title: "MORE",
       children: [
+        { title: "NEWS", path: "/news" },
         { title: "PRESS", path: "/press-coverage" },
         { title: "VIDEO", path: "/videos" },
       ],
@@ -34,26 +35,31 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="w-full bg-white flex flex-col items-center">
-      <div className="w-full flex items-center justify-center pt-4 pb-2">
+    <nav className="w-full xl:h-screen bg-white flex flex-col items-center xl:pt-8 xl:pl-2">
+      {/* TITLE */}
+      <div className="w-full xl:h-1/5 flex items-center justify-center xl:justify-start xl:px-6 pt-4 pb-2">
         <NavLink
           to="/"
-          className="text-[2.2rem] font-semibold nav-item pt-2 pb-2"
+          className="text-[2rem] md:text-[2.2rem] xl:text-[2rem] font-semibold nav-item pt-2 pb-2"
         >
-          <h1 className="tracking-wide">KATYA GRANOVA</h1>
+          <h1 className="flex xl:flex-col tracking-wide ">
+            <span className="pr-2">KATYA </span>
+            <span>GRANOVA</span>
+          </h1>
           <h2 className="hidden">Contemporary artist, painter, and curator.</h2>
         </NavLink>
       </div>
 
-      <div className="w-full flex-center pb-4 px-4">
-        <div className="flex items-center space-x-8 nav-item">
-          <ul className="hidden md:flex items-center space-x-4">
+      {/* NAV-ITEMS */}
+      <div className="w-full xl:h-4/5 flex items-center justify-center xl:pt-4 pb-4 px-4">
+        <div className="xl:w-full xl:h-full flex xl:flex-col items-center xl:items-start xl:justify-between space-x-8 nav-item">
+          <ul className="hidden md:flex xl:flex-col items-center xl:items-start space-x-4 xl:pt-8">
             {navItems.map((item) =>
               item.children ? (
                 <li key={item.title} className="relative group">
                   <button className="nav-item">{item.title}</button>
-                  {/* DropDown */}
                   <div className="absolute left-0 top-full hidden group-hover:block min-w-[150px] bg-white shadow-md transition-all duration-200 ease-out opacity-0 group-hover:opacity-100 z-20">
+                    {/* DROPDOWN from NAVITEM */}
                     {item.children.map((child) => (
                       <NavLink
                         key={child.title}
@@ -71,16 +77,17 @@ const Navbar = () => {
                     {item.title}
                   </NavLink>
                 </li>
-              )
+              ),
             )}
           </ul>
 
-          <div className="hidden md:flex items-center space-x-3 nav-item">
+          {/* SOCIAL-ICONS */}
+          <div className="hidden md:flex xl:w-full items-center xl:items-end xl:justify-center xl:pb-4 space-x-3 nav-item">
             <a
               href="https://www.instagram.com/katyagranova/"
               target="_blank"
               rel="noreferrer"
-              className="nav-item text-[1.5rem]"
+              className="flex nav-item text-[1.5rem] xl:text-[1.75rem] xl:pb-0.25"
             >
               <FaInstagram />
             </a>
@@ -88,7 +95,7 @@ const Navbar = () => {
               href="https://www.youtube.com/@katyagranova9832"
               target="_blank"
               rel="noreferrer"
-              className="nav-item text-[1.6rem]"
+              className="flex nav-item text-[1.6rem] xl:text-[1.9rem]"
             >
               <SlSocialYoutube />
             </a>
@@ -155,7 +162,7 @@ const Navbar = () => {
                     {item.title}
                   </NavLink>
                 </li>
-              )
+              ),
             )}
           </ul>
 

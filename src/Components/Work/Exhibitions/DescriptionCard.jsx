@@ -17,7 +17,7 @@ const DescriptionCard = ({ array }) => {
       >
         {array[0].descriptionCard.exhibitionLocation}
       </p>
-      <p id={`exhibitionDescription-${array[0].title}`} className="">
+      <p id={`exhibitionDescription-${array[0].title}`} className="md:pr-4">
         {array[0].descriptionCard.description}
       </p>
     </div>

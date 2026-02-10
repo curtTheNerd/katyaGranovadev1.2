@@ -11,9 +11,9 @@ const Media = () => {
         url_fragment="press-coverage/"
       />
 
-      <div className="w-screen pb-20">
+      <div className="w-full pb-20 overflow-x-hidden">
         <h2 className="h2-standard-2">Press</h2>
-        <div className="w-[90%] mx-auto flex flex-col items-center justify-center">
+        <div className="w-[90%] flex flex-col mx-auto items-center xl:items-start justify-center">
           <div className="grid grid-cols-1 gap-16">
             {articles.map((mediaYear) => {
               return (
