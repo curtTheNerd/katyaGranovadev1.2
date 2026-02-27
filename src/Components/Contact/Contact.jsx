@@ -57,8 +57,8 @@ export default function Contact() {
         meta_description="Contact information for studio visits, exhibitions, collaborations and professional inquiries."
         url_fragment="contact"
       />
-      <h2 className="h2-standard-2">Send me a message</h2>
-      <div className="w-[80vw] max-w-[640px] px-8 mx-auto xl:ml-40 mb-20 xl:mb-0 bg-gray-50 rounded-md ring-1 ring-gray-200">
+      <h2 className="h2-standard text-center">Send me a message!</h2>
+      <div className="w-[95%] sm:w-[80vw] max-w-[684px] py-2 px-8 mx-auto mb-20 bg-gray-50 rounded-md ring-1 ring-gray-200">
         <form onSubmit={onSubmit}>
           <div className="flex flex-col mb-4">
             <p className="text-md font-semibold pb-6">
@@ -137,7 +137,7 @@ export default function Contact() {
           </div>
           <button
             type="submit"
-            className="w-[160px] right-4 py-3 text-white bg-gray-700 rounded hover:bg-gray-900 transition"
+            className="w-[160px] right-4 py-3 mb-6 text-white bg-gray-700 rounded hover:bg-gray-900 transition"
           >
             Submit
           </button>

@@ -20,10 +20,12 @@ const NewsCellComponent = ({ data }) => {
         />
       </div>
       <div className="flex md:items-end">
-        <div className="flex flex-col p-4 sm:p-8">
+        <div className="flex flex-col p-4 sm:p-8 space-y-2">
           <p className="text-[1.1rem] font-semibold">{data.title}</p>
-          <p className="italic">{data.date}</p>
-          <p className="italic">{data.location}</p>
+          <div>
+            <p className="">{data.date}</p>
+            <p className="">{data.location}</p>
+          </div>
           <p className="text-[1.1rem]">{data.adress}</p>
         </div>
       </div>

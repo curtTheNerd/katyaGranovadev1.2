@@ -9,29 +9,43 @@ const Exhibition = () => {
   };
 
   return (
-    <>
+    <div className="preview_exhibition_wrapper w-[90%] mx-auto pb-20">
       <HelmetComponent
         title="Selected exhibitions by year"
         meta_description="Discover selected exhibitions and projects. Oil on canvas, acrylic transfer, van Dyke, and paperworks."
         url_fragment="exhibition"
       />
-      <div>
+      <div className="flex flex-col">
         <h2 className="h2-standard">Selected Exhibitions and Projects</h2>
 
-        <div className="container flex preview_work pb-20">
-          {images.map((image) => (
-            <Link to={image.link} key={image.id} onClick={handleScroll}>
-              <div className="imageContainer_work">
-                <img src={image.src} alt={image.id} loading="lazy" />
-                <div className="overlay_work">
-                  <p>{image.title}</p>
+        <div className="preview_gallery w-full grid gap-6 md:gap-8 grid-cols-1 md:grid-cols-2 mx-auto">
+          {images.map(
+            (
+              image, // // mapping image-array to a preview gallery as grid-element inside flex-container
+            ) => (
+              <Link
+                to={image.link}
+                key={image.id}
+                onClick={handleScroll}
+                className="relative block w-full aspect-square lg:h-[60vh] rounded-xs overflow-hidden"
+              >
+                <img
+                  src={image.src}
+                  alt={image.id}
+                  loading="lazy"
+                  className="w-full h-full object-cover"
+                />
+                <div className="group flex-center absolute left-0 bottom-0 w-full h-1/4 bg-[rgba(255,255,255,0.7)] cursor-pointer">
+                  <p className="text-[1.15rem] sm:text-[1.25rem] text-[rgb(74,74,74)] group-hover:text-[rgb(91,18,100)] group-hover:text-[1.3rem] transition-all duration-500">
+                    {image.title}
+                  </p>
                 </div>
-              </div>
-            </Link>
-          ))}
+              </Link>
+            ),
+          )}
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

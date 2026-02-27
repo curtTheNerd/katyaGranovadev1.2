@@ -1,12 +1,65 @@
+import { useState, useEffect } from "react";
 import { Helmet } from "react-helmet-async";
+import { Link } from "react-router-dom";
+
+import { IoIosArrowForward } from "react-icons/io";
 
 const Homepage = () => {
+  const smallScreenBanners = [
+    {
+      id: "Drinking party Spinnerei, 2025",
+      src: "/assets/Home/2025Drinking party Spinnerei, 180x220cm_70.8x86.6_, oil on canvas.webp",
+      link: "exhibition/2025-Spinnerei",
+    },
+    {
+      id: "Picnic in the Meadows, 2025",
+      src: "/assets/Home/2025Picnic on the meadow, 100x140cm_39.3x55.1_, oil on canvas.webp",
+      link: "exhibition/2025-IntrudedPicnics",
+    },
+  ];
+
+  const bigScreenBanners = [
+    {
+      id: "Rooftop picnic, 2024",
+      src: "/assets/Home/2024, Rooftop picnic, 200x200cm, oil on canvas.webp",
+      link: "exhibition/2024-TurpsBanana",
+    },
+    {
+      id: "Voices from a suitcase, 2023",
+      src: "/assets/Home/2023 Voices from a suitcase, Shtager gallery, interior.webp",
+      link: "exhibition/2023-ShtagerGallery",
+    },
+  ];
+
+  const [activeBannerSmall, setActiveBannerSmall] = useState(
+    smallScreenBanners[0],
+  );
+  const [activeBannerBig, setActiveBannerBig] = useState(bigScreenBanners[0]);
+
+  const handleScroll = () => {
+    window.scrollTo(0, 0);
+  };
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setActiveBannerSmall((prev) =>
+        prev.id === smallScreenBanners[0].id
+          ? smallScreenBanners[1]
+          : smallScreenBanners[0],
+      );
+
+      setActiveBannerBig((prev) =>
+        prev.id === bigScreenBanners[0].id
+          ? bigScreenBanners[1]
+          : bigScreenBanners[0],
+      );
+    }, 20000);
+
+    return () => clearInterval(interval);
+  });
+
   return (
-    <>
-      {
-        //  set helmet manually, not as <HelmetComponent /> !
-        //  reason: only site that needs 'Katya Granova' as first string in title; component sets name last in title by default
-      }
+    <div className="w-full min-h-screen flex-center flex-col mx-auto overflow-hidden">
       <Helmet key="home">
         <title>Katya Granova - Contemporary Painter</title>
         <meta
@@ -16,79 +69,95 @@ const Homepage = () => {
         <link rel="canonical" href="https://katya-granova.com/" />
       </Helmet>
 
-      <div className="w-full bg-white pt-2">
-        <div className="hidden lg:flex lg:flex-col items-center justify-start w-full h-[calc(100vh-4rem)]">
-          <img
-            className="w-full max-w-[1000px] h-auto object-contain"
-            src="/assets/A song of unrequited love for Britain, exhibition interior 2.jpg"
-            alt="exhibition interior 2024, love for Britain"
-          />
+      <div className="relative w-full hidden md:block aspect-6/4 mt-6 mx-auto">
+        {bigScreenBanners.map((image) => (
+          <Link
+            to={image.link}
+            key={image.id}
+            onClick={handleScroll}
+            className={`${image.id === activeBannerBig.id ? "opacity-100 z-10" : "opacity-0 -z-10"} absolute w-full h-full inset-0 transition-opacity duration-4000 `}
+          >
+            <div className="banner-pic relative w-full aspect-7/4 overflow-hidden">
+              <img
+                src={image.src}
+                alt={image.id}
+                className={`w-full h-full object-cover`}
+              />
+            </div>
+
+            <div className="description-link flex flex-col items-end pr-2 pt-2">
+              <p className="text-[0.9rem]">{image.id}</p>
+              <div className="flex translate-x-7">
+                <p className="text-[0.9rem] pt-0">View in gallery</p>
+                <div className="flex translate-y-[2px]">
+                  <span>
+                    <IoIosArrowForward className="ml-2 text-[1.1rem]" />
+                  </span>
+                  <span>
+                    <IoIosArrowForward className="ml-2 text-[1.1rem] -translate-x-[22px]" />
+                  </span>
+                </div>
+              </div>
+            </div>
+          </Link>
+        ))}
+      </div>
+
+      <div className="relative w-full min-h-screen aspect-5/9 block md:hidden mt-6 overflow-hidden">
+        {smallScreenBanners.map((image) => (
+          <Link
+            to={image.link}
+            key={image.id}
+            onClick={handleScroll}
+            className={`${image.id === activeBannerSmall.id ? "opacity-100 z-10" : "opacity-0 -z-10"} absolute w-full h-full inset-0 transition-opacity duration-4000 `}
+          >
+            <div className="relative w-full aspect-[2/3] overflow-hidden">
+              <img
+                src={image.src}
+                alt={image.id}
+                className={`w-full h-full object-cover`}
+              />
+            </div>
+
+            <div className="description-link flex flex-col items-end pr-2 pt-2">
+              <p className="text-[0.9rem]">{image.id}</p>
+              <div className="flex translate-x-7">
+                <p className="text-[0.9rem] pt-0">View in gallery</p>
+                <div className="flex translate-y-[2px]">
+                  <span>
+                    <IoIosArrowForward className="ml-2 text-[1.1rem]" />
+                  </span>
+                  <span>
+                    <IoIosArrowForward className="ml-2 text-[1.1rem] -translate-x-[22px]" />
+                  </span>
+                </div>
+              </div>
+            </div>
+          </Link>
+        ))}
+      </div>
+
+      <Link
+        to="news/2026-All-Our-Yesterdays"
+        onClick={handleScroll}
+        className="w-full h-full md:mt-4 z-20 -translate-y-16"
+      >
+        <div className="description-link flex flex-col items-end pr-2 mb-4">
+          <div className="flex translate-x-7 pt-4">
+            <p className="text-[0.9rem]">Next show</p>
+            <div className="flex translate-y-[2px]">
+              <span>
+                <IoIosArrowForward className="ml-2 text-[1.1rem]" />
+              </span>
+              <span>
+                <IoIosArrowForward className="ml-2 text-[1.1rem] -translate-x-[22px]" />
+              </span>
+            </div>
+          </div>
         </div>
-        <div className="flex flex-col lg:hidden items-center justify-start">
-          <img
-            className="w-full max-w-[600px] h-full object-contain"
-            src="/assets/IMG_2624.webp"
-            alt="exhibition interior 2024, love for Britain"
-          />
-        </div>
-      </div>
-    </>
-  );
-};
-
-export default Homepage;
-
-/*
-//  Homepage Version 1.0
-
-// excluded for now during to clients preferences to have <Work /> as Homepage
-
-import img1 from "page;../../Assets/old pics/d/07 Katya_Granova_Zinoviys_kids130x195cm_2020.jpg";
-import img2 from "../../Assets/old pics/d/08 Maria_and_her_sisters_195x130cm.jpg";
-import img3 from "../../Assets/old pics/d/06 Mums_picnic_51x60cm.jpg";
-import img4 from "../../Assets/old pics/d/17 7_father_as_a_baby_1962_Oil_on_canvas_1300_850mm.jpg";
-import img5 from "../../Assets/old pics/d/03 pediatric_surgery_1.jpeg";
-import img6 from "../../Assets/old pics/d/09 Red_square_1991_148x98.jpg";
-import img7 from "../../Assets/old pics/d/12 Ediks_friends_lrr.jpeg";
-import img8 from "../../Assets/old pics/d/11 3_Going_to_swim_1961_600_400mm_oil_on_canvas.jpeg";
-import img9 from "../../Assets/old pics/d/10 Mum_and_Nietzsche_on_the_party_30x40.jpg";
-import img10 from "../../Assets/old pics/d/05 2_surgery_in_the_unknown_patient_oil_on_canvas_19_AUe4SKG.jpg";
-
-const Home = () => {
-  return (
-    <div className="container home">
-      <div className="item item1">
-        <img src={img1} alt="samplePic" />
-      </div>
-      <div className="item item2">
-        <img src={img8} alt="samplePic" />
-      </div>
-      <div className="item item3">
-        <img src={img7} alt="samplePic" />
-      </div>
-      <div className="item item4">
-        <img src={img10} alt="samplePic" />
-      </div>
-      <div className="item item5">
-        <img src={img3} alt="samplePic" />
-      </div>
-      <div className="item item6">
-        <img src={img5} alt="samplePic" />
-      </div>
-      <div className="item item7">
-        <img src={img6} alt="samplePic" />
-      </div>
-      <div className="item item8">
-        <img src={img2} alt="samplePic" />
-      </div>
-      <div className="item item9">
-        <img src={img4} alt="samplePic" />
-      </div>
-      <div className="item item10">
-        <img src={img9} alt="samplePic" />
-      </div>
+      </Link>
     </div>
   );
 };
 
-export default Home; */
+export default Homepage;

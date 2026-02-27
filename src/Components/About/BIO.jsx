@@ -9,7 +9,7 @@ const BIO = () => {
         meta_description="Biography of the artist. Education, exhibitions, artistic background and professional development."
         url_fragment="biography"
       />
-      <div className="flex items-center justify-center flex-col w-[90%] md:w-[80%] max-w-[1440px] xl:pl-4 m-auto xl:m-0 pb-20">
+      <div className="flex items-center justify-center flex-col w-[90%] md:w-[80%] xl:w-[90%] m-auto pb-20">
         <h2 className="h2-standard">Biography</h2>
         <p className="w-full">
           Katya Granova (b. 1988, St. Petersburg, Russia) lives and works in

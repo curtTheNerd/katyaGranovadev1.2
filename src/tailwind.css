@@ -1,12 +1,24 @@
 @import "tailwindcss";
 
+@import "@fontsource/ibm-plex-sans/400.css";
+@import "@fontsource/ibm-plex-sans/600.css";
+@import "@fontsource/ibm-plex-sans/700.css";
+
+@import "@fontsource/roboto/400.css";
+@import "@fontsource/roboto/600.css";
+@import "@fontsource/roboto/700.css";
+
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/600.css";
+@import "@fontsource/inter/700.css";
+
 @layer base {
   :root {
     --textColor: rgb(24, 20, 14);
     --textColorNegative: rgb(250, 235, 215);
     --bgColor: white;
 
-    font-family: Helvetica, Avenir, system-ui, Arial, sans-serif;
+    font-family: Roboto, sans-serif;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -41,7 +53,7 @@
     @apply list-none cursor-pointer px-4 py-2;
   }
   h2 {
-    @apply w-full text-[1.5rem] md:text-[1.75rem] text-[var(--textColor)];
+    @apply w-full text-[1.35rem] md:text-[1.5rem] text-[var(--textColor)];
   }
   h3 {
     @apply w-full;
@@ -58,7 +70,7 @@
   }
 
   .h2-standard {
-    @apply w-full px-2 pt-6 pb-12;
+    @apply w-full px-2 pt-8 pb-8;
   }
 
   .h2-standard-2 {
@@ -74,5 +86,21 @@
 
   .gridItem {
     @apply min-w-[350px] lg:min-w-[450px];
+  }
+
+  .reservation-item {
+    @apply w-full h-auto flex items-center justify-between;
+  }
+
+  .reserve-button {
+    @apply w-[80px] sm:w-[110px] h-[45px] mr-0 lg:mr-30 xl:mr-42 mt-3 text-white bg-gray-500 rounded hover:bg-gray-700 transition cursor-pointer;
+  }
+
+  .ytVideo {
+    @apply relative w-full pb-[56.25%];
+  }
+
+  .ytVideo iframe {
+    @apply absolute top-0 left-0 w-full h-full;
   }
 }

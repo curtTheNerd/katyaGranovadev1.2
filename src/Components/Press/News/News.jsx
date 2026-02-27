@@ -19,7 +19,7 @@ const News = () => {
 
       <div className="w-full pb-20 overflow-x-hidden">
         <h2 className="h2-standard-2">News</h2>
-        <div className="w-[90%] flex flex-col mx-auto items-center xl:items-start justify-center">
+        <div className="w-[90%] flex flex-col mx-auto items-center justify-center">
           <div className="grid grid-cols-1 gap-16">
             {newsData.map((data) => {
               return (

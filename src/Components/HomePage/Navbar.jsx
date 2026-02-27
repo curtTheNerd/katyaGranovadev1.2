@@ -1,7 +1,11 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
+
+import { YoutubeIcon, InstagramIcon } from "./SocilIcons";
+
 import { FaInstagram } from "react-icons/fa";
 import { SlSocialYoutube } from "react-icons/sl";
+
 import { IoCloseCircle } from "react-icons/io5";
 import { LuMenu } from "react-icons/lu";
 
@@ -14,8 +18,8 @@ const Navbar = () => {
   };
 
   const navItems = [
-    { title: "WORK", path: "/work" },
     { title: "EXHIBITIONS", path: "/exhibition" },
+    { title: "WORK", path: "/work" },
     {
       title: "ABOUT",
       children: [
@@ -28,21 +32,21 @@ const Navbar = () => {
       children: [
         { title: "NEWS", path: "/news" },
         { title: "PRESS", path: "/press-coverage" },
-        { title: "VIDEO", path: "/videos" },
+        { title: "VIDEOS", path: "/videos" },
       ],
     },
     { title: "CONTACT", path: "/contact" },
   ];
 
   return (
-    <nav className="w-full xl:h-screen bg-white flex flex-col items-center xl:pt-8 xl:pl-2">
+    <nav className="w-full bg-white flex flex-col items-center">
       {/* TITLE */}
-      <div className="w-full xl:h-1/5 flex items-center justify-center xl:justify-start xl:px-6 pt-4 pb-2">
+      <div className="w-full flex items-center justify-center pt-4 pb-2">
         <NavLink
           to="/"
-          className="text-[2rem] md:text-[2.2rem] xl:text-[2rem] font-semibold nav-item pt-2 pb-2"
+          className="text-[2rem] md:text-[2.2rem] font-semibold nav-item pt-2 pb-2"
         >
-          <h1 className="flex xl:flex-col tracking-wide ">
+          <h1 className="flex tracking-wide ">
             <span className="pr-2">KATYA </span>
             <span>GRANOVA</span>
           </h1>
@@ -51,9 +55,9 @@ const Navbar = () => {
       </div>
 
       {/* NAV-ITEMS */}
-      <div className="w-full xl:h-4/5 flex items-center justify-center xl:pt-4 pb-4 px-4">
-        <div className="xl:w-full xl:h-full flex xl:flex-col items-center xl:items-start xl:justify-between space-x-8 nav-item">
-          <ul className="hidden md:flex xl:flex-col items-center xl:items-start space-x-4 xl:pt-8">
+      <div className="w-[90%] flex items-center justify-center pb-6 px-4">
+        <div className="flex items-center space-x-8 nav-item">
+          <ul className="hidden md:flex items-center space-x-4">
             {navItems.map((item) =>
               item.children ? (
                 <li key={item.title} className="relative group">
@@ -82,23 +86,9 @@ const Navbar = () => {
           </ul>
 
           {/* SOCIAL-ICONS */}
-          <div className="hidden md:flex xl:w-full items-center xl:items-end xl:justify-center xl:pb-4 space-x-3 nav-item">
-            <a
-              href="https://www.instagram.com/katyagranova/"
-              target="_blank"
-              rel="noreferrer"
-              className="flex nav-item text-[1.5rem] xl:text-[1.75rem] xl:pb-0.25"
-            >
-              <FaInstagram />
-            </a>
-            <a
-              href="https://www.youtube.com/@katyagranova9832"
-              target="_blank"
-              rel="noreferrer"
-              className="flex nav-item text-[1.6rem] xl:text-[1.9rem]"
-            >
-              <SlSocialYoutube />
-            </a>
+          <div className="hidden md:flex items-center space-x-2 nav-item">
+            <InstagramIcon size="text-[1.5rem]" />
+            <YoutubeIcon />
           </div>
         </div>
 
@@ -113,7 +103,10 @@ const Navbar = () => {
       {mobileOpen && (
         <div className="fixed inset-0 z-50 bg-white flex flex-col items-center justify-start p-8 overflow-y-auto">
           <div className="flex justify-between items-center w-full mb-8">
-            <h2 className="text-2xl font-semibold p-0">KATYA GRANOVA</h2>
+            <NavLink to="/" onClick={() => setMobileOpen(false)}>
+              <h2 className="text-2xl font-semibold p-0">KATYA GRANOVA</h2>
+            </NavLink>
+
             <button
               onClick={() => {
                 setMobileOpen(false);
@@ -166,23 +159,9 @@ const Navbar = () => {
             )}
           </ul>
 
-          <div className="flex-center space-x-4 mt-12">
-            <a
-              href="#"
-              target="_blank"
-              rel="noreferrer"
-              className="nav-item text-[2rem]"
-            >
-              <FaInstagram />
-            </a>
-            <a
-              href="#"
-              target="_blank"
-              rel="noreferrer"
-              className="nav-item text-[2.1rem]"
-            >
-              <SlSocialYoutube />
-            </a>
+          <div className="flex-center space-x-2 mt-12">
+            <InstagramIcon size="text-[1.75rem]" />
+            <YoutubeIcon size="text-[2rem]" />
           </div>
         </div>
       )}

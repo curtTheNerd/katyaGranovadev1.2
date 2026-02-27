@@ -18,12 +18,15 @@ const MediaCellComponent = ({ data }) => {
         />
       </div>
       <div className="flex md:items-end">
-        <div className="flex flex-col p-4 sm:p-8">
+        <div className="flex flex-col p-4 sm:p-8 space-y-1">
           <p className="text-[1.2rem]">{data.source}</p>
-          <p className="italic">{data.title}</p>
-          <p>
-            {data.type} {data.author}
-          </p>
+          <div>
+            <p className="italic">{data.title}</p>
+            <p>
+              {data.type} {data.author}
+            </p>
+          </div>
+
           <p>{data.language}</p>
         </div>
       </div>

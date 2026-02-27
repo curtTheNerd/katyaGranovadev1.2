@@ -6,8 +6,8 @@ const Work2025 = () => {
   return (
     <>
       <HelmetComponentAlbums year={images[0].title} type="work" />
-      <div>
-        <h2 className="text-center">{images[0].title}</h2>
+      <div className="w-full pb-12">
+        <h2 className="h2-standard">{images[0].title}</h2>
         <Gallery images={images} />
       </div>
     </>
