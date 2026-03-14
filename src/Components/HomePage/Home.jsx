@@ -137,7 +137,7 @@ const Homepage = () => {
         ))}
       </div>
 
-      <Link
+      {/*<Link
         to="news/2026-All-Our-Yesterdays"
         onClick={handleScroll}
         className="w-full h-full md:mt-4 z-20 -translate-y-16"
@@ -155,7 +155,7 @@ const Homepage = () => {
             </div>
           </div>
         </div>
-      </Link>
+      </Link>*/}
     </div>
   );
 };

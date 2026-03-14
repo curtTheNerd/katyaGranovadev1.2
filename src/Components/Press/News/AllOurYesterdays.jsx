@@ -27,10 +27,10 @@ const AllOurYesterdays = () => {
     },
     {
       src: "/assets/News/2026/AllOurYesterdays/IMG_5428.webp",
-      id: "Surgical light",
+      id: "Surgery in Portugal",
       method: "Oil on canvas",
-      sizeCm: "170 x 180 cm",
-      date: "2024",
+      sizeCm: "175 x 180 cm",
+      date: "2026",
     },
     {
       src: "/assets/News/2026/AllOurYesterdays/accidental shot.webp",
@@ -39,6 +39,7 @@ const AllOurYesterdays = () => {
       sizeCm: "160 x 210 cm",
       date: "2024",
     },
+    /* 
     {
       src: "/assets/News/2026/AllOurYesterdays/tea picnic in fields 180x200 copy.webp",
       id: "Picnic in the fields",
@@ -46,12 +47,22 @@ const AllOurYesterdays = () => {
       sizeCm: "200 x 220 cm",
       date: "2024",
     },
+
+    excluded due to client wishes
+
+    */
   ];
 
-  const interiorPic = {
+  /*
+   
+   const interiorPic = {
     src: "/assets/News/2026/AllOurYesterdays/The_Handbag_Factory_gallary_Katya-Granova1.webp",
     id: "Handbag gallery - interior",
-  };
+  }; 
+  
+  excluded due to client wishes
+
+  */
 
   return (
     <div className="flex items-center justify-center flex-col w-[95%] md:w-[90%] max-w-[1440px] mx-auto">
@@ -211,7 +222,7 @@ const AllOurYesterdays = () => {
         <br />
       </div>
 
-      <div className="w-full grid gap-4 mb-4 grid-cols-1 sm:grid-cols-2 xl:grid-cols-4">
+      <div className="w-full grid gap-4 mb-4 xl:mb-8 grid-cols-1 sm:grid-cols-2 xl:grid-cols-3">
         {galleryImages.map((imageData) => (
           <div
             id={imageData.id}
@@ -238,10 +249,11 @@ const AllOurYesterdays = () => {
         ))}
       </div>
 
-      <div className="w-full pt-4 pb-4 lg:pt-12">
+      {/* <div className="w-full pt-4 pb-4 lg:pt-12">
         <img src={interiorPic.src} alt={interiorPic.id} />
         <p className="flex justify-end text-[1rem] pt-1 pr-2"></p>
-      </div>
+      </div> */}
+
       {reservationModalOpen && (
         <ReservationForm
           date={showReservationForm}
