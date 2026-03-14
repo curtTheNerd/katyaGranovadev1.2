@@ -32,8 +32,8 @@ import BIO from "./Components/About/BIO";
 import Statement from "./Components/About/Statement";
 import Media from "./Components/Press/Media";
 import Videos from "./Components/Press/Videos";
-
 import Contact from "./Components/Contact/Contact";
+import NotFound from "./Components/NotFound";
 
 const App = () => {
   const router = createBrowserRouter(
@@ -89,6 +89,8 @@ const App = () => {
         <Route path="press-coverage" element={<Media />} />
         <Route path="videos" element={<Videos />} />
         <Route path="contact" element={<Contact />} />
+
+        <Route path="*" element={<NotFound />} />
       </Route>,
     ),
   );
