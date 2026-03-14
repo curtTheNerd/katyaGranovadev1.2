@@ -3,9 +3,6 @@ import { NavLink } from "react-router-dom";
 
 import { YoutubeIcon, InstagramIcon } from "./SocilIcons";
 
-import { FaInstagram } from "react-icons/fa";
-import { SlSocialYoutube } from "react-icons/sl";
-
 import { IoCloseCircle } from "react-icons/io5";
 import { LuMenu } from "react-icons/lu";
 
@@ -61,13 +58,29 @@ const Navbar = () => {
             {navItems.map((item) =>
               item.children ? (
                 <li key={item.title} className="relative group">
-                  <button className="nav-item">{item.title}</button>
-                  <div className="absolute left-0 top-full hidden group-hover:block min-w-[150px] bg-white shadow-md transition-all duration-200 ease-out opacity-0 group-hover:opacity-100 z-20">
+                  <button
+                    onClick={() => toggleDropdown(item.title)}
+                    className="nav-item"
+                  >
+                    {item.title}
+                  </button>
+
+                  <div
+                    className={`absolute left-0 top-full min-w-[150px] bg-white shadow-md z-20
+                    ${
+                      openDropdown === item.title
+                        ? "block opacity-100"
+                        : "hidden group-hover:block group-hover:opacity-100"
+                    }`}
+                  >
                     {/* DROPDOWN from NAVITEM */}
                     {item.children.map((child) => (
                       <NavLink
                         key={child.title}
                         to={child.path}
+                        onClick={() => {
+                          toggleDropdown();
+                        }}
                         className="block px-4 py-2 hover:bg-gray-100 cursor-pointer whitespace-nowrap"
                       >
                         {child.title}
