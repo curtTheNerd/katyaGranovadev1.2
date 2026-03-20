@@ -18,6 +18,7 @@ import Work2019 from "./Components/Work/Albums/Work2019";
 import WorksOnPaper from "./Components/Work/Albums/WorksOnPaper";
 
 import Exhibition from "./Components/Work/Exhibition";
+import Exhibition2026_AllOurYesterdays from "./Components/Work/Exhibitions/Exhibition2026_AllOurYesterdays";
 import Exhibition2025_IntrudedPicnics from "./Components/Work/Exhibitions/Exhibition2025_IntrudedPicnics";
 import Exhibition2025_Spinnerei from "./Components/Work/Exhibitions/Exhibition2025_Spinnerei";
 import Exhibition2024_SongForBritain from "./Components/Work/Exhibitions/Exhibition2024_SongForBritain";
@@ -55,6 +56,10 @@ const App = () => {
 
         <Route path="exhibition">
           <Route index element={<Exhibition />} />
+          <Route
+            path="2026-HandbagFactory"
+            element={<Exhibition2026_AllOurYesterdays />}
+          />
           <Route
             path="2025-IntrudedPicnics"
             element={<Exhibition2025_IntrudedPicnics />}

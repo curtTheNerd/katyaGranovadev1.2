@@ -20,6 +20,9 @@ const DescriptionCard = ({ array }) => {
       <p id={`exhibitionDescription-${array[0].title}`} className="md:pr-4">
         {array[0].descriptionCard.description}
       </p>
+      <p id={`exhibitionWhoCurated-${array[0].title}`} className="md:pr-4">
+        {array[0].descriptionCard.optionalCuratedBy}
+      </p>
     </div>
   );
 };
