@@ -772,7 +772,7 @@ export const exhibition2026_HandbagFactory = [
     },
     link: "2026-HandbagFactory",
     id: "All our Yesterdays - interior",
-    src: "/public/assets/Exhibition/2026AllOurYesterdays/1 All our Yesterdays, interior view.webp",
+    src: "/assets/Exhibition/2026AllOurYesterdays/1 All our Yesterdays, interior view.webp",
     method: "",
     sizeCm: "",
     sizeInch: "",
@@ -780,7 +780,7 @@ export const exhibition2026_HandbagFactory = [
   },
   {
     id: "All our Yesterdays - interior 2",
-    src: "/public/assets/Exhibition/2026AllOurYesterdays/2 All our Yesterdays, interior view.webp",
+    src: "/assets/Exhibition/2026AllOurYesterdays/2 All our Yesterdays, interior view.webp",
     method: "",
     sizeCm: "",
     sizeInch: "",
@@ -788,7 +788,7 @@ export const exhibition2026_HandbagFactory = [
   },
   {
     id: "All our Yesterdays - interior 3",
-    src: "/public/assets/Exhibition/2026AllOurYesterdays/3 All our Yesterdays, interior view (1).webp",
+    src: "/assets/Exhibition/2026AllOurYesterdays/3 All our Yesterdays, interior view (1).webp",
     method: "",
     sizeCm: "",
     sizeInch: "",
@@ -796,7 +796,7 @@ export const exhibition2026_HandbagFactory = [
   },
   {
     id: "All our Yesterdays - interior 4",
-    src: "/public/assets/Exhibition/2026AllOurYesterdays/4 All our Yesterdays, interior view.webp",
+    src: "/assets/Exhibition/2026AllOurYesterdays/4 All our Yesterdays, interior view.webp",
     method: "",
     sizeCm: "",
     sizeInch: "",
@@ -804,7 +804,7 @@ export const exhibition2026_HandbagFactory = [
   },
   {
     id: "Apple picking",
-    src: "/public/assets/Exhibition/2026AllOurYesterdays/5 Apple picking, oil on canvas, 280x180cm, 2026, in situ.webp",
+    src: "/assets/Exhibition/2026AllOurYesterdays/5 Apple picking, oil on canvas, 280x180cm, 2026, in situ.webp",
     method: "Oil on canvas",
     sizeCm: "280 x 180 cm",
     sizeInch: "",
@@ -812,7 +812,7 @@ export const exhibition2026_HandbagFactory = [
   },
   {
     id: "All our Yesterdays - interior 5",
-    src: "/public/assets/Exhibition/2026AllOurYesterdays/6 1 All our Yesterdays, interior view .webp",
+    src: "/assets/Exhibition/2026AllOurYesterdays/6 1 All our Yesterdays, interior view .webp",
     method: "",
     sizeCm: "",
     sizeInch: "",
@@ -820,7 +820,7 @@ export const exhibition2026_HandbagFactory = [
   },
   {
     id: "All our Yesterdays - interior 6",
-    src: "/public/assets/Exhibition/2026AllOurYesterdays/7 All our Yesterdays, interior view.webp",
+    src: "/assets/Exhibition/2026AllOurYesterdays/7 All our Yesterdays, interior view.webp",
     method: "",
     sizeCm: "",
     sizeInch: "",
@@ -828,7 +828,7 @@ export const exhibition2026_HandbagFactory = [
   },
   {
     id: "The Eucharist",
-    src: "/public/assets/Exhibition/2026AllOurYesterdays/8 The Eucharist, oil on canvas, 110x120cm, 2026, in situ.webp",
+    src: "/assets/Exhibition/2026AllOurYesterdays/8 The Eucharist, oil on canvas, 110x120cm, 2026, in situ.webp",
     method: "Oil on canvas",
     sizeCm: "110 x 120 cm",
     sizeInch: "",
@@ -836,7 +836,7 @@ export const exhibition2026_HandbagFactory = [
   },
   {
     id: "All our Yesterdays - interior 7",
-    src: "/public/assets/Exhibition/2026AllOurYesterdays/9 All our Yesterdays, interior view (1).webp",
+    src: "/assets/Exhibition/2026AllOurYesterdays/9 All our Yesterdays, interior view (1).webp",
     method: "",
     sizeCm: "",
     sizeInch: "",
@@ -844,7 +844,7 @@ export const exhibition2026_HandbagFactory = [
   },
   {
     id: "All our Yesterdays - interior 8",
-    src: "/public/assets/Exhibition/2026AllOurYesterdays/1 All our Yesterdays, interior view.webp",
+    src: "/assets/Exhibition/2026AllOurYesterdays/1 All our Yesterdays, interior view.webp",
     method: "",
     sizeCm: "",
     sizeInch: "",
@@ -852,7 +852,7 @@ export const exhibition2026_HandbagFactory = [
   },
   {
     id: "All our Yesterdays - interior 9",
-    src: "/public/assets/Exhibition/2026AllOurYesterdays/11 All our Yesterdays, interior view.webp",
+    src: "/assets/Exhibition/2026AllOurYesterdays/11 All our Yesterdays, interior view.webp",
     method: "",
     sizeCm: "",
     sizeInch: "",
@@ -860,7 +860,7 @@ export const exhibition2026_HandbagFactory = [
   },
   {
     id: "All our Yesterdays - interior 10",
-    src: "/public/assets/Exhibition/2026AllOurYesterdays/12 All our Yesterdays, interior view.webp",
+    src: "/assets/Exhibition/2026AllOurYesterdays/12 All our Yesterdays, interior view.webp",
     method: "",
     sizeCm: "",
     sizeInch: "",
@@ -868,7 +868,7 @@ export const exhibition2026_HandbagFactory = [
   },
   {
     id: "All our Yesterdays - interior 11",
-    src: "/public/assets/Exhibition/2026AllOurYesterdays/13 1 All our Yesterdays, interior view.webp",
+    src: "/assets/Exhibition/2026AllOurYesterdays/13 1 All our Yesterdays, interior view.webp",
     method: "",
     sizeCm: "",
     sizeInch: "",
@@ -876,7 +876,7 @@ export const exhibition2026_HandbagFactory = [
   },
   {
     id: "Surgery in Portugal",
-    src: "/public/assets/Exhibition/2026AllOurYesterdays/14 Surgery in Portugal, oil on canvas, 175x180cm, 2026, in sutu.webp.webp",
+    src: "/assets/Exhibition/2026AllOurYesterdays/14 Surgery in Portugal, oil on canvas, 175x180cm, 2026, in sutu.webp.webp",
     method: "Oil on canvas",
     sizeCm: "175 x 180 cm",
     sizeInch: "",
@@ -884,7 +884,7 @@ export const exhibition2026_HandbagFactory = [
   },
   {
     id: "All our Yesterdays - interior 12",
-    src: "/public/assets/Exhibition/2026AllOurYesterdays/15 All our Yesterdays, interior view.webp",
+    src: "/assets/Exhibition/2026AllOurYesterdays/15 All our Yesterdays, interior view.webp",
     method: "",
     sizeCm: "",
     sizeInch: "",
@@ -892,7 +892,7 @@ export const exhibition2026_HandbagFactory = [
   },
   {
     id: "All our Yesterdays - interior 13",
-    src: "/public/assets/Exhibition/2026AllOurYesterdays/16 All our Yesterdays, interior view.webp",
+    src: "/assets/Exhibition/2026AllOurYesterdays/16 All our Yesterdays, interior view.webp",
     method: "",
     sizeCm: "",
     sizeInch: "",
@@ -900,7 +900,7 @@ export const exhibition2026_HandbagFactory = [
   },
   {
     id: "Surgery scene",
-    src: "/public/assets/Exhibition/2026AllOurYesterdays/17 Surgery scene, oil on canvas, 40x50cm, 2026, in situ.webp",
+    src: "/assets/Exhibition/2026AllOurYesterdays/17 Surgery scene, oil on canvas, 40x50cm, 2026, in situ.webp",
     method: "Oil on canvas",
     sizeCm: "40 x 50 cm",
     sizeInch: "",
@@ -908,7 +908,7 @@ export const exhibition2026_HandbagFactory = [
   },
   {
     id: "All our Yesterdays - interior 14",
-    src: "/public/assets/Exhibition/2026AllOurYesterdays/18 All our Yesterdays, interior view.webp",
+    src: "/assets/Exhibition/2026AllOurYesterdays/18 All our Yesterdays, interior view.webp",
     method: "",
     sizeCm: "",
     sizeInch: "",
@@ -916,7 +916,7 @@ export const exhibition2026_HandbagFactory = [
   },
   {
     id: "All our Yesterdays - interior 15",
-    src: "/public/assets/Exhibition/2026AllOurYesterdays/19  All our Yesterdays, interior view.webp",
+    src: "/assets/Exhibition/2026AllOurYesterdays/19  All our Yesterdays, interior view.webp",
     method: "",
     sizeCm: "",
     sizeInch: "",
@@ -924,7 +924,7 @@ export const exhibition2026_HandbagFactory = [
   },
   {
     id: "Village party 3",
-    src: "/public/assets/Exhibition/2026AllOurYesterdays/20 Village party -3, oil and oilstick on photographic paper, 40x28cm, 2026.webp",
+    src: "/assets/Exhibition/2026AllOurYesterdays/20 Village party 3, oil and oilstick on photographic paper, 40x28cm, 2026.webp",
     method: "Oil and oilstick on photographic paper",
     sizeCm: "40 x 28 cm",
     sizeInch: "",
@@ -932,7 +932,7 @@ export const exhibition2026_HandbagFactory = [
   },
   {
     id: "All our Yesterdays - interior 16",
-    src: "/public/assets/Exhibition/2026AllOurYesterdays/21 All our Yesterdays, interior view.webp",
+    src: "/assets/Exhibition/2026AllOurYesterdays/21 All our Yesterdays, interior view.webp",
     method: "",
     sizeCm: "",
     sizeInch: "",
@@ -940,7 +940,7 @@ export const exhibition2026_HandbagFactory = [
   },
   {
     id: "Village Party 4",
-    src: "/public/assets/Exhibition/2026AllOurYesterdays/22 Village party -3, oil and oilstick on photographic paper, 40x28cm, 2026.webp",
+    src: "/assets/Exhibition/2026AllOurYesterdays/22 Village party 4, oil and oilstick on photographic paper, 40x28cm, 2026.webp",
     method: "Oil and oilstick on photographic paper",
     sizeCm: "40 x 28 cm",
     sizeInch: "",
