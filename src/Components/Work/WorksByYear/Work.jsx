@@ -31,9 +31,10 @@ const Work = () => {
                 className="relative block w-full aspect-square lg:h-[60vh] rounded-xs overflow-hidden"
               >
                 <img
-                  src={image.src}
+                  src={image.src.replace(/\.webp$/, "-thumb.webp")}
                   alt={image.id}
                   loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-cover"
                 />
                 <div className="group flex-center absolute left-0 bottom-0 w-full h-1/4 bg-[rgba(255,255,255,0.7)] cursor-pointer">
