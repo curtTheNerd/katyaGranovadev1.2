@@ -976,7 +976,7 @@ export const exhibition2025_Spinnerei = [
     date: "2025",
   },
   {
-    id: "Spinnerei Celebration from 70s, detail",
+    id: "Spinnerei Celebration from 70s - detail",
     src: "/assets/Exhibition/2025Spinnerei/3 Spinnerei Celebration, 310x200 cm_122x78.7_, oil on canvas, detail.webp",
     method: "Oil on canvas",
     sizeCm: "310 x 200 cm",
@@ -1000,7 +1000,7 @@ export const exhibition2025_Spinnerei = [
     date: "2025",
   },
   {
-    id: "Spinnerei summer Camp, detail",
+    id: "Spinnerei summer Camp - detail",
     src: "/assets/Exhibition/2025Spinnerei/5 Spinnerei Summer Camp, 170x210cm_66.9x82.6_, oil on canvas, 2025, detail .webp",
     method: "Oil on canvas",
     sizeCm: "170 x 210 cm",
@@ -1025,7 +1025,7 @@ export const exhibition2025_Spinnerei = [
     date: "2025",
   },
   {
-    id: "Drinking party Spinnerei, detail",
+    id: "Drinking party Spinnerei - detail",
     src: "/assets/Exhibition/2025Spinnerei/8 Drinking party Spinnerei, 180x220cm_70.8x86.6_, oil on canvas, 2025, detail.webp",
     method: "Oil on canvas",
     sizeCm: "180 x 220 cm",
@@ -1194,7 +1194,7 @@ export const exhibition2024_SongForBritain = [
     date: "2024",
   },
   {
-    id: "Rooftop picnic - detail 1",
+    id: "Rooftop picnic - detail",
     src: "/assets/Exhibition/2024Rupturexibit/4 Rooftop picnic, 200x200cm, oil on canvas, 2024, detail.webp",
     method: "Oil on canvas",
     sizeCm: "200 x 200 cm",
@@ -1226,7 +1226,7 @@ export const exhibition2024_SongForBritain = [
     date: "2024",
   },
   {
-    id: "NHS baby vaccination from 50s - detail 1",
+    id: "NHS baby vaccination from 50s - detail",
     src: "/assets/Exhibition/2024Rupturexibit/8 NHS baby vaccination from 50-s 140x150cm, oil on canvas, 2024, detail - 2.webp",
     method: "Oil on canvas",
     sizeCm: "140 x 150 cm",
@@ -1258,7 +1258,7 @@ export const exhibition2024_SongForBritain = [
     date: "2024",
   },
   {
-    id: "Boys in a blanket tent - detail 1",
+    id: "Boys in a blanket tent - detail",
     src: "/assets/Exhibition/2024Rupturexibit/12 Boys in a blanket tent, 115x150cm, oil on canvas, 2024, detail 2.webp",
     method: "Oil on canvas",
     sizeCm: "115 x 150 cm",
