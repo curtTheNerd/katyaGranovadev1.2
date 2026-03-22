@@ -939,7 +939,7 @@ export const exhibition2026_HandbagFactory = [
     date: "2026",
   },
   {
-    id: "Village Party -3",
+    id: "Village Party 4",
     src: "/public/assets/Exhibition/2026AllOurYesterdays/22 Village party -3, oil and oilstick on photographic paper, 40x28cm, 2026.webp",
     method: "Oil and oilstick on photographic paper",
     sizeCm: "40 x 28 cm",
@@ -1812,4 +1812,25 @@ export const thumbsExhibition = [
   exhibition2023_Shtager[0],
   exhibition2022_BarbicanArt[0],
   exhibition2021_Hamlet[0],
+];
+
+export const exhibitionsConfig = [
+  { path: "2026-HandbagFactory", data: exhibition2026_HandbagFactory },
+  { path: "2025-Spinnerei", data: exhibition2025_Spinnerei },
+  { path: "2025-IntrudedPicnics", data: exhibition2025_IntrudedPicnics },
+  { path: "2024-TurpsBanana", data: exhibition2024_SongForBritain },
+  { path: "2023-ShtagerGallery", data: exhibition2023_Shtager },
+  { path: "2022-BarbicanArtGroupTrust", data: exhibition2022_BarbicanArt },
+  { path: "2021-SpheraFund", data: exhibition2021_Hamlet },
+];
+
+export const worksByYearConfig = [
+  { path: "2025", data: work2025 },
+  { path: "2024", data: work2024 },
+  { path: "2023", data: work2023 },
+  { path: "2022", data: work2022 },
+  { path: "2021", data: work2021 },
+  { path: "2020", data: work2020 },
+  { path: "2019", data: work2019 },
+  { path: "works-on-paper", data: worksOnPaper },
 ];

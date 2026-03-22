@@ -1,7 +1,6 @@
 import Gallery from "../Gallery/Gallery";
 import HelmetComponentAlbums from "../../HelmetComponentAlbums";
-import TitleCard from "./TitleCard";
-import DescriptionCard from "./DescriptionCard";
+import TitleCard from "../Exhibitions/TitleCard";
 
 const ExhibitionComponent = ({ images }) => {
   return (
@@ -11,10 +10,10 @@ const ExhibitionComponent = ({ images }) => {
         type="exhibition"
         exhibition_title={images[0].title}
       />
-      <div className="w-[90%] sm:w-[95%] mx-auto">
+
+      <div className="w-[90%] sm:w-[95%] mx-auto pb-24">
         <TitleCard array={images} />
         <Gallery images={images} />
-        <DescriptionCard array={images} />
       </div>
     </>
   );
