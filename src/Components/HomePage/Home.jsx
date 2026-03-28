@@ -4,6 +4,9 @@ import { Link } from "react-router-dom";
 
 import { IoIosArrowForward } from "react-icons/io";
 
+import NewsCellComponent from "../Press/News/NewsCellComponent";
+import { newsDataShows } from "../Press/News/NewsData";
+
 const Homepage = () => {
   const smallScreenBanners = [
     {
@@ -59,7 +62,7 @@ const Homepage = () => {
   });
 
   return (
-    <div className="w-full min-h-screen flex-center flex-col mx-auto overflow-hidden">
+    <div className="w-full flex flex-col mx-auto overflow-hidden">
       <Helmet key="home">
         <title>Katya Granova - Contemporary Painter</title>
         <meta
@@ -69,7 +72,7 @@ const Homepage = () => {
         <link rel="canonical" href="https://katya-granova.com/" />
       </Helmet>
 
-      <div className="relative w-full hidden md:block aspect-6/4 mt-6 mx-auto">
+      <div className="relative w-full hidden md:block aspect-7/4 mt-6 mx-auto">
         {bigScreenBanners.map((image) => (
           <Link
             to={image.link}
@@ -77,7 +80,7 @@ const Homepage = () => {
             onClick={handleScroll}
             className={`${image.id === activeBannerBig.id ? "opacity-100 z-10" : "opacity-0 -z-10"} absolute w-full h-full inset-0 transition-opacity duration-4000 `}
           >
-            <div className="banner-pic relative w-full aspect-7/4 overflow-hidden">
+            <div className="relative w-full aspect-7/4 overflow-hidden">
               <img
                 src={image.src}
                 alt={image.id}
@@ -103,7 +106,7 @@ const Homepage = () => {
         ))}
       </div>
 
-      <div className="relative w-full min-h-screen aspect-5/9 block md:hidden mt-6 overflow-hidden">
+      <div className="relative w-full aspect-2/3 block md:hidden mt-6">
         {smallScreenBanners.map((image) => (
           <Link
             to={image.link}
@@ -111,7 +114,7 @@ const Homepage = () => {
             onClick={handleScroll}
             className={`${image.id === activeBannerSmall.id ? "opacity-100 z-10" : "opacity-0 -z-10"} absolute w-full h-full inset-0 transition-opacity duration-4000 `}
           >
-            <div className="relative w-full aspect-[2/3] overflow-hidden">
+            <div className="relative w-full aspect-2/3 overflow-hidden">
               <img
                 src={image.src}
                 alt={image.id}
@@ -137,25 +140,20 @@ const Homepage = () => {
         ))}
       </div>
 
-      {/*<Link
-        to="news/2026-All-Our-Yesterdays"
-        onClick={handleScroll}
-        className="w-full h-full md:mt-4 z-20 -translate-y-16"
-      >
-        <div className="description-link flex flex-col items-end pr-2 mb-4">
-          <div className="flex translate-x-7 pt-4">
-            <p className="text-[0.9rem]">Next show</p>
-            <div className="flex translate-y-[2px]">
-              <span>
-                <IoIosArrowForward className="ml-2 text-[1.1rem]" />
-              </span>
-              <span>
-                <IoIosArrowForward className="ml-2 text-[1.1rem] -translate-x-[22px]" />
-              </span>
-            </div>
-          </div>
+      <div className="w-full mt-24 mb-12">
+        <h2 className="h2-standard-2">Upcoming Show</h2>
+        <div className="w-[90%] mx-auto">
+          {newsDataShows.map((data) => (
+            <Link
+              to={`news/${data.link}`}
+              key={data.title}
+              onClick={handleScroll}
+            >
+              <NewsCellComponent data={data} />
+            </Link>
+          ))}
         </div>
-      </Link>*/}
+      </div>
     </div>
   );
 };
