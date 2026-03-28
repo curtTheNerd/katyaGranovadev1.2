@@ -561,6 +561,59 @@ export const work2025 = [
   },
 ];
 
+export const work2026 = [
+  {
+    title: "2026",
+    link: "2026",
+    id: "Apple picking",
+    src: "/assets/Exhibition/2026AllOurYesterdays/5 Apple picking, oil on canvas, 280x180cm, 2026, in situ.webp",
+    method: "Oil on canvas",
+    sizeCm: "280 x 180 cm",
+    sizeInch: "",
+    date: "2026",
+  },
+  {
+    id: "The Eucharist",
+    src: "/assets/Exhibition/2026AllOurYesterdays/8 The Eucharist, oil on canvas, 110x120cm, 2026, in situ.webp",
+    method: "Oil on canvas",
+    sizeCm: "110 x 120 cm",
+    sizeInch: "",
+    date: "2026",
+  },
+  {
+    id: "Surgery scene",
+    src: "/assets/Exhibition/2026AllOurYesterdays/17 Surgery scene, oil on canvas, 40x50cm, 2026, in situ.webp",
+    method: "Oil on canvas",
+    sizeCm: "40 x 50 cm",
+    sizeInch: "",
+    date: "2026",
+  },
+  {
+    id: "Surgery in Portugal",
+    src: "/assets/Exhibition/2026AllOurYesterdays/14 Surgery in Portugal, oil on canvas, 175x180cm, 2026, in sutu.webp.webp",
+    method: "Oil on canvas",
+    sizeCm: "175 x 180 cm",
+    sizeInch: "",
+    date: "2026",
+  },
+  {
+    id: "Village party 3",
+    src: "/assets/Exhibition/2026AllOurYesterdays/20 Village party 3, oil and oilstick on photographic paper, 40x28cm, 2026.webp",
+    method: "Oil and oilstick on photographic paper",
+    sizeCm: "40 x 28 cm",
+    sizeInch: "",
+    date: "2026",
+  },
+  {
+    id: "Village Party 4",
+    src: "/assets/Exhibition/2026AllOurYesterdays/22 Village party 4, oil and oilstick on photographic paper, 40x28cm, 2026.webp",
+    method: "Oil and oilstick on photographic paper",
+    sizeCm: "40 x 28 cm",
+    sizeInch: "",
+    date: "2026",
+  },
+];
+
 export const worksOnPaper = [
   {
     title: "Works on Paper",
@@ -1794,6 +1847,7 @@ export const exhibition2021_Hamlet = [
 // get first element of each album for title/link; order of albums in Work-component
 
 export const thumbsWork = [
+  work2026[0],
   work2025[0],
   work2024[0],
   work2023[0],
@@ -1825,6 +1879,7 @@ export const exhibitionsConfig = [
 ];
 
 export const worksByYearConfig = [
+  { path: "2026", data: work2026 },
   { path: "2025", data: work2025 },
   { path: "2024", data: work2024 },
   { path: "2023", data: work2023 },
