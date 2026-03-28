@@ -31,7 +31,7 @@ const Work = () => {
                 className="relative block w-full aspect-square lg:h-[60vh] rounded-xs overflow-hidden"
               >
                 <img
-                  src={image.src.replace(/\.webp$/, "-thumb.webp")}
+                  src={image.src.replace(/\.webp$/, "thumb.webp")}
                   alt={image.id}
                   loading="lazy"
                   decoding="async"

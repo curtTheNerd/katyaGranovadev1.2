@@ -8,7 +8,7 @@ const ASSETS_DIR = join(__dirname, "..", "public", "assets");
 
 const THUMB_WIDTH = 600; // px — targets ~50–100KB for webp paintings
 const THUMB_QUALITY = 78;
-const THUMB_SUFFIX = "-thumb";
+const THUMB_SUFFIX = "thumb";
 
 let generated = 0;
 let skipped = 0;

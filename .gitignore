@@ -16,7 +16,7 @@ dist-ssr
 .env
 
 # auto-generated preview thumbnails (run `npm run thumbs` to recreate)
-public/assets/**/*-thumb.webp
+public/assets/**/*thumb.webp
 
 # Editor directories and files
 .vscode/*

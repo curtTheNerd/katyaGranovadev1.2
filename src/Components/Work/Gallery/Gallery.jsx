@@ -72,7 +72,7 @@ const Gallery = ({ images = [] }) => {
             >
               <div className="grid_element block relative w-full aspect-square sm:h-[40vh] rounded-xs overflow-hidden cursor-pointer">
                 <img
-                  src={image.src.replace(/\.webp$/, "-thumb.webp")}
+                  src={image.src.replace(/\.webp$/, "thumb.webp")}
                   alt={image.id}
                   className="w-full h-full object-cover"
                   loading="lazy"

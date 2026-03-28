@@ -1,14 +1,16 @@
 import { useState } from "react";
-import ReservationForm from "./ReservationForm";
+import { Link } from "react-router";
+// import ReservationForm from "./ReservationForm";
 
 import { IoIosArrowDown } from "react-icons/io";
 import { IoIosArrowUp } from "react-icons/io";
+import { IoIosArrowForward } from "react-icons/io";
 
 import banner from "/assets/News/NewsThumbnails/AllOurYesterdays_1350.webp";
 
 const AllOurYesterdays = () => {
-  const [showReservationForm, setShowReservationForm] = useState("");
-  const [reservationModalOpen, setReservationModalOpen] = useState(false);
+  // const [showReservationForm, setShowReservationForm] = useState("");
+  // const [reservationModalOpen, setReservationModalOpen] = useState(false);
   const [readMoreActive, setReadMoreActive] = useState("Read more");
 
   const handleToggleReadMore = () => {
@@ -70,6 +72,28 @@ const AllOurYesterdays = () => {
         <span>All Our Yesterdays</span>
         <span className="">London</span>
       </h2>
+
+      <Link
+        to="/exhibition/2026-HandbagFactory"
+        onClick={() => window.scrollTo(0, 0)}
+        className="w-full h-full mt-12 z-20 -translate-y-16"
+      >
+        <div className="description-link flex flex-col pr-2">
+          <div className="flex translate-x-2 pt-4">
+            <p className="text-[1rem] md:text-[1.15rem] italic hover:underline">
+              View full exhibition in Gallery here
+            </p>
+            <div className="flex translate-y-[4px]">
+              <span>
+                <IoIosArrowForward className="ml-2 text-[1.1rem]" />
+              </span>
+              <span>
+                <IoIosArrowForward className="ml-2 text-[1.1rem] -translate-x-[22px]" />
+              </span>
+            </div>
+          </div>
+        </div>
+      </Link>
 
       <div className="banner-text-section lg:grid lg:grid-cols-2 lg:gap-12 lg:pt-4">
         <div className="pb-4">
@@ -151,6 +175,7 @@ const AllOurYesterdays = () => {
         <p className=" text-[1.15rem]">In collaboration with Shtager Gallery</p>
       </div>
 
+      {/* 
       <div className="reservation-block w-full flex flex-col pt-14 pb-12 border-t-1 border-gray-500">
         <div className="event-dates space-y-4 md:space-y-4">
           <div className="reservation-item">
@@ -209,7 +234,7 @@ const AllOurYesterdays = () => {
           </div>
         </div>
       </div>
-
+      */}
       <div className="location-time-section w-full space-y-1 border-b-1 border-gray-500 mb-4">
         <p className="w-full">
           <span className="font-semibold">VENUE: </span>Studio 2, Handbag
@@ -254,12 +279,12 @@ const AllOurYesterdays = () => {
         <p className="flex justify-end text-[1rem] pt-1 pr-2"></p>
       </div> */}
 
-      {reservationModalOpen && (
+      {/* reservationModalOpen && (
         <ReservationForm
           date={showReservationForm}
           setIsOpen={setReservationModalOpen}
         />
-      )}
+      )*/}
     </div>
   );
 };
