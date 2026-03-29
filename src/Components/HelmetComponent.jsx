@@ -10,6 +10,11 @@ const HelmetComponent = ({ title, meta_description, url_fragment }) => {
         rel="canonical"
         href={`https://katya-granova.com/${url_fragment}/`}
       />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content={`${title} - Katya Granova`} />
+      <meta property="og:description" content={meta_description} />
+      <meta property="og:url" content={`https://katya-granova.com/${url_fragment}/`} />
+      <meta property="og:image" content="https://katya-granova.com/OpenGraphMetaPNG1200x1200.png" />
     </Helmet>
   );
 };

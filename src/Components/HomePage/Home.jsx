@@ -6,6 +6,7 @@ import { IoIosArrowForward } from "react-icons/io";
 
 import NewsCellComponent from "../Press/News/NewsCellComponent";
 import { newsDataShows } from "../Press/News/NewsData";
+import SiteStructuredData from "../SiteStructuredData";
 
 const Homepage = () => {
   const smallScreenBanners = [
@@ -63,6 +64,7 @@ const Homepage = () => {
 
   return (
     <div className="w-full flex flex-col mx-auto overflow-hidden">
+      <SiteStructuredData />
       <Helmet key="home">
         <title>Katya Granova - Contemporary Painter</title>
         <meta
@@ -70,6 +72,10 @@ const Homepage = () => {
           content="Katya Granova is a contemporary artist based in London, known for her paintings and exhibitions worldwide. Explore her portfolio, media, videos, and more."
         />
         <link rel="canonical" href="https://katya-granova.com/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Katya Granova – Contemporary Painter" />
+        <meta property="og:description" content="Katya Granova is a contemporary artist based in London, known for her paintings and exhibitions worldwide. Explore her portfolio, media, videos, and more." />
+        <meta property="og:url" content="https://katya-granova.com/" />
       </Helmet>
 
       <div className="relative w-full hidden md:block aspect-7/4 mt-6 mx-auto">

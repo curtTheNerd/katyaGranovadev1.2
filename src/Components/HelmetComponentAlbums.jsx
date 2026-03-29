@@ -13,8 +13,13 @@ const HelmetComponentAlbums = ({ year, type, exhibition_title }) => {
       />
       <link
         rel="canonical"
-        href={`https://katya-granova.com/${type}/${year}`}
+        href={`https://katya-granova.com/${type}/${year}/`}
       />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content={`${year} ${type === "work" ? "Works" : "Exhibition"} - Katya Granova`} />
+      <meta property="og:description" content={`Selected ${type === "work" ? "paintings and artworks" : "Exhibition"} by Katya Granova from ${year}. ${exhibition_title}`} />
+      <meta property="og:url" content={`https://katya-granova.com/${type}/${year}/`} />
+      <meta property="og:image" content="https://katya-granova.com/OpenGraphMetaPNG1200x1200.png" />
     </Helmet>
   );
 };
