@@ -15,7 +15,7 @@ import { exhibitionsConfig, worksByYearConfig } from "./Components/Work/Data";
 
 import News from "./Components/Press/News/News";
 import AllOurYesterdays from "./Components/Press/News/AllOurYesterdays";
-import SpinnereiSerie from "./Components/Press/News/SpinnereiSeriePaulaPiranha";
+// import SpinnereiSerie from "./Components/Press/News/SpinnereiSeriePaulaPiranha";
 
 import BIO from "./Components/About/BIO";
 import Statement from "./Components/About/Statement";
@@ -55,7 +55,6 @@ const router = createBrowserRouter(
       <Route path="news">
         <Route index element={<News />} />
         <Route path="2026-All-Our-Yesterdays" element={<AllOurYesterdays />} />
-        <Route path="2026-Spinnerei-Serie" element={<SpinnereiSerie />} />
       </Route>
 
       <Route path="biography" element={<BIO />} />

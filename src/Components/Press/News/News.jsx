@@ -18,7 +18,7 @@ const News = () => {
       />
 
       <div className="w-full pb-20 overflow-x-hidden">
-        <h2 className="h2-standard-2">Upcoming Shows</h2>
+        {/*<h2 className="h2-standard-2">Upcoming Shows</h2>
         <div className="w-[90%] flex flex-col mx-auto items-start justify-center">
           <div className="grid grid-cols-1 gap-16">
             {newsDataShows.map((data) => {
@@ -30,7 +30,7 @@ const News = () => {
             })}
           </div>
         </div>
-
+        */}
         <h2 className="h2-standard-2 mt-12">Previous Shows in 2026</h2>
         <div className="w-[90%] flex flex-col mx-auto items-start justify-center">
           <div className="grid grid-cols-1 gap-16">

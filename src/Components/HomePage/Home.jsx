@@ -4,8 +4,9 @@ import { Link } from "react-router-dom";
 
 import { IoIosArrowForward } from "react-icons/io";
 
-import NewsCellComponent from "../Press/News/NewsCellComponent";
-import { newsDataShows } from "../Press/News/NewsData";
+// UPCOMING SHOWS IMPORTS — commented out together with the section below. Restore both to re-enable.
+// import NewsCellComponent from "../Press/News/NewsCellComponent";
+// import { newsDataShows } from "../Press/News/NewsData";
 import SiteStructuredData from "../SiteStructuredData";
 
 const Homepage = () => {
@@ -73,79 +74,98 @@ const Homepage = () => {
         />
         <link rel="canonical" href="https://katya-granova.com/" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Katya Granova – Contemporary Painter" />
-        <meta property="og:description" content="Katya Granova is a contemporary artist based in London, known for her paintings and exhibitions worldwide. Explore her portfolio, media, videos, and more." />
+        <meta
+          property="og:title"
+          content="Katya Granova – Contemporary Painter"
+        />
+        <meta
+          property="og:description"
+          content="Katya Granova is a contemporary artist based in London, known for her paintings and exhibitions worldwide. Explore her portfolio, media, videos, and more."
+        />
         <meta property="og:url" content="https://katya-granova.com/" />
       </Helmet>
 
+      {/* Big screen banner — description moved outside the aspect-ratio container so it is never clipped */}
       <div className="relative w-full hidden md:block aspect-7/4 mt-6 mx-auto">
         {bigScreenBanners.map((image) => (
           <Link
             to={image.link}
             key={image.id}
             onClick={handleScroll}
-            className={`${image.id === activeBannerBig.id ? "opacity-100 z-10" : "opacity-0 -z-10"} absolute w-full h-full inset-0 transition-opacity duration-4000 `}
+            className={`${image.id === activeBannerBig.id ? "opacity-100 z-10" : "opacity-0 -z-10"} absolute w-full h-full inset-0 transition-opacity duration-4000`}
           >
-            <div className="relative w-full aspect-7/4 overflow-hidden">
-              <img
-                src={image.src}
-                alt={image.id}
-                className={`w-full h-full object-cover`}
-              />
-            </div>
-
-            <div className="description-link flex flex-col items-end pr-2 pt-2">
-              <p className="text-[0.9rem]">{image.id}</p>
-              <div className="flex translate-x-7">
-                <p className="text-[0.9rem] pt-0">View in gallery</p>
-                <div className="flex translate-y-[2px]">
-                  <span>
-                    <IoIosArrowForward className="ml-2 text-[1.1rem]" />
-                  </span>
-                  <span>
-                    <IoIosArrowForward className="ml-2 text-[1.1rem] -translate-x-[22px]" />
-                  </span>
-                </div>
-              </div>
-            </div>
+            <img
+              src={image.src}
+              alt={image.id}
+              className="w-full h-full object-cover"
+            />
           </Link>
         ))}
       </div>
+      {/* Description for active big-screen banner — renders below the image, switches with activeBannerBig state */}
+      <Link
+        to={activeBannerBig.link}
+        onClick={handleScroll}
+        className="description-link group hidden md:flex flex-col items-end pr-2 py-4"
+      >
+        <p className="text-[0.9rem]">{activeBannerBig.id}</p>
+        <div className="flex translate-x-7">
+          <p className="text-[0.9rem]  group-hover:tracking-wider transition-all duration-500">
+            View in gallery
+          </p>
+          <div className="flex translate-y-[2px]">
+            <span>
+              <IoIosArrowForward className="ml-2 text-[1.1rem]" />
+            </span>
+            <span>
+              <IoIosArrowForward className="ml-2 text-[1.1rem] -translate-x-[22px]" />
+            </span>
+          </div>
+        </div>
+      </Link>
 
+      {/* Small screen banner — description moved outside the aspect-ratio container so it is never clipped */}
       <div className="relative w-full aspect-2/3 block md:hidden mt-6">
         {smallScreenBanners.map((image) => (
           <Link
             to={image.link}
             key={image.id}
             onClick={handleScroll}
-            className={`${image.id === activeBannerSmall.id ? "opacity-100 z-10" : "opacity-0 -z-10"} absolute w-full h-full inset-0 transition-opacity duration-4000 `}
+            className={`${image.id === activeBannerSmall.id ? "opacity-100 z-10" : "opacity-0 -z-10"} absolute w-full h-full inset-0 transition-opacity duration-4000`}
           >
-            <div className="relative w-full aspect-2/3 overflow-hidden">
-              <img
-                src={image.src}
-                alt={image.id}
-                className={`w-full h-full object-cover`}
-              />
-            </div>
-
-            <div className="description-link flex flex-col items-end pr-2 pt-2">
-              <p className="text-[0.9rem]">{image.id}</p>
-              <div className="flex translate-x-7">
-                <p className="text-[0.9rem] pt-0">View in gallery</p>
-                <div className="flex translate-y-[2px]">
-                  <span>
-                    <IoIosArrowForward className="ml-2 text-[1.1rem]" />
-                  </span>
-                  <span>
-                    <IoIosArrowForward className="ml-2 text-[1.1rem] -translate-x-[22px]" />
-                  </span>
-                </div>
-              </div>
-            </div>
+            <img
+              src={image.src}
+              alt={image.id}
+              className="w-full h-full object-cover"
+            />
           </Link>
         ))}
       </div>
+      {/* Description for active small-screen banner — renders below the image, switches with activeBannerSmall state */}
+      <Link
+        to={activeBannerSmall.link}
+        onClick={handleScroll}
+        className="description-link group flex md:hidden flex-col items-end pr-2 py-4"
+      >
+        <p className="text-[0.9rem]">{activeBannerSmall.id}</p>
+        <div className="flex translate-x-7 ">
+          <p className="text-[0.9rem] group-hover:tracking-wider transition-all duration-500">
+            View in gallery
+          </p>
+          <div className="flex translate-y-[2px]">
+            <span>
+              <IoIosArrowForward className="ml-2 text-[1.1rem]" />
+            </span>
+            <span>
+              <IoIosArrowForward className="ml-2 text-[1.1rem] -translate-x-[22px]" />
+            </span>
+          </div>
+        </div>
+      </Link>
 
+      {/* UPCOMING SHOWS SECTION — currently hidden.
+           To restore: remove the surrounding {/*  *‌/} comment tags below. */}
+      {/*
       <div className="w-full mt-24 mb-12">
         <h2 className="h2-standard-2">Upcoming Show</h2>
         <div className="w-[90%] mx-auto">
@@ -160,6 +180,7 @@ const Homepage = () => {
           ))}
         </div>
       </div>
+      */}
     </div>
   );
 };
