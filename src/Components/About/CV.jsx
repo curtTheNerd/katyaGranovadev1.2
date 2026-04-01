@@ -1,11 +1,7 @@
 const CV = () => {
   return (
     <div className="w-full">
-      <p>
-        Born in Leningrad, USSR, 1988
-        <br />
-        Lives and works in London, UK
-      </p>
+      <p>Lives and works in London, UK and Leipzig, DE</p>
 
       <p className="pt-12">
         EDUCATION
@@ -31,7 +27,7 @@ const CV = () => {
         MA Art and Space
         <br />
         <br />
-        2005 - 2011 Petersburg State University
+        2005 - 2011 St Petersburg State University
         <br />
         Specialist Degree in Social Psychology
         <br />
@@ -42,25 +38,23 @@ const CV = () => {
         SELECTED SOLO EXHIBITIONS
         <br />
         <br />
-        2024 - A Song of Unrequited Love for Britain, Rupturexibit,
-        Kingston-upon-Thames, UK
+        2025 - All our yesterdays, curated by Roísín McQuerins, Handbag Factory,
+        London, UK
+        <br />
+        2024 - A Song of Unrequited Love to Britain, Rupturexibit, London, UK
         <br />
         2024 - All the me’s and the you’s and the we’s and the who’s, MEAC,
         Budva, MNE
         <br />
         2023 - Voices from a Suitcase, Shtager Gallery, London, UK
-        <br /> 2022 - When my Babushka joined the Reich, Barbican Arts Group
-        Trust, London, UK
         <br />
-        2022 - Fractures of the Lens (with Simon Hodgkinson), Burgh House,
+        2022 - When my Babushka joined the Reich, Barbican Arts Group Trust,
         London, UK
-        <br />
-        2022 - Picnic in July 1937, Open Studios, Winzavod CCA, Moscow, RU
         <br />
         2021 - Act 1. Scene 5. Room in the Castle (with Anna
         Tagantzeva-Kobzeva), Sphera Fund, Moscow, RU
         <br />
-        2020 - Atelier by the Police Bridge, Duckley Project Gallery, Budva, MNE
+        2020 - Atelier by the Police Bridge, Dukley Project Gallery, Budva, MNE
         <br />
       </p>
 
@@ -68,9 +62,16 @@ const CV = () => {
         SELECTED GROUP EXHIBITIONS
         <br />
         <br />
+        2026 - Landscape and Power, The Culver Hotel, Museum of Contemporary Art
+        Santa Barbara, LA, USA
+        <br />
+        2026 - Beyond Borders, Museo del Mar, Santa Pola, ES
+        <br />
         2025 - Small is Beautiful, Flowers Gallery, London, UK
         <br />
-        2025 - The Last Train, The Old Waiting Room - Peckam Rye, London, UK
+        2025 - The Last Train, The Old Waiting Room of Peckam Rye, London, UK
+        <br />
+        2025 - The Garden Party, Presented by The Salon, London, UK
         <br />
         2025 - From under the Bed, Archiv Massiv, Leipzig, DE
         <br />
@@ -80,11 +81,9 @@ const CV = () => {
         <br />
         2024 - Mute Body, Alte Handelsschule, Leipzig, DE
         <br />
-        2024 - Summer Exhibition, Shtager Gallery, London, UK <br />
-        2024 - Tour de Franz, Pilotenkueche, Leipzig, DE <br />
-        2023 - To be a Plant, Vaba Lava, Narva, ES
+        2024 - Summer Exhibition, Shtager Gallery, London, UK
         <br />
-        2022 - Power to Emotions, Tart Gallery in Fitzrovia Gallery, London, UK
+        2023 - To be a Plant, Vaba Lava, Narva, ES
         <br />
         2022 - Overwhelming Majority, Shtager Gallery, London, UK
         <br />
@@ -94,7 +93,8 @@ const CV = () => {
         <br />
         2021 - Marvels of Reason, Ural Vision Gallery, Yekaterinburg, RU
         <br />
-        2021 - Re: Beuys (with APXIV art collective), Edel-Extra, Nürnberg, DE
+        2021 - Re: Beuys (with APXIV art collective), Edel-Extra Gallery,
+        Nuremberg, DE
         <br />
         2021 - Art Works Open, Barbican Art Group Trust, London, UK
         <br />
@@ -118,22 +118,13 @@ const CV = () => {
         <br />
         2020 - Signature Art Prize Gala, Somerset House, London, UK
         <br />
-        2019 - Art Rooms Award, Le Dame Gallery, London, UK
-        <br />
         2019 - Bankley Prize, Bankley Gallery, Manchester, UK
         <br />
-        2019 - Synergic, The Old Biscuit Factory, London, UK
-        <br />
-        2019 - Distributed Bar System (with APXIV art collective), Copenhagen
-        Contemporary, Copenhagen, DK
+        2019 - DDistributed Bar System Performance (with APXIV art collective),
+        Copenhagen Contemporary, Copenhagen, DK
         <br />
         2019 - Nostalgia 2.0 The zombie stage, RED DOOR Project Space, London,
         UK
-        <br />
-        2019 - WiP Show, Royal College of Arts, Sackler building, London, UK
-        <br />
-        2019 - Impostesse - The Ghost of Gender, Pig Snout Gallery, St
-        Petersburg, RU
         <br />
         2018 - Beach, Dukley Art Center, Budva, MNE
         <br />
@@ -154,9 +145,9 @@ const CV = () => {
         GRANTS AND AWARDS
         <br />
         <br />
-        2024 - Jackson Art Prize, longlisted, London, UK
+        2026 - Caroline Walker selection in Jacksons Art Prize, London, UK
         <br />
-        2023 - Bath Open Art Prize, Winner, 1st place, Bath, UK
+        2023 - Bath Open Art Prize, Winner, Bath, UK
         <br />
         2023 - Contemporary British Painting Prize, longlisted, London, UK
         <br />
@@ -165,11 +156,11 @@ const CV = () => {
         <br />
         2020 - Signature Art Prize, Winner in painting , London, UK
         <br />
-        2020 - John Moores Prize, longlisted Liverpool, UK
+        2020 - John Moores Prize, longlisted, Liverpool, UK
         <br />
-        2020 - Castlegate prize, finalist, Castlegate, UK
+        2020 - Castlegate Prize, finalist, Castlegate, UK
         <br />
-        2019 - Bankley art prize, shortlisted, Manchester, UK
+        2019 - Bankley art Prize, shortlisted, Manchester, UK
         <br />
       </p>
 
@@ -177,12 +168,17 @@ const CV = () => {
         RESIDENCIES AND FELLOWSHIPS
         <br />
         <br />
+        25/01/2026 - 18/02/2026 – Monte da Japonica Art Residency, Redondo, PT
+        <br />
+        01/05/2025 - 31/07/2025 – Leipzig International Art Residency, Leipzig,
+        DE
+        <br />
         10/03/2025 - 29/04/2025 – Turps Banana Art Residency, London, UK
         <br />
         01/11/2024 - 22/11/2024 – Rupturexibit Invitational Residency, Kingston,
         UK
         <br />
-        01/04/2024 - 28/07/2024 – Pilotenkueche, Leipzig, DE
+        01/04/2024 - 28/07/2024 – Pilotenkueche Residency, Leipzig, DE
         <br />
         09/09/2022 - 20/10/2022 – Barbican Arts Group Trust, London, UK
         <br />

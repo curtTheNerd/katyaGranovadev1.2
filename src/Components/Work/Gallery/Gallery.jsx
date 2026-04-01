@@ -60,7 +60,7 @@ const Gallery = ({ images = [] }) => {
 
   return (
     <div className="gallery_grid_wrapper w-full flex-center flex-col">
-      <div className="gallery_body w-full grid gap-4 sm:gap-3 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mx-auto">
+      <div className="gallery_body w-full grid gap-7 sm:gap-7 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mx-auto">
         {images.map(
           (
             image, // mapping image-array to a preview gallery as grid-element inside flex-container

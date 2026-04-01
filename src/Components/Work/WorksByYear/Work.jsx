@@ -19,7 +19,7 @@ const Work = () => {
       <div className="flex flex-col">
         <h2 className="h2-standard">Selected Work by Year</h2>
 
-        <div className="preview_gallery w-full grid gap-6 md:gap-8 grid-cols-1 md:grid-cols-2 mx-auto">
+        <div className="preview_gallery w-full grid gap-6 md:gap-10 grid-cols-1 md:grid-cols-2 mx-auto">
           {images.map(
             (
               image, // // mapping image-array to a preview gallery as grid-element inside flex-container
