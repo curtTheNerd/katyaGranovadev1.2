@@ -1,13 +1,13 @@
 import sharp from "sharp";
-import { readdirSync, statSync, existsSync } from "fs";
+import { readdirSync, statSync, existsSync, unlinkSync } from "fs";
 import { join, extname, basename, dirname } from "path";
 import { fileURLToPath } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ASSETS_DIR = join(__dirname, "..", "public", "assets");
 
-const THUMB_WIDTH = 600; // px — targets ~50–100KB for webp paintings
-const THUMB_QUALITY = 78;
+const THUMB_WIDTH = 1200; // px — targets ~150–200KB+ for webp paintings
+const THUMB_QUALITY = 90;
 const THUMB_SUFFIX = "thumb";
 
 let generated = 0;
@@ -27,8 +27,7 @@ async function processDir(dir) {
     const thumbPath = fullPath.slice(0, -ext.length) + THUMB_SUFFIX + ext;
 
     if (existsSync(thumbPath)) {
-      skipped++;
-      continue;
+      unlinkSync(thumbPath);
     }
 
     await sharp(fullPath)

@@ -38,7 +38,7 @@ const CV = () => {
         SELECTED SOLO EXHIBITIONS
         <br />
         <br />
-        2025 - All our yesterdays, curated by Roísín McQuerins, Handbag Factory,
+        2026 - All our yesterdays, curated by Roísín McQuerins, Handbag Factory,
         London, UK
         <br />
         2024 - A Song of Unrequited Love to Britain, Rupturexibit, London, UK

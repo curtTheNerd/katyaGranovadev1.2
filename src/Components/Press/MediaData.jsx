@@ -96,6 +96,7 @@ export const articles = [
         language: "English",
         link: "https://artfocusnow.com/people/granova-wrestles-with-the-soviet-past",
       },
+      /*
       {
         img: "/assets/PressThumbnails/zima2.jpg",
         source: "Zima Magazine",
@@ -106,6 +107,7 @@ export const articles = [
         language: "Russian",
         link: "https://zimamagazine.com/2023/09/golosa-iz-chemodana-katya-granova-ob-emigracii-vojne-i-postizhenii-istorii-cherez-zhivopis",
       },
+      */
       {
         img: "/assets/PressThumbnails/izba.jpg",
         source: "Izba Arts",
