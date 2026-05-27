@@ -1,19 +1,18 @@
 import YouTube from "react-youtube";
 import videos from "./VideoData";
-import HelmetComponent from "../HelmetComponent";
+import HelmetComponent from "../../meta-data/HelmetComponent";
+import { MetaDataForHelmet } from "../../meta-data/MetaDataForHelmet";
 
 const Videos = () => {
+  const meta = MetaDataForHelmet.video;
+
   const opts = {
     autoplay: 0,
   };
 
   return (
     <div className="w-[90%] flex flex-col m-auto">
-      <HelmetComponent
-        title="Video – Artist Talks & Studio Insights"
-        meta_description="Video content including artist talks, interviews and studio insights of artist Katya Granova. Embedded videos and recordings."
-        url_fragment="artist-talks/"
-      />
+      <HelmetComponent props={meta} />
 
       <h2 className="h2-standard pl-[5%]">Videos</h2>
 

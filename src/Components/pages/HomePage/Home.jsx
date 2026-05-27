@@ -1,15 +1,16 @@
 import { useState, useEffect } from "react";
-import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
-
 import { IoIosArrowForward } from "react-icons/io";
-
+import HelmetComponent from "../../meta-data/HelmetComponent";
+import { MetaDataForHelmet } from "../../meta-data/MetaDataForHelmet";
 // UPCOMING SHOWS IMPORTS — commented out together with the section below. Restore both to re-enable.
 // import NewsCellComponent from "../Press/News/NewsCellComponent";
 // import { newsDataShows } from "../Press/News/NewsData";
-import SiteStructuredData from "../SiteStructuredData";
+import SiteStructuredData from "../../meta-data/SiteStructuredData";
 
 const Homepage = () => {
+  const meta = MetaDataForHelmet.home;
+
   const smallScreenBanners = [
     {
       id: "Drinking party Spinnerei, 2025",
@@ -66,24 +67,7 @@ const Homepage = () => {
   return (
     <div className="w-full flex flex-col mx-auto overflow-hidden">
       <SiteStructuredData />
-      <Helmet key="home">
-        <title>Katya Granova - Contemporary Painter</title>
-        <meta
-          name="description"
-          content="Katya Granova is a contemporary artist based in London, known for her paintings and exhibitions worldwide. Explore her portfolio, media, videos, and more."
-        />
-        <link rel="canonical" href="https://katya-granova.com/" />
-        <meta property="og:type" content="website" />
-        <meta
-          property="og:title"
-          content="Katya Granova – Contemporary Painter"
-        />
-        <meta
-          property="og:description"
-          content="Katya Granova is a contemporary artist based in London, known for her paintings and exhibitions worldwide. Explore her portfolio, media, videos, and more."
-        />
-        <meta property="og:url" content="https://katya-granova.com/" />
-      </Helmet>
+      <HelmetComponent props={meta} />
 
       {/* Big screen banner — description moved outside the aspect-ratio container so it is never clipped */}
       <div className="relative w-full hidden md:block aspect-7/4 mt-6 mx-auto">

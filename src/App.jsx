@@ -4,25 +4,28 @@ import {
   Route,
   RouterProvider,
 } from "react-router-dom";
-import RootLayout from "./Components/HomePage/RootLayout";
-import Homepage from "./Components/HomePage/Home";
+import RootLayout from "./Components/pages/HomePage/RootLayout";
+import Homepage from "./Components/pages/HomePage/Home";
 
-import Work from "./Components/Work/WorksByYear/Work";
-import WorkComponent from "./Components/Work/WorksByYear/WorkComponent";
-import Exhibition from "./Components/Work/Exhibitions/Exhibition";
-import ExhibitionComponent from "./Components/Work/Exhibitions/ExhibitionComponent";
-import { exhibitionsConfig, worksByYearConfig } from "./Components/Work/Data";
+import Work from "./Components/pages/Work/WorksByYear/Work";
+import WorkComponent from "./Components/pages/Work/WorksByYear/WorkComponent";
+import Exhibition from "./Components/pages/Work/Exhibitions/Exhibition";
+import ExhibitionComponent from "./Components/pages/Work/Exhibitions/ExhibitionComponent";
+import {
+  exhibitionsConfig,
+  worksByYearConfig,
+} from "./Components/pages/Work/Data";
 
-import News from "./Components/Press/News/News";
-import AllOurYesterdays from "./Components/Press/News/AllOurYesterdays";
+import News from "./Components/pages/Press/News/News";
+import AllOurYesterdays from "./Components/pages/Press/News/AllOurYesterdays";
 // import SpinnereiSerie from "./Components/Press/News/SpinnereiSeriePaulaPiranha";
 
-import BIO from "./Components/About/BIO";
-import Statement from "./Components/About/Statement";
-import Media from "./Components/Press/Media";
-import Videos from "./Components/Press/Videos";
-import Contact from "./Components/Contact/Contact";
-import NotFound from "./Components/NotFound";
+import BIO from "./Components/pages/About/BIO";
+import Statement from "./Components/pages/About/Statement";
+import Media from "./Components/pages/Press/Media";
+import Videos from "./Components/pages/Press/Videos";
+import Contact from "./Components/pages/Contact/Contact";
+import NotFound from "./Components/pages/NotFound";
 
 const router = createBrowserRouter(
   createRoutesFromElements(

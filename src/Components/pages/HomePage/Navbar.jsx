@@ -47,7 +47,6 @@ const Navbar = () => {
             <span className="pr-2">KATYA </span>
             <span>GRANOVA</span>
           </h1>
-          <h2 className="hidden">Contemporary artist, painter, and curator.</h2>
         </NavLink>
       </div>
 

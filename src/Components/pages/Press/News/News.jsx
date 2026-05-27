@@ -1,21 +1,20 @@
 import { Link } from "react-router";
-import HelmetComponent from "../../HelmetComponent";
+import HelmetComponent from "../../../meta-data/HelmetComponent";
+import { MetaDataForHelmet } from "../../../meta-data/MetaDataForHelmet";
 
 import NewsCellComponent from "./NewsCellComponent";
 import { newsDataShows, newsDataPreviousShows } from "./NewsData";
 
 const News = () => {
+  const meta = MetaDataForHelmet.news;
+
   const handleScroll = () => {
     window.scrollTo(0, 0);
   };
 
   return (
     <>
-      <HelmetComponent
-        title="News – Upcoming Shows & New Content"
-        meta_description="News – Upcoming Shows, New Content, Mentions and all about the Art Scene."
-        url_fragment="news/"
-      />
+      <HelmetComponent props={meta} />
 
       <div className="w-full pb-20 overflow-x-hidden">
         {/*<h2 className="h2-standard-2">Upcoming Shows</h2>

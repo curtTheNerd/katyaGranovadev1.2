@@ -1,16 +1,12 @@
 import Gallery from "../Gallery/Gallery";
-import HelmetComponentAlbums from "../../HelmetComponentAlbums";
 import TitleCard from "./TitleCard";
 import DescriptionCard from "./DescriptionCard";
+import HelmetComponentDynamic from "../../../meta-data/HelmetComponentAlbums";
 
 const ExhibitionComponent = ({ images }) => {
   return (
     <>
-      <HelmetComponentAlbums
-        year={images[0].date}
-        type="exhibition"
-        exhibition_title={images[0].title}
-      />
+      <HelmetComponentDynamic props={images} />
       <div className="w-[90%] sm:w-[95%] mx-auto">
         <TitleCard array={images} />
         <Gallery images={images} />

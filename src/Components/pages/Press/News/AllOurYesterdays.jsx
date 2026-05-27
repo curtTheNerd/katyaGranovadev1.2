@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router";
+import HelmetComponent from "../../../meta-data/HelmetComponent";
+import { MetaDataForHelmet } from "../../../meta-data/MetaDataForHelmet";
 // import ReservationForm from "./ReservationForm";
 
 import { IoIosArrowDown } from "react-icons/io";
@@ -9,6 +11,8 @@ import { IoIosArrowForward } from "react-icons/io";
 import banner from "/assets/News/NewsThumbnails/AllOurYesterdays_1350.webp";
 
 const AllOurYesterdays = () => {
+  const meta = MetaDataForHelmet.yesterdays;
+
   // const [showReservationForm, setShowReservationForm] = useState("");
   // const [reservationModalOpen, setReservationModalOpen] = useState(false);
   const [readMoreActive, setReadMoreActive] = useState("Read more");
@@ -68,6 +72,7 @@ const AllOurYesterdays = () => {
 
   return (
     <div className="flex items-center justify-center flex-col w-[95%] md:w-[90%] max-w-[1440px] mx-auto">
+      <HelmetComponent props={meta} />
       <h2 className="h2-standard flex flex-col">
         <span>All Our Yesterdays</span>
         <span className="">London</span>

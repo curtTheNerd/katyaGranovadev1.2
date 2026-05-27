@@ -1,25 +1,24 @@
 import { Link } from "react-router-dom";
-import HelmetComponent from "../../HelmetComponent";
+import HelmetComponent from "../../../meta-data/HelmetComponent";
+import { MetaDataForHelmet } from "../../../meta-data/MetaDataForHelmet";
 
-import { thumbsWork as images } from "../Data";
+import { thumbsExhibition as images } from "../Data";
 
-const Work = () => {
+const Exhibition = () => {
+  const meta = MetaDataForHelmet.exhibition;
+
   const handleScroll = () => {
     window.scrollTo(0, 0);
   };
 
   return (
-    <div className="preview_work_wrapper w-[90%] mx-auto pb-20">
-      <HelmetComponent
-        title="Selected work by year"
-        meta_description="Discover selected paintings and artworks. Oil on canvas, acrylic transfer, van Dyke, and paperworks."
-        url_fragment="work"
-      />
+    <div className="preview_exhibition_wrapper w-[90%] mx-auto pb-20">
+      <HelmetComponent props={meta} />
 
       <div className="flex flex-col">
-        <h2 className="h2-standard">Selected Work by Year</h2>
+        <h2 className="h2-standard">Selected Exhibitions and Projects</h2>
 
-        <div className="preview_gallery w-full grid gap-6 md:gap-10 grid-cols-1 md:grid-cols-2 mx-auto">
+        <div className="preview_gallery w-full grid gap-6 md:gap-8 grid-cols-1 md:grid-cols-2 mx-auto">
           {images.map(
             (
               image, // // mapping image-array to a preview gallery as grid-element inside flex-container
@@ -51,4 +50,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default Exhibition;

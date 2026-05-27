@@ -14,6 +14,7 @@ dist-ssr
 
 # environment variables
 .env
+.env.local
 
 # auto-generated preview thumbnails (run `npm run thumbs` to recreate)
 public/assets/**/*thumb.webp

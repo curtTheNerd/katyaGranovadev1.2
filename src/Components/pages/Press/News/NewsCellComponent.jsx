@@ -10,7 +10,10 @@ const NewsCellComponent = ({ data }) => {
       className="relative cursor-default w-full flex flex-col md:flex-row md:space-x-8 p-4 xl:pl-0 border border-transparent rounded-[3px] hover:border-gray-200 hover:shadow-md hover:scale-101 transition-all duration-300"
       id={data.title}
     >
-      <div id={`image-${data.title}`} className="flex-center">
+      <div
+        id={`image-${data.title}`}
+        className="flex items-center justify-center"
+      >
         <img
           src={data.poster}
           alt={`image-${data.title}`}

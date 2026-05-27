@@ -1,14 +1,12 @@
 import CV from "./CV";
-import HelmetComponent from "../HelmetComponent";
+import HelmetComponent from "../../meta-data/HelmetComponent";
+import { MetaDataForHelmet } from "../../meta-data/MetaDataForHelmet";
 
 const BIO = () => {
+  const meta = MetaDataForHelmet.biography;
   return (
     <>
-      <HelmetComponent
-        title="Biography and CV"
-        meta_description="Biography of the artist. Education, exhibitions, artistic background and professional development."
-        url_fragment="biography"
-      />
+      <HelmetComponent props={meta} />
       <div className="flex items-center justify-center flex-col w-[90%] md:w-[80%] xl:w-[90%] m-auto pb-20">
         <h2 className="h2-standard">Biography</h2>
         <p className="w-full">

@@ -1,15 +1,13 @@
-import img1 from "../../assets/aboutPics/aboutPic2.jpg";
-import img2 from "../../assets/aboutPics/about3.jpg";
-import HelmetComponent from "../HelmetComponent";
+import img1 from "../../../assets/aboutPics/aboutPic2.jpg";
+import img2 from "../../../assets/aboutPics/about3.jpg";
+import HelmetComponent from "../../meta-data/HelmetComponent";
+import { MetaDataForHelmet } from "../../meta-data/MetaDataForHelmet";
 
 const Statement = () => {
+  const meta = MetaDataForHelmet.statement;
   return (
     <>
-      <HelmetComponent
-        title="Artist Statement – Concept and Practice"
-        meta_description="Artist statement outlining conceptual approach, materials, processes and artistic research."
-        url_fragment="artist-statement"
-      />
+      <HelmetComponent props={meta} />
       <div className="flex items-center justify-center flex-col w-[90%] md:w-[80%] xl:w-[90%] max-w-[1440px] xl:pl-4 m-auto xl:m-0 pb-20">
         <h2 className="h2-standard">Artist's Statement</h2>
 

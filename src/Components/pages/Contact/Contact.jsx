@@ -1,7 +1,10 @@
 import { useState } from "react";
-import HelmetComponent from "../HelmetComponent";
+import HelmetComponent from "../../meta-data/HelmetComponent";
+import { MetaDataForHelmet } from "../../meta-data/MetaDataForHelmet";
 
 export default function Contact() {
+  const meta = MetaDataForHelmet.contact;
+
   const [data, setData] = useState({
     firstName: "",
     lastName: "",
@@ -52,11 +55,7 @@ export default function Contact() {
 
   return (
     <>
-      <HelmetComponent
-        title="Contact – Studio & Professional Inquiries"
-        meta_description="Contact information for studio visits, exhibitions, collaborations and professional inquiries."
-        url_fragment="contact"
-      />
+      <HelmetComponent props={meta} />
       <h2 className="h2-standard text-center">Send me a message!</h2>
       <div className="w-[95%] sm:w-[80vw] max-w-[684px] py-2 px-8 mx-auto mb-20 bg-gray-50 rounded-md ring-1 ring-gray-200">
         <form onSubmit={onSubmit}>

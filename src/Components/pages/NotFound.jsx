@@ -1,8 +1,14 @@
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 export default function NotFound() {
   return (
     <div className="flex min-h-[70vh] flex-col items-center justify-center bg-white px-6 text-center">
+      <Helmet>
+        <title>Page Not Found – Katya Granova</title>
+        <meta name="description" content="This page does not exist." />
+        <meta name="robots" content="noindex" />
+      </Helmet>
       <h1 className="text-7xl font-bold tracking-tight text-gray-900">404</h1>
 
       <p className="mt-4 text-xl font-medium text-gray-800">Page not found</p>

@@ -1,15 +1,13 @@
-import HelmetComponent from "../HelmetComponent";
-import { articles } from "./MediaData";
-import MediaSectionComponent from "./MediaSectionComponent";
+import { articles } from "../Press/MediaData";
+import MediaSectionComponent from "../Press/MediaSectionComponent";
+import HelmetComponent from "../../meta-data/HelmetComponent";
+import { MetaDataForHelmet } from "../../meta-data/MetaDataForHelmet";
 
 const Media = () => {
+  const meta = MetaDataForHelmet.press;
   return (
     <>
-      <HelmetComponent
-        title="Press – Interviews, Articles & Mentions"
-        meta_description="Press coverage including interviews, articles and mentions in magazines, journals and online media."
-        url_fragment="press-coverage/"
-      />
+      <HelmetComponent props={meta} />
 
       <div className="w-full pb-20 overflow-x-hidden">
         <h2 className="h2-standard-2">Press</h2>
